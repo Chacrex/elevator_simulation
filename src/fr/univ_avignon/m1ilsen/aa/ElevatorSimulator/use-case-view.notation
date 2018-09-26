@@ -1,757 +1,362 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
-  <notation:Diagram xmi:id="_8OfyoMF0Eei13r_JWjVHCg" type="UseCase" name="ClassicUse" measurementUnit="Pixel">
-    <children xmi:type="notation:Shape" xmi:id="_8OfyocF0Eei13r_JWjVHCg" type="Package_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_8OfyosF0Eei13r_JWjVHCg" type="Package_NameLabel"/>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_8Ofyo8F0Eei13r_JWjVHCg" type="Package_PackagedElementCompartment">
-        <children xmi:type="notation:Shape" xmi:id="_8OfypMF0Eei13r_JWjVHCg" type="UseCase_Shape_CN">
-          <children xmi:type="notation:DecorationNode" xmi:id="_8OfypcF0Eei13r_JWjVHCg" type="UseCase_NameLabel_CN"/>
-          <children xmi:type="notation:DecorationNode" xmi:id="_8OfypsF0Eei13r_JWjVHCg" type="UseCase_FloatingNameLabel_CN">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_8Ofyp8F0Eei13r_JWjVHCg" y="15"/>
+  <notation:Diagram xmi:id="_zvxn8MF2EeiPI_6br6tQPA" type="UseCase" name="ClassicUser" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_0SQC4MF2EeiPI_6br6tQPA" type="Package_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_0SQC48F2EeiPI_6br6tQPA" type="Package_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_0SQC5MF2EeiPI_6br6tQPA" type="Package_PackagedElementCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_DzXAUMF3EeiPI_6br6tQPA" type="UseCase_Shape_CN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_DzXAUsF3EeiPI_6br6tQPA" type="UseCase_NameLabel_CN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_DzXAU8F3EeiPI_6br6tQPA" type="UseCase_FloatingNameLabel_CN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_DzXAVMF3EeiPI_6br6tQPA" y="15"/>
           </children>
-          <children xmi:type="notation:BasicCompartment" xmi:id="_8OfyqMF0Eei13r_JWjVHCg" type="UseCase_ExtensionPointCompartment_CN">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_8OfyqcF0Eei13r_JWjVHCg"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_8OfyqsF0Eei13r_JWjVHCg"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8Ofyq8F0Eei13r_JWjVHCg"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_DzXAVcF3EeiPI_6br6tQPA" type="UseCase_ExtensionPointCompartment_CN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_DzXAVsF3EeiPI_6br6tQPA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_DzXAV8F3EeiPI_6br6tQPA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DzXAWMF3EeiPI_6br6tQPA"/>
           </children>
-          <element xmi:type="uml:UseCase" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_oAOhUMFaEeiPI_6br6tQPA"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8Ofyr8F0Eei13r_JWjVHCg" x="14" y="9" width="161" height="60"/>
+          <element xmi:type="uml:UseCase" href="use-case-view.uml#_DzTV8MF3EeiPI_6br6tQPA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DzXAUcF3EeiPI_6br6tQPA" x="14" y="9"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_8OfysMF0Eei13r_JWjVHCg" type="UseCase_Shape_CN">
-          <children xmi:type="notation:DecorationNode" xmi:id="_8OfyscF0Eei13r_JWjVHCg" type="UseCase_NameLabel_CN"/>
-          <children xmi:type="notation:DecorationNode" xmi:id="_8OfyssF0Eei13r_JWjVHCg" type="UseCase_FloatingNameLabel_CN">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_8Ofys8F0Eei13r_JWjVHCg" y="15"/>
+        <children xmi:type="notation:Shape" xmi:id="_E4eOQMF3EeiPI_6br6tQPA" type="UseCase_Shape_CN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_E4eOQsF3EeiPI_6br6tQPA" type="UseCase_NameLabel_CN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_E4eOQ8F3EeiPI_6br6tQPA" type="UseCase_FloatingNameLabel_CN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_E4eORMF3EeiPI_6br6tQPA" y="15"/>
           </children>
-          <children xmi:type="notation:BasicCompartment" xmi:id="_8OfytMF0Eei13r_JWjVHCg" type="UseCase_ExtensionPointCompartment_CN">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_8OfytcF0Eei13r_JWjVHCg"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_8OfytsF0Eei13r_JWjVHCg"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8Ofyt8F0Eei13r_JWjVHCg"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_E4eORcF3EeiPI_6br6tQPA" type="UseCase_ExtensionPointCompartment_CN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_E4eORsF3EeiPI_6br6tQPA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_E4eOR8F3EeiPI_6br6tQPA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E4eOSMF3EeiPI_6br6tQPA"/>
           </children>
-          <element xmi:type="uml:UseCase" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_fUfq0MFbEeiPI_6br6tQPA"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8Ofyu8F0Eei13r_JWjVHCg" x="14" y="89" width="161"/>
+          <element xmi:type="uml:UseCase" href="use-case-view.uml#_E4aj4MF3EeiPI_6br6tQPA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E4eOQcF3EeiPI_6br6tQPA" x="14" y="89"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_8OfyvMF0Eei13r_JWjVHCg" type="UseCase_Shape_CN">
-          <children xmi:type="notation:DecorationNode" xmi:id="_8OfyvcF0Eei13r_JWjVHCg" type="UseCase_NameLabel_CN"/>
-          <children xmi:type="notation:DecorationNode" xmi:id="_8OfyvsF0Eei13r_JWjVHCg" type="UseCase_FloatingNameLabel_CN">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_8Ofyv8F0Eei13r_JWjVHCg" y="15"/>
+        <children xmi:type="notation:Shape" xmi:id="_GyYWMMF3EeiPI_6br6tQPA" type="UseCase_Shape_CN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_GyYWMsF3EeiPI_6br6tQPA" type="UseCase_NameLabel_CN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_GyYWM8F3EeiPI_6br6tQPA" type="UseCase_FloatingNameLabel_CN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_GyYWNMF3EeiPI_6br6tQPA" y="15"/>
           </children>
-          <children xmi:type="notation:BasicCompartment" xmi:id="_8OfywMF0Eei13r_JWjVHCg" type="UseCase_ExtensionPointCompartment_CN">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_8OfywcF0Eei13r_JWjVHCg"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_8OfywsF0Eei13r_JWjVHCg"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8Ofyw8F0Eei13r_JWjVHCg"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_GyYWNcF3EeiPI_6br6tQPA" type="UseCase_ExtensionPointCompartment_CN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_GyYWNsF3EeiPI_6br6tQPA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_GyYWN8F3EeiPI_6br6tQPA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GyYWOMF3EeiPI_6br6tQPA"/>
           </children>
-          <element xmi:type="uml:UseCase" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_hNQjQMFbEeiPI_6br6tQPA"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8Ofyx8F0Eei13r_JWjVHCg" x="18" y="169" width="157"/>
+          <element xmi:type="uml:UseCase" href="use-case-view.uml#_GyUEwMF3EeiPI_6br6tQPA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GyYWMcF3EeiPI_6br6tQPA" x="14" y="169"/>
         </children>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8OfyyMF0Eei13r_JWjVHCg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0SQC5cF2EeiPI_6br6tQPA"/>
       </children>
-      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_8OfyycF0Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Package" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_YjBMcMFaEeiPI_6br6tQPA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8OfyzcF0Eei13r_JWjVHCg" x="180" y="43" width="201" height="301"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_0SQC4cF2EeiPI_6br6tQPA" diagramLink="_20LNEMF2EeiPI_6br6tQPA"/>
+      <element xmi:type="uml:Package" href="use-case-view.uml#_0SPb0MF2EeiPI_6br6tQPA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0SQC4sF2EeiPI_6br6tQPA" x="140" y="100" width="181" height="281"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_8OfyzsF0Eei13r_JWjVHCg" type="Package_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_8Ofyz8F0Eei13r_JWjVHCg" type="Package_NameLabel"/>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_8Ofy0MF0Eei13r_JWjVHCg" type="Package_PackagedElementCompartment">
-        <children xmi:type="notation:Shape" xmi:id="_8Ofy0cF0Eei13r_JWjVHCg" type="UseCase_Shape_CN">
-          <children xmi:type="notation:DecorationNode" xmi:id="_8Ofy0sF0Eei13r_JWjVHCg" type="UseCase_NameLabel_CN"/>
-          <children xmi:type="notation:DecorationNode" xmi:id="_8Ofy08F0Eei13r_JWjVHCg" type="UseCase_FloatingNameLabel_CN">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_8Ofy1MF0Eei13r_JWjVHCg" y="15"/>
-          </children>
-          <children xmi:type="notation:BasicCompartment" xmi:id="_8Ofy1cF0Eei13r_JWjVHCg" type="UseCase_ExtensionPointCompartment_CN">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_8Ofy1sF0Eei13r_JWjVHCg"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_8Ofy18F0Eei13r_JWjVHCg"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8Ofy2MF0Eei13r_JWjVHCg"/>
-          </children>
-          <element xmi:type="uml:UseCase" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_lBzL4MFbEeiPI_6br6tQPA"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8Ofy3MF0Eei13r_JWjVHCg" x="14" y="9"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_8Ofy3cF0Eei13r_JWjVHCg" type="UseCase_Shape_CN">
-          <children xmi:type="notation:DecorationNode" xmi:id="_8Ofy3sF0Eei13r_JWjVHCg" type="UseCase_NameLabel_CN"/>
-          <children xmi:type="notation:DecorationNode" xmi:id="_8Ofy38F0Eei13r_JWjVHCg" type="UseCase_FloatingNameLabel_CN">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_8Ofy4MF0Eei13r_JWjVHCg" y="15"/>
-          </children>
-          <children xmi:type="notation:BasicCompartment" xmi:id="_8Ofy4cF0Eei13r_JWjVHCg" type="UseCase_ExtensionPointCompartment_CN">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_8Ofy4sF0Eei13r_JWjVHCg"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_8Ofy48F0Eei13r_JWjVHCg"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8Ofy5MF0Eei13r_JWjVHCg"/>
-          </children>
-          <element xmi:type="uml:UseCase" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_q0HIwMFbEeiPI_6br6tQPA"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8Ofy6MF0Eei13r_JWjVHCg" x="14" y="89" width="201"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_8Ofy6cF0Eei13r_JWjVHCg" type="UseCase_Shape_CN">
-          <children xmi:type="notation:DecorationNode" xmi:id="_8Ofy6sF0Eei13r_JWjVHCg" type="UseCase_NameLabel_CN"/>
-          <children xmi:type="notation:DecorationNode" xmi:id="_8Ofy68F0Eei13r_JWjVHCg" type="UseCase_FloatingNameLabel_CN">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_8Ofy7MF0Eei13r_JWjVHCg" y="15"/>
-          </children>
-          <children xmi:type="notation:BasicCompartment" xmi:id="_8Ofy7cF0Eei13r_JWjVHCg" type="UseCase_ExtensionPointCompartment_CN">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_8Ofy7sF0Eei13r_JWjVHCg"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_8Ofy78F0Eei13r_JWjVHCg"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8Ofy8MF0Eei13r_JWjVHCg"/>
-          </children>
-          <element xmi:type="uml:UseCase" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_voonsMFbEeiPI_6br6tQPA"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8Ofy9MF0Eei13r_JWjVHCg" x="14" y="189" width="221"/>
-        </children>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8Ofy9cF0Eei13r_JWjVHCg"/>
+    <children xmi:type="notation:Shape" xmi:id="_8GD9cMF2EeiPI_6br6tQPA" type="Actor_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_8GD9csF2EeiPI_6br6tQPA" type="Actor_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8GD9c8F2EeiPI_6br6tQPA" y="15"/>
       </children>
-      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_8Ofy9sF0Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Package" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_ba4KYMFaEeiPI_6br6tQPA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8Ofy-sF0Eei13r_JWjVHCg" x="440" y="43" width="261" height="301"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_8GD9dMF2EeiPI_6br6tQPA" type="Actor_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8GD9dcF2EeiPI_6br6tQPA" x="20" y="100"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_8GD9dsF2EeiPI_6br6tQPA" type="Actor_QualifiedNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8GD9d8F2EeiPI_6br6tQPA" x="20" y="80"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_8GD9eMF2EeiPI_6br6tQPA" type="Actor_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8GD9ecF2EeiPI_6br6tQPA" y="15"/>
+      </children>
+      <element xmi:type="uml:Actor" href="use-case-view.uml#_8GCvUMF2EeiPI_6br6tQPA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8GD9ccF2EeiPI_6br6tQPA" x="20" y="220"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_8Ofy-8F0Eei13r_JWjVHCg" type="Actor_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_8Ofy_MF0Eei13r_JWjVHCg" type="Actor_NameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8Ofy_cF0Eei13r_JWjVHCg" y="15"/>
+    <children xmi:type="notation:Shape" xmi:id="_AGSRoMF3EeiPI_6br6tQPA" type="Package_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_AGTfwMF3EeiPI_6br6tQPA" type="Package_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_AGTfwcF3EeiPI_6br6tQPA" type="Package_PackagedElementCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_NIx3kMF3EeiPI_6br6tQPA" type="UseCase_Shape_CN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_NIx3ksF3EeiPI_6br6tQPA" type="UseCase_NameLabel_CN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_NIx3k8F3EeiPI_6br6tQPA" type="UseCase_FloatingNameLabel_CN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_NIx3lMF3EeiPI_6br6tQPA" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_NIx3lcF3EeiPI_6br6tQPA" type="UseCase_ExtensionPointCompartment_CN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_NIx3lsF3EeiPI_6br6tQPA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_NIx3l8F3EeiPI_6br6tQPA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NIx3mMF3EeiPI_6br6tQPA"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="use-case-view.uml#_NIuNMMF3EeiPI_6br6tQPA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NIx3kcF3EeiPI_6br6tQPA" x="14" y="9" width="163"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_QTvXsMF3EeiPI_6br6tQPA" type="UseCase_Shape_CN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_QTvXssF3EeiPI_6br6tQPA" type="UseCase_NameLabel_CN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_QTvXs8F3EeiPI_6br6tQPA" type="UseCase_FloatingNameLabel_CN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_QTvXtMF3EeiPI_6br6tQPA" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_QTv-wMF3EeiPI_6br6tQPA" type="UseCase_ExtensionPointCompartment_CN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_QTv-wcF3EeiPI_6br6tQPA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_QTv-wsF3EeiPI_6br6tQPA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QTv-w8F3EeiPI_6br6tQPA"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="use-case-view.uml#_QTrGQMF3EeiPI_6br6tQPA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QTvXscF3EeiPI_6br6tQPA" x="14" y="89" width="161"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_SHP8sMF3EeiPI_6br6tQPA" type="UseCase_Shape_CN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_SHP8ssF3EeiPI_6br6tQPA" type="UseCase_NameLabel_CN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_SHP8s8F3EeiPI_6br6tQPA" type="UseCase_FloatingNameLabel_CN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_SHP8tMF3EeiPI_6br6tQPA" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_SHP8tcF3EeiPI_6br6tQPA" type="UseCase_ExtensionPointCompartment_CN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_SHP8tsF3EeiPI_6br6tQPA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_SHP8t8F3EeiPI_6br6tQPA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SHP8uMF3EeiPI_6br6tQPA"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="use-case-view.uml#_SHLrQMF3EeiPI_6br6tQPA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SHP8scF3EeiPI_6br6tQPA" x="14" y="169" width="201"/>
+        </children>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AGTfwsF3EeiPI_6br6tQPA"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_8Ofy_sF0Eei13r_JWjVHCg" type="Actor_StereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8Ofy_8F0Eei13r_JWjVHCg" x="20" y="100"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_8OfzAMF0Eei13r_JWjVHCg" type="Actor_QualifiedNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfzAcF0Eei13r_JWjVHCg" x="20" y="80"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_8OfzAsF0Eei13r_JWjVHCg" type="Actor_FloatingNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfzA8F0Eei13r_JWjVHCg" y="15"/>
-      </children>
-      <element xmi:type="uml:Actor" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_hUwu4MFaEeiPI_6br6tQPA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8OfzB8F0Eei13r_JWjVHCg" x="40" y="63" width="21" height="61"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_AGSRocF3EeiPI_6br6tQPA"/>
+      <element xmi:type="uml:Package" href="use-case-view.uml#_AGRqkMF3EeiPI_6br6tQPA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AGSRosF3EeiPI_6br6tQPA" x="400" y="100" width="241" height="281"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_8OfzCMF0Eei13r_JWjVHCg" type="Package_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_8OfzCcF0Eei13r_JWjVHCg" type="Package_NameLabel"/>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_8OfzCsF0Eei13r_JWjVHCg" type="Package_PackagedElementCompartment">
-        <children xmi:type="notation:Shape" xmi:id="_8OfzC8F0Eei13r_JWjVHCg" type="UseCase_Shape_CN">
-          <children xmi:type="notation:DecorationNode" xmi:id="_8OfzDMF0Eei13r_JWjVHCg" type="UseCase_NameLabel_CN"/>
-          <children xmi:type="notation:DecorationNode" xmi:id="_8OfzDcF0Eei13r_JWjVHCg" type="UseCase_FloatingNameLabel_CN">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfzDsF0Eei13r_JWjVHCg" y="15"/>
+    <children xmi:type="notation:Shape" xmi:id="_CZlxAMF3EeiPI_6br6tQPA" type="Package_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_CZmYEMF3EeiPI_6br6tQPA" type="Package_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_CZmYEcF3EeiPI_6br6tQPA" type="Package_PackagedElementCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_YDQoIMF3EeiPI_6br6tQPA" type="UseCase_Shape_CN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_YDQoIsF3EeiPI_6br6tQPA" type="UseCase_NameLabel_CN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_YDQoI8F3EeiPI_6br6tQPA" type="UseCase_FloatingNameLabel_CN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_YDQoJMF3EeiPI_6br6tQPA" y="15"/>
           </children>
-          <children xmi:type="notation:BasicCompartment" xmi:id="_8OfzD8F0Eei13r_JWjVHCg" type="UseCase_ExtensionPointCompartment_CN">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_8OfzEMF0Eei13r_JWjVHCg"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_8OfzEcF0Eei13r_JWjVHCg"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8OfzEsF0Eei13r_JWjVHCg"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_YDQoJcF3EeiPI_6br6tQPA" type="UseCase_ExtensionPointCompartment_CN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_YDQoJsF3EeiPI_6br6tQPA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_YDQoJ8F3EeiPI_6br6tQPA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YDQoKMF3EeiPI_6br6tQPA"/>
           </children>
-          <element xmi:type="uml:UseCase" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_IbSMgMFdEeiPI_6br6tQPA"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8OfzFsF0Eei13r_JWjVHCg" x="14" y="9" width="166"/>
+          <element xmi:type="uml:UseCase" href="use-case-view.uml#_YDKhgMF3EeiPI_6br6tQPA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YDQoIcF3EeiPI_6br6tQPA" x="9" y="9" width="177"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_8OfzF8F0Eei13r_JWjVHCg" type="UseCase_Shape_CN">
-          <children xmi:type="notation:DecorationNode" xmi:id="_8OfzGMF0Eei13r_JWjVHCg" type="UseCase_NameLabel_CN"/>
-          <children xmi:type="notation:DecorationNode" xmi:id="_8OfzGcF0Eei13r_JWjVHCg" type="UseCase_FloatingNameLabel_CN">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfzGsF0Eei13r_JWjVHCg" y="15"/>
+        <children xmi:type="notation:Shape" xmi:id="_coSSgMF3EeiPI_6br6tQPA" type="UseCase_Shape_CN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_coSSgsF3EeiPI_6br6tQPA" type="UseCase_NameLabel_CN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_coSSg8F3EeiPI_6br6tQPA" type="UseCase_FloatingNameLabel_CN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_coSShMF3EeiPI_6br6tQPA" y="15"/>
           </children>
-          <children xmi:type="notation:BasicCompartment" xmi:id="_8OfzG8F0Eei13r_JWjVHCg" type="UseCase_ExtensionPointCompartment_CN">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_8OfzHMF0Eei13r_JWjVHCg"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_8OfzHcF0Eei13r_JWjVHCg"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8OfzHsF0Eei13r_JWjVHCg"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_coSShcF3EeiPI_6br6tQPA" type="UseCase_ExtensionPointCompartment_CN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_coSShsF3EeiPI_6br6tQPA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_coSSh8F3EeiPI_6br6tQPA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_coSSiMF3EeiPI_6br6tQPA"/>
           </children>
-          <element xmi:type="uml:UseCase" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_K93eAMFdEeiPI_6br6tQPA"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8OfzIsF0Eei13r_JWjVHCg" x="14" y="89" width="160"/>
+          <element xmi:type="uml:UseCase" href="use-case-view.uml#_coML4MF3EeiPI_6br6tQPA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_coSSgcF3EeiPI_6br6tQPA" x="14" y="89" width="181" height="61"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_8OfzI8F0Eei13r_JWjVHCg" type="UseCase_Shape_CN">
-          <children xmi:type="notation:DecorationNode" xmi:id="_8OfzJMF0Eei13r_JWjVHCg" type="UseCase_NameLabel_CN"/>
-          <children xmi:type="notation:DecorationNode" xmi:id="_8OfzJcF0Eei13r_JWjVHCg" type="UseCase_FloatingNameLabel_CN">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfzJsF0Eei13r_JWjVHCg" y="15"/>
+        <children xmi:type="notation:Shape" xmi:id="_eDKVEMF3EeiPI_6br6tQPA" type="UseCase_Shape_CN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_eDK8IMF3EeiPI_6br6tQPA" type="UseCase_NameLabel_CN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_eDK8IcF3EeiPI_6br6tQPA" type="UseCase_FloatingNameLabel_CN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_eDK8IsF3EeiPI_6br6tQPA" y="15"/>
           </children>
-          <children xmi:type="notation:BasicCompartment" xmi:id="_8OfzJ8F0Eei13r_JWjVHCg" type="UseCase_ExtensionPointCompartment_CN">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_8OfzKMF0Eei13r_JWjVHCg"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_8OfzKcF0Eei13r_JWjVHCg"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8OfzKsF0Eei13r_JWjVHCg"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_eDK8I8F3EeiPI_6br6tQPA" type="UseCase_ExtensionPointCompartment_CN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_eDK8JMF3EeiPI_6br6tQPA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_eDK8JcF3EeiPI_6br6tQPA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eDK8JsF3EeiPI_6br6tQPA"/>
           </children>
-          <element xmi:type="uml:UseCase" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_NUQGkMFdEeiPI_6br6tQPA"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8OfzLsF0Eei13r_JWjVHCg" x="14" y="169" width="161"/>
+          <element xmi:type="uml:UseCase" href="use-case-view.uml#_eDEOcMF3EeiPI_6br6tQPA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eDKVEcF3EeiPI_6br6tQPA" x="14" y="169" width="181"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_8OfzL8F0Eei13r_JWjVHCg" type="UseCase_Shape_CN">
-          <children xmi:type="notation:DecorationNode" xmi:id="_8OfzMMF0Eei13r_JWjVHCg" type="UseCase_NameLabel_CN"/>
-          <children xmi:type="notation:DecorationNode" xmi:id="_8OfzMcF0Eei13r_JWjVHCg" type="UseCase_FloatingNameLabel_CN">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfzMsF0Eei13r_JWjVHCg" y="15"/>
+        <children xmi:type="notation:Shape" xmi:id="_f68WEMF3EeiPI_6br6tQPA" type="UseCase_Shape_CN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_f689IMF3EeiPI_6br6tQPA" type="UseCase_NameLabel_CN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_f689IcF3EeiPI_6br6tQPA" type="UseCase_FloatingNameLabel_CN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_f689IsF3EeiPI_6br6tQPA" y="15"/>
           </children>
-          <children xmi:type="notation:BasicCompartment" xmi:id="_8OfzM8F0Eei13r_JWjVHCg" type="UseCase_ExtensionPointCompartment_CN">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_8OfzNMF0Eei13r_JWjVHCg"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_8OfzNcF0Eei13r_JWjVHCg"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8OfzNsF0Eei13r_JWjVHCg"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_f689I8F3EeiPI_6br6tQPA" type="UseCase_ExtensionPointCompartment_CN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_f689JMF3EeiPI_6br6tQPA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_f689JcF3EeiPI_6br6tQPA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f689JsF3EeiPI_6br6tQPA"/>
           </children>
-          <element xmi:type="uml:UseCase" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_-IyS4MFlEei13r_JWjVHCg"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8OfzOsF0Eei13r_JWjVHCg" x="14" y="252" width="160"/>
+          <element xmi:type="uml:UseCase" href="use-case-view.uml#_f61oYMF3EeiPI_6br6tQPA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f68WEcF3EeiPI_6br6tQPA" x="14" y="249" width="181"/>
         </children>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8OfzO8F0Eei13r_JWjVHCg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CZmYEsF3EeiPI_6br6tQPA"/>
       </children>
-      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_8OfzPMF0Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Package" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_QGR0MMFbEeiPI_6br6tQPA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8OfzQMF0Eei13r_JWjVHCg" x="760" y="63" width="201" height="361"/>
+      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_CZlxAcF3EeiPI_6br6tQPA"/>
+      <element xmi:type="uml:Package" href="use-case-view.uml#_CZlJ8MF3EeiPI_6br6tQPA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CZlxAsF3EeiPI_6br6tQPA" x="680" y="60" width="221" height="361"/>
     </children>
-    <styles xmi:type="notation:StringValueStyle" xmi:id="_8OfzQcF0Eei13r_JWjVHCg" name="diagram_compatibility_version" stringValue="1.4.0"/>
-    <styles xmi:type="notation:DiagramStyle" xmi:id="_8OfzQsF0Eei13r_JWjVHCg"/>
-    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_8OfzQ8F0Eei13r_JWjVHCg" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_zvxn8cF2EeiPI_6br6tQPA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_zvxn8sF2EeiPI_6br6tQPA"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_zvxn88F2EeiPI_6br6tQPA" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
       <owner xmi:type="uml:Model" href="use-case-view.uml#_CgVZkMF0Eei13r_JWjVHCg"/>
     </styles>
-    <element xmi:type="uml:Model" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_nHO5QMFZEeiPI_6br6tQPA"/>
-    <edges xmi:type="notation:Connector" xmi:id="_8OfzRMF0Eei13r_JWjVHCg" type="Usage_Edge" source="_8Ofy-8F0Eei13r_JWjVHCg" target="_8OfypMF0Eei13r_JWjVHCg">
-      <children xmi:type="notation:DecorationNode" xmi:id="_8OfzRcF0Eei13r_JWjVHCg" type="Usage_NameLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_8OfzRsF0Eei13r_JWjVHCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfzR8F0Eei13r_JWjVHCg" x="-40" y="-14"/>
+    <element xmi:type="uml:Model" href="use-case-view.uml#_CgVZkMF0Eei13r_JWjVHCg"/>
+    <edges xmi:type="notation:Connector" xmi:id="_qwPrsMF3EeiPI_6br6tQPA" type="Usage_Edge" source="_8GD9cMF2EeiPI_6br6tQPA" target="_DzXAUMF3EeiPI_6br6tQPA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_qwQSwMF3EeiPI_6br6tQPA" type="Usage_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_w6MFcMF3EeiPI_6br6tQPA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qwQSwcF3EeiPI_6br6tQPA" x="-1" y="-27"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_8OfzSMF0Eei13r_JWjVHCg" type="Usage_StereotypeLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_8OfzScF0Eei13r_JWjVHCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfzSsF0Eei13r_JWjVHCg" x="1" y="-18"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_qwQSwsF3EeiPI_6br6tQPA" type="Usage_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_w6TaMMF3EeiPI_6br6tQPA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qwQSw8F3EeiPI_6br6tQPA" x="1" y="-18"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_8OfzS8F0Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Usage" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_BtkMwMFcEeiPI_6br6tQPA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8OfzTMF0Eei13r_JWjVHCg" points="[81, 140, -643984, -643984]$[220, 90, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8OfzTcF0Eei13r_JWjVHCg" id="(1.0,0.32786885245901637)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8OfzTsF0Eei13r_JWjVHCg" id="(0.12422360248447205,0.0)"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_qwPrscF3EeiPI_6br6tQPA"/>
+      <element xmi:type="uml:Usage" href="use-case-view.uml#_qwN2gMF3EeiPI_6br6tQPA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qwPrssF3EeiPI_6br6tQPA" points="[40, 220, -643984, -643984]$[40, 160, -643984, -643984]$[120, 170, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qwqicMF3EeiPI_6br6tQPA" id="(0.6666666666666666,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qwqiccF3EeiPI_6br6tQPA" id="(0.0,0.5)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_8OfzT8F0Eei13r_JWjVHCg" type="Usage_Edge" source="_8Ofy-8F0Eei13r_JWjVHCg" target="_8OfypMF0Eei13r_JWjVHCg">
-      <children xmi:type="notation:DecorationNode" xmi:id="_8OfzUMF0Eei13r_JWjVHCg" type="Usage_NameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfzUcF0Eei13r_JWjVHCg" x="-46"/>
+    <edges xmi:type="notation:Connector" xmi:id="_v5jH0MF3EeiPI_6br6tQPA" type="Usage_Edge" source="_8GD9cMF2EeiPI_6br6tQPA" target="_DzXAUMF3EeiPI_6br6tQPA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_v5jH08F3EeiPI_6br6tQPA" type="Usage_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_y5-y8MF3EeiPI_6br6tQPA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_v5jH1MF3EeiPI_6br6tQPA" x="-16" y="-33"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_8OfzUsF0Eei13r_JWjVHCg" type="Usage_StereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfzU8F0Eei13r_JWjVHCg" y="-20"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_v5jH1cF3EeiPI_6br6tQPA" type="Usage_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_y6FgoMF3EeiPI_6br6tQPA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_v5jH1sF3EeiPI_6br6tQPA" x="1" y="-18"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_8OfzVMF0Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Usage" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_Hp7dgMFcEeiPI_6br6tQPA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8OfzVcF0Eei13r_JWjVHCg" points="[11, -15, 44, 68]$[160, -14, 193, 69]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8OfzVsF0Eei13r_JWjVHCg" id="(1.0,0.6557377049180327)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8OfzV8F0Eei13r_JWjVHCg" id="(0.2484472049689441,0.9166666666666666)"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_v5jH0cF3EeiPI_6br6tQPA"/>
+      <element xmi:type="uml:Usage" href="use-case-view.uml#_v5hSoMF3EeiPI_6br6tQPA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v5jH0sF3EeiPI_6br6tQPA" points="[50, 240, -643984, -643984]$[140, 190, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v50NkMF3EeiPI_6br6tQPA" id="(1.0,0.4)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v50NkcF3EeiPI_6br6tQPA" id="(0.14285714285714285,0.8333333333333334)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_8OfzWMF0Eei13r_JWjVHCg" type="Usage_Edge" source="_8Ofy-8F0Eei13r_JWjVHCg" target="_8OfysMF0Eei13r_JWjVHCg">
-      <children xmi:type="notation:DecorationNode" xmi:id="_8OfzWcF0Eei13r_JWjVHCg" type="Usage_NameLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_8OfzWsF0Eei13r_JWjVHCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfzW8F0Eei13r_JWjVHCg" y="39"/>
+    <edges xmi:type="notation:Connector" xmi:id="_2oEOQMF3EeiPI_6br6tQPA" type="Usage_Edge" source="_8GD9cMF2EeiPI_6br6tQPA" target="_E4eOQMF3EeiPI_6br6tQPA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_2oE1UMF3EeiPI_6br6tQPA" type="Usage_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_2oE1UcF3EeiPI_6br6tQPA" y="40"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_8OfzXMF0Eei13r_JWjVHCg" type="Usage_StereotypeLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_8OfzXcF0Eei13r_JWjVHCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfzXsF0Eei13r_JWjVHCg" x="1" y="-18"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_2oE1UsF3EeiPI_6br6tQPA" type="Usage_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_2oE1U8F3EeiPI_6br6tQPA" y="-20"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_8OfzX8F0Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Usage" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_K7fU4MFcEeiPI_6br6tQPA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8OfzYMF0Eei13r_JWjVHCg" points="[60, 140, -643984, -643984]$[204, 200, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8OfzYcF0Eei13r_JWjVHCg" id="(1.0,0.9836065573770492)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8OfzYsF0Eei13r_JWjVHCg" id="(0.0,0.7166666666666667)"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_2oEOQcF3EeiPI_6br6tQPA"/>
+      <element xmi:type="uml:Usage" href="use-case-view.uml#_2oCZEMF3EeiPI_6br6tQPA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2oEOQsF3EeiPI_6br6tQPA" points="[50, 260, -643984, -643984]$[164, 260, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2oivYMF3EeiPI_6br6tQPA" id="(1.0,0.8)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2oivYcF3EeiPI_6br6tQPA" id="(0.02857142857142857,0.6666666666666666)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_8OfzY8F0Eei13r_JWjVHCg" type="Usage_Edge" source="_8Ofy-8F0Eei13r_JWjVHCg" target="_8OfyvMF0Eei13r_JWjVHCg">
-      <children xmi:type="notation:DecorationNode" xmi:id="_8OfzZMF0Eei13r_JWjVHCg" type="Usage_NameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfzZcF0Eei13r_JWjVHCg" x="8" y="28"/>
+    <edges xmi:type="notation:Connector" xmi:id="_4pPb0MF3EeiPI_6br6tQPA" type="Usage_Edge" source="_8GD9cMF2EeiPI_6br6tQPA" target="_GyYWMMF3EeiPI_6br6tQPA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_4pQC4MF3EeiPI_6br6tQPA" type="Usage_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_4pQC4cF3EeiPI_6br6tQPA" x="-10" y="15"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_8OfzZsF0Eei13r_JWjVHCg" type="Usage_StereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfzZ8F0Eei13r_JWjVHCg" y="-20"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_4pQC4sF3EeiPI_6br6tQPA" type="Usage_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_4pQC48F3EeiPI_6br6tQPA" y="-20"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_8OfzaMF0Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Usage" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_MnPFAMFcEeiPI_6br6tQPA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8OfzacF0Eei13r_JWjVHCg" points="[3, 2, 45, -56]$[140, 133, 182, 75]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8OfzasF0Eei13r_JWjVHCg" id="(0.9523809523809523,1.0)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8Ofza8F0Eei13r_JWjVHCg" id="(0.025477707006369428,0.6666666666666666)"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_4pPb0cF3EeiPI_6br6tQPA"/>
+      <element xmi:type="uml:Usage" href="use-case-view.uml#_4pNmoMF3EeiPI_6br6tQPA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4pPb0sF3EeiPI_6br6tQPA" points="[40, 270, -643984, -643984]$[160, 330, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4p1RsMF3EeiPI_6br6tQPA" id="(0.6666666666666666,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4p1RscF3EeiPI_6br6tQPA" id="(0.0,0.5)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_8OfzbMF0Eei13r_JWjVHCg" type="Usage_Edge" source="_8OfypMF0Eei13r_JWjVHCg" target="_8Ofy0cF0Eei13r_JWjVHCg">
-      <children xmi:type="notation:DecorationNode" xmi:id="_8OfzbcF0Eei13r_JWjVHCg" type="Usage_NameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfzbsF0Eei13r_JWjVHCg" y="40"/>
+    <edges xmi:type="notation:Connector" xmi:id="_64Yz8MF3EeiPI_6br6tQPA" type="Usage_Edge" source="_DzXAUMF3EeiPI_6br6tQPA" target="_NIx3kMF3EeiPI_6br6tQPA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_64Yz88F3EeiPI_6br6tQPA" type="Usage_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_64Yz9MF3EeiPI_6br6tQPA" y="40"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_8Ofzb8F0Eei13r_JWjVHCg" type="Usage_StereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfzcMF0Eei13r_JWjVHCg" y="-20"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_64Yz9cF3EeiPI_6br6tQPA" type="Usage_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_64Yz9sF3EeiPI_6br6tQPA" y="-20"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_8OfzccF0Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Usage" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_TPWMAMFdEeiPI_6br6tQPA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8OfzcsF0Eei13r_JWjVHCg" points="[360, 114, -643984, -643984]$[460, 110, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8Ofzc8F0Eei13r_JWjVHCg" id="(0.9937888198757764,0.5666666666666667)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8OfzdMF0Eei13r_JWjVHCg" id="(0.0,0.5)"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_64Yz8cF3EeiPI_6br6tQPA"/>
+      <element xmi:type="uml:Usage" href="use-case-view.uml#_64BnkMF3EeiPI_6br6tQPA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_64Yz8sF3EeiPI_6br6tQPA" points="[300, 170, -643984, -643984]$[420, 170, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_64wnYMF3EeiPI_6br6tQPA" id="(1.0,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_64wnYcF3EeiPI_6br6tQPA" id="(0.0,0.5)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_8OfzdcF0Eei13r_JWjVHCg" type="Usage_Edge" source="_8OfysMF0Eei13r_JWjVHCg" target="_8Ofy3cF0Eei13r_JWjVHCg">
-      <children xmi:type="notation:DecorationNode" xmi:id="_8OfzdsF0Eei13r_JWjVHCg" type="Usage_NameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8Ofzd8F0Eei13r_JWjVHCg" y="40"/>
+    <edges xmi:type="notation:Connector" xmi:id="_8Fv-8MF3EeiPI_6br6tQPA" type="Usage_Edge" source="_NIx3kMF3EeiPI_6br6tQPA" target="_YDQoIMF3EeiPI_6br6tQPA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_8Fv-88F3EeiPI_6br6tQPA" type="Usage_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8Fv-9MF3EeiPI_6br6tQPA" y="40"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_8OfzeMF0Eei13r_JWjVHCg" type="Usage_StereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfzecF0Eei13r_JWjVHCg" y="-20"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_8Fv-9cF3EeiPI_6br6tQPA" type="Usage_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8Fv-9sF3EeiPI_6br6tQPA" y="-20"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_8OfzesF0Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Usage" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_YHHMMMFdEeiPI_6br6tQPA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8Ofze8F0Eei13r_JWjVHCg" points="[360, 194, -643984, -643984]$[460, 190, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8OfzfMF0Eei13r_JWjVHCg" id="(0.9937888198757764,0.5666666666666667)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8OfzfcF0Eei13r_JWjVHCg" id="(0.0,0.5)"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_8Fv-8cF3EeiPI_6br6tQPA"/>
+      <element xmi:type="uml:Usage" href="use-case-view.uml#_8Fb14MF3EeiPI_6br6tQPA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8Fv-8sF3EeiPI_6br6tQPA" points="[578, 180, -643984, -643984]$[680, 140, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8GJAgMF3EeiPI_6br6tQPA" id="(0.9815950920245399,0.35)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8GJAgcF3EeiPI_6br6tQPA" id="(0.02824858757062147,0.3333333333333333)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_8OfzfsF0Eei13r_JWjVHCg" type="Usage_Edge" source="_8Ofy6cF0Eei13r_JWjVHCg" target="_8OfyvMF0Eei13r_JWjVHCg">
-      <children xmi:type="notation:DecorationNode" xmi:id="_8Ofzf8F0Eei13r_JWjVHCg" type="Usage_NameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfzgMF0Eei13r_JWjVHCg" y="40"/>
+    <edges xmi:type="notation:Connector" xmi:id="_-BX-IMF3EeiPI_6br6tQPA" type="Usage_Edge" source="_QTvXsMF3EeiPI_6br6tQPA" target="_coSSgMF3EeiPI_6br6tQPA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-BX-I8F3EeiPI_6br6tQPA" type="Usage_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-BX-JMF3EeiPI_6br6tQPA" y="40"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_8OfzgcF0Eei13r_JWjVHCg" type="Usage_StereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfzgsF0Eei13r_JWjVHCg" y="-20"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_-BX-JcF3EeiPI_6br6tQPA" type="Usage_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-BX-JsF3EeiPI_6br6tQPA" y="-20"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_8Ofzg8F0Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Usage" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_cgeZIMFdEeiPI_6br6tQPA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8OfzhMF0Eei13r_JWjVHCg" points="[480, 307, -643984, -643984]$[360, 274, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8OfzhcF0Eei13r_JWjVHCg" id="(0.0,0.5)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8OfzhsF0Eei13r_JWjVHCg" id="(0.9936305732484076,0.5666666666666667)"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_-BX-IcF3EeiPI_6br6tQPA"/>
+      <element xmi:type="uml:Usage" href="use-case-view.uml#_-BPbQMF3EeiPI_6br6tQPA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-BX-IsF3EeiPI_6br6tQPA" points="[580, 254, -643984, -643984]$[700, 211, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-BqSAMF3EeiPI_6br6tQPA" id="(0.9937888198757764,0.5666666666666667)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-BqSAcF3EeiPI_6br6tQPA" id="(0.0,0.5081967213114754)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_8Ofzh8F0Eei13r_JWjVHCg" type="Usage_Edge" source="_8Ofy0cF0Eei13r_JWjVHCg" target="_8OfzC8F0Eei13r_JWjVHCg">
-      <children xmi:type="notation:DecorationNode" xmi:id="_8OfziMF0Eei13r_JWjVHCg" type="Usage_NameLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_8OfzicF0Eei13r_JWjVHCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfzisF0Eei13r_JWjVHCg" y="39"/>
+    <edges xmi:type="notation:Connector" xmi:id="__Cfc4MF3EeiPI_6br6tQPA" type="Usage_Edge" source="_QTvXsMF3EeiPI_6br6tQPA" target="_eDKVEMF3EeiPI_6br6tQPA">
+      <children xmi:type="notation:DecorationNode" xmi:id="__Cfc48F3EeiPI_6br6tQPA" type="Usage_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__Cfc5MF3EeiPI_6br6tQPA" y="40"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_8Ofzi8F0Eei13r_JWjVHCg" type="Usage_StereotypeLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_8OfzjMF0Eei13r_JWjVHCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfzjcF0Eei13r_JWjVHCg" x="1" y="-18"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="__Cfc5cF3EeiPI_6br6tQPA" type="Usage_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__Cfc5sF3EeiPI_6br6tQPA" y="-20"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_8OfzjsF0Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Usage" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_h7XUgMFdEeiPI_6br6tQPA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8Ofzj8F0Eei13r_JWjVHCg" points="[600, 110, -643984, -643984]$[780, 130, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8OfzkMF0Eei13r_JWjVHCg" id="(1.0,0.5)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8OfzkcF0Eei13r_JWjVHCg" id="(0.0,0.5)"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="__Cfc4cF3EeiPI_6br6tQPA"/>
+      <element xmi:type="uml:Usage" href="use-case-view.uml#__CL64MF3EeiPI_6br6tQPA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__Cfc4sF3EeiPI_6br6tQPA" points="[576, 260, -643984, -643984]$[700, 290, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__C2pQMF3EeiPI_6br6tQPA" id="(0.968944099378882,0.6666666666666666)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__C2pQcF3EeiPI_6br6tQPA" id="(0.0,0.5)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_8OfzksF0Eei13r_JWjVHCg" type="Usage_Edge" source="_8Ofy3cF0Eei13r_JWjVHCg" target="_8OfzC8F0Eei13r_JWjVHCg">
-      <children xmi:type="notation:DecorationNode" xmi:id="_8Ofzk8F0Eei13r_JWjVHCg" type="Usage_NameLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_8OfzlMF0Eei13r_JWjVHCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfzlcF0Eei13r_JWjVHCg" x="-1" y="39"/>
+    <edges xmi:type="notation:Connector" xmi:id="_ASqEQMF4EeiPI_6br6tQPA" type="Usage_Edge" source="_YDQoIMF3EeiPI_6br6tQPA" target="_SHP8sMF3EeiPI_6br6tQPA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_ASqEQ8F4EeiPI_6br6tQPA" type="Usage_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ASqERMF4EeiPI_6br6tQPA" y="40"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_8OfzlsF0Eei13r_JWjVHCg" type="Usage_StereotypeLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_8Ofzl8F0Eei13r_JWjVHCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfzmMF0Eei13r_JWjVHCg" x="1" y="-18"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_ASqERcF4EeiPI_6br6tQPA" type="Usage_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ASqERsF4EeiPI_6br6tQPA" y="-20"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_8OfzmcF0Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Usage" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_i9Bl0MFdEeiPI_6br6tQPA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8OfzmsF0Eei13r_JWjVHCg" points="[660, 185, -643984, -643984]$[800, 149, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8Ofzm8F0Eei13r_JWjVHCg" id="(0.9950248756218906,0.4166666666666667)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8OfznMF0Eei13r_JWjVHCg" id="(0.12048192771084337,0.8166666666666667)"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_ASqEQcF4EeiPI_6br6tQPA"/>
+      <element xmi:type="uml:Usage" href="use-case-view.uml#_ASOmcMF4EeiPI_6br6tQPA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ASqEQsF4EeiPI_6br6tQPA" points="[720, 150, -643984, -643984]$[600, 311, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ATE7AMF4EeiPI_6br6tQPA" id="(0.14124293785310735,0.8333333333333334)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ATFiEMF4EeiPI_6br6tQPA" id="(0.8955223880597015,0.18333333333333332)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_8OfzncF0Eei13r_JWjVHCg" type="Usage_Edge" source="_8Ofy3cF0Eei13r_JWjVHCg" target="_8OfzF8F0Eei13r_JWjVHCg">
-      <children xmi:type="notation:DecorationNode" xmi:id="_8OfznsF0Eei13r_JWjVHCg" type="Usage_NameLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_8Ofzn8F0Eei13r_JWjVHCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfzoMF0Eei13r_JWjVHCg" y="39"/>
+    <edges xmi:type="notation:Connector" xmi:id="_CF-cAMF4EeiPI_6br6tQPA" type="Usage_Edge" source="_SHP8sMF3EeiPI_6br6tQPA" target="_GyYWMMF3EeiPI_6br6tQPA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_CF-cA8F4EeiPI_6br6tQPA" type="Usage_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CF-cBMF4EeiPI_6br6tQPA" y="40"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_8OfzocF0Eei13r_JWjVHCg" type="Usage_StereotypeLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_8OfzosF0Eei13r_JWjVHCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8Ofzo8F0Eei13r_JWjVHCg" x="1" y="-18"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_CF-cBcF4EeiPI_6br6tQPA" type="Usage_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CF-cBsF4EeiPI_6br6tQPA" y="-20"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_8OfzpMF0Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Usage" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_j7UaEMFdEeiPI_6br6tQPA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8OfzpcF0Eei13r_JWjVHCg" points="[660, 194, -643984, -643984]$[780, 210, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8OfzpsF0Eei13r_JWjVHCg" id="(0.9950248756218906,0.5666666666666667)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8Ofzp8F0Eei13r_JWjVHCg" id="(0.0,0.5)"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_CF-cAcF4EeiPI_6br6tQPA"/>
+      <element xmi:type="uml:Usage" href="use-case-view.uml#_CFpr4MF4EeiPI_6br6tQPA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CF-cAsF4EeiPI_6br6tQPA" points="[460, 306, -643984, -643984]$[300, 330, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CGW2gMF4EeiPI_6br6tQPA" id="(0.0,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CGW2gcF4EeiPI_6br6tQPA" id="(1.0,0.5)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_8OfzqMF0Eei13r_JWjVHCg" type="Usage_Edge" source="_8OfzC8F0Eei13r_JWjVHCg" target="_8Ofy6cF0Eei13r_JWjVHCg">
-      <children xmi:type="notation:DecorationNode" xmi:id="_8OfzqcF0Eei13r_JWjVHCg" type="Usage_NameLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_8OfzqsF0Eei13r_JWjVHCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8Ofzq8F0Eei13r_JWjVHCg" x="1" y="38"/>
+    <edges xmi:type="notation:Connector" xmi:id="_Denp8MF4EeiPI_6br6tQPA" type="Usage_Edge" source="_E4eOQMF3EeiPI_6br6tQPA" target="_QTvXsMF3EeiPI_6br6tQPA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Denp88F4EeiPI_6br6tQPA" type="Usage_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DeoRAMF4EeiPI_6br6tQPA" y="40"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_8OfzrMF0Eei13r_JWjVHCg" type="Usage_StereotypeLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_8OfzrcF0Eei13r_JWjVHCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfzrsF0Eei13r_JWjVHCg" y="-19"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DeoRAcF4EeiPI_6br6tQPA" type="Usage_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DeoRAsF4EeiPI_6br6tQPA" y="-20"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_8Ofzr8F0Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Usage" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_pR2Z4MFdEeiPI_6br6tQPA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8OfzsMF0Eei13r_JWjVHCg" points="[820, 155, -643984, -643984]$[680, 294, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8OfzscF0Eei13r_JWjVHCg" id="(0.24096385542168675,0.9166666666666666)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8OfzssF0Eei13r_JWjVHCg" id="(0.995475113122172,0.5666666666666667)"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Denp8cF4EeiPI_6br6tQPA"/>
+      <element xmi:type="uml:Usage" href="use-case-view.uml#_DeXyUMF4EeiPI_6br6tQPA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Denp8sF4EeiPI_6br6tQPA" points="[295, 260, -643984, -643984]$[420, 250, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_De_dYMF4EeiPI_6br6tQPA" id="(1.0,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_De_dYcF4EeiPI_6br6tQPA" id="(0.0,0.5)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_8Ofzs8F0Eei13r_JWjVHCg" type="Usage_Edge" source="_8Ofy3cF0Eei13r_JWjVHCg" target="_8OfzI8F0Eei13r_JWjVHCg">
-      <children xmi:type="notation:DecorationNode" xmi:id="_8OfztMF0Eei13r_JWjVHCg" type="Usage_NameLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_8OfztcF0Eei13r_JWjVHCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfztsF0Eei13r_JWjVHCg" x="1" y="38"/>
+    <edges xmi:type="notation:Connector" xmi:id="_IeL7QMF4EeiPI_6br6tQPA" type="Usage_Edge" source="_eDKVEMF3EeiPI_6br6tQPA" target="_f68WEMF3EeiPI_6br6tQPA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_IeL7Q8F4EeiPI_6br6tQPA" type="Usage_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_IeL7RMF4EeiPI_6br6tQPA" y="40"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_8Ofzt8F0Eei13r_JWjVHCg" type="Usage_StereotypeLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_8OfzuMF0Eei13r_JWjVHCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfzucF0Eei13r_JWjVHCg" x="1" y="-18"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_IeL7RcF4EeiPI_6br6tQPA" type="Usage_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_IeL7RsF4EeiPI_6br6tQPA" y="-20"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_8OfzusF0Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Usage" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_rFtkMMFdEeiPI_6br6tQPA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8Ofzu8F0Eei13r_JWjVHCg" points="[655, 200, -643984, -643984]$[780, 290, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8OfzvMF0Eei13r_JWjVHCg" id="(0.9701492537313433,0.6666666666666666)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8OfzvcF0Eei13r_JWjVHCg" id="(0.0,0.5)"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_IeL7QcF4EeiPI_6br6tQPA"/>
+      <element xmi:type="uml:Usage" href="use-case-view.uml#_Id1V8MF4EeiPI_6br6tQPA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IeL7QsF4EeiPI_6br6tQPA" points="[800, 319, -643984, -643984]$[800, 340, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IekVwMF4EeiPI_6br6tQPA" id="(0.5524861878453039,0.9833333333333333)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IekVwcF4EeiPI_6br6tQPA" id="(0.5524861878453039,0.0)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_8OfzvsF0Eei13r_JWjVHCg" type="Usage_Edge" source="_8Ofy0cF0Eei13r_JWjVHCg" target="_8Ofy3cF0Eei13r_JWjVHCg">
-      <children xmi:type="notation:DecorationNode" xmi:id="_8Ofzv8F0Eei13r_JWjVHCg" type="Usage_NameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfzwMF0Eei13r_JWjVHCg" y="40"/>
+    <edges xmi:type="notation:Connector" xmi:id="_Mdx9UMF4EeiPI_6br6tQPA" type="Usage_Edge" source="_NIx3kMF3EeiPI_6br6tQPA" target="_QTvXsMF3EeiPI_6br6tQPA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Mdx9U8F4EeiPI_6br6tQPA" type="Usage_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Mdx9VMF4EeiPI_6br6tQPA" y="40"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_8OfzwcF0Eei13r_JWjVHCg" type="Usage_StereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfzwsF0Eei13r_JWjVHCg" y="-20"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Mdx9VcF4EeiPI_6br6tQPA" type="Usage_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Mdx9VsF4EeiPI_6br6tQPA" y="-20"/>
       </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_8Ofzw8F0Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Usage" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_dwrOAMFjEei13r_JWjVHCg"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8OfzxMF0Eei13r_JWjVHCg" points="[593, 120, -643984, -643984]$[600, 159, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8OfzxcF0Eei13r_JWjVHCg" id="(0.95,0.7166666666666667)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8OfzxsF0Eei13r_JWjVHCg" id="(0.6965174129353234,0.03333333333333333)"/>
-    </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_8Ofzx8F0Eei13r_JWjVHCg" type="Usage_Edge" source="_8OfzI8F0Eei13r_JWjVHCg" target="_8OfzL8F0Eei13r_JWjVHCg">
-      <children xmi:type="notation:DecorationNode" xmi:id="_8OfzyMF0Eei13r_JWjVHCg" type="Usage_NameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8OfzycF0Eei13r_JWjVHCg" y="40"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_8OfzysF0Eei13r_JWjVHCg" type="Usage_StereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_8Ofzy8F0Eei13r_JWjVHCg" y="-20"/>
-      </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_8OfzzMF0Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Usage" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_NdTl0MFmEei13r_JWjVHCg"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8OfzzcF0Eei13r_JWjVHCg" points="[860, 317, -643984, -643984]$[860, 340, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8OfzzsF0Eei13r_JWjVHCg" id="(0.4968944099378882,1.0)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8Ofzz8F0Eei13r_JWjVHCg" id="(0.5,0.0)"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Mdx9UcF4EeiPI_6br6tQPA"/>
+      <element xmi:type="uml:Usage" href="use-case-view.uml#_MdbYAMF4EeiPI_6br6tQPA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Mdx9UsF4EeiPI_6br6tQPA" points="[500, 199, -643984, -643984]$[500, 220, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MeOCMMF4EeiPI_6br6tQPA" id="(0.49079754601226994,0.9833333333333333)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MeOpQMF4EeiPI_6br6tQPA" id="(0.4968944099378882,0.0)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_FIw-8MF1Eei13r_JWjVHCg" type="UseCase" name="SimultorUse" measurementUnit="Pixel">
-    <children xmi:type="notation:Shape" xmi:id="_FIw-8cF1Eei13r_JWjVHCg" type="Package_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIw-8sF1Eei13r_JWjVHCg" type="Package_NameLabel"/>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_FIw-88F1Eei13r_JWjVHCg" type="Package_PackagedElementCompartment">
-        <children xmi:type="notation:Shape" xmi:id="_FIw-9MF1Eei13r_JWjVHCg" type="UseCase_Shape_CN">
-          <children xmi:type="notation:DecorationNode" xmi:id="_FIw-9cF1Eei13r_JWjVHCg" type="UseCase_NameLabel_CN"/>
-          <children xmi:type="notation:DecorationNode" xmi:id="_FIw-9sF1Eei13r_JWjVHCg" type="UseCase_FloatingNameLabel_CN">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_FIw-98F1Eei13r_JWjVHCg" y="15"/>
-          </children>
-          <children xmi:type="notation:BasicCompartment" xmi:id="_FIw--MF1Eei13r_JWjVHCg" type="UseCase_ExtensionPointCompartment_CN">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_FIw--cF1Eei13r_JWjVHCg"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_FIw--sF1Eei13r_JWjVHCg"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIw--8F1Eei13r_JWjVHCg"/>
-          </children>
-          <element xmi:type="uml:UseCase" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_oAOhUMFaEeiPI_6br6tQPA"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIxmAsF1Eei13r_JWjVHCg" x="14" y="9" width="161" height="60"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_FIxmA8F1Eei13r_JWjVHCg" type="UseCase_Shape_CN">
-          <children xmi:type="notation:DecorationNode" xmi:id="_FIxmBMF1Eei13r_JWjVHCg" type="UseCase_NameLabel_CN"/>
-          <children xmi:type="notation:DecorationNode" xmi:id="_FIxmBcF1Eei13r_JWjVHCg" type="UseCase_FloatingNameLabel_CN">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxmBsF1Eei13r_JWjVHCg" y="15"/>
-          </children>
-          <children xmi:type="notation:BasicCompartment" xmi:id="_FIxmB8F1Eei13r_JWjVHCg" type="UseCase_ExtensionPointCompartment_CN">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_FIxmCMF1Eei13r_JWjVHCg"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_FIxmCcF1Eei13r_JWjVHCg"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIxmCsF1Eei13r_JWjVHCg"/>
-          </children>
-          <element xmi:type="uml:UseCase" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_fUfq0MFbEeiPI_6br6tQPA"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIxmDsF1Eei13r_JWjVHCg" x="14" y="89" width="161"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_FIxmD8F1Eei13r_JWjVHCg" type="UseCase_Shape_CN">
-          <children xmi:type="notation:DecorationNode" xmi:id="_FIxmEMF1Eei13r_JWjVHCg" type="UseCase_NameLabel_CN"/>
-          <children xmi:type="notation:DecorationNode" xmi:id="_FIxmEcF1Eei13r_JWjVHCg" type="UseCase_FloatingNameLabel_CN">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxmEsF1Eei13r_JWjVHCg" y="15"/>
-          </children>
-          <children xmi:type="notation:BasicCompartment" xmi:id="_FIxmE8F1Eei13r_JWjVHCg" type="UseCase_ExtensionPointCompartment_CN">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_FIxmFMF1Eei13r_JWjVHCg"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_FIxmFcF1Eei13r_JWjVHCg"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIxmFsF1Eei13r_JWjVHCg"/>
-          </children>
-          <element xmi:type="uml:UseCase" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_hNQjQMFbEeiPI_6br6tQPA"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIxmGsF1Eei13r_JWjVHCg" x="18" y="169" width="157"/>
-        </children>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIxmG8F1Eei13r_JWjVHCg"/>
-      </children>
-      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_FIxmHMF1Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Package" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_YjBMcMFaEeiPI_6br6tQPA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIxmIMF1Eei13r_JWjVHCg" x="180" y="43" width="201" height="301"/>
-    </children>
-    <children xmi:type="notation:Shape" xmi:id="_FIxmIcF1Eei13r_JWjVHCg" type="Package_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxmIsF1Eei13r_JWjVHCg" type="Package_NameLabel"/>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_FIxmI8F1Eei13r_JWjVHCg" type="Package_PackagedElementCompartment">
-        <children xmi:type="notation:Shape" xmi:id="_FIxmJMF1Eei13r_JWjVHCg" type="UseCase_Shape_CN">
-          <children xmi:type="notation:DecorationNode" xmi:id="_FIxmJcF1Eei13r_JWjVHCg" type="UseCase_NameLabel_CN"/>
-          <children xmi:type="notation:DecorationNode" xmi:id="_FIxmJsF1Eei13r_JWjVHCg" type="UseCase_FloatingNameLabel_CN">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxmJ8F1Eei13r_JWjVHCg" y="15"/>
-          </children>
-          <children xmi:type="notation:BasicCompartment" xmi:id="_FIxmKMF1Eei13r_JWjVHCg" type="UseCase_ExtensionPointCompartment_CN">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_FIxmKcF1Eei13r_JWjVHCg"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_FIxmKsF1Eei13r_JWjVHCg"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIxmK8F1Eei13r_JWjVHCg"/>
-          </children>
-          <element xmi:type="uml:UseCase" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_lBzL4MFbEeiPI_6br6tQPA"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIxmL8F1Eei13r_JWjVHCg" x="14" y="9"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_FIxmMMF1Eei13r_JWjVHCg" type="UseCase_Shape_CN">
-          <children xmi:type="notation:DecorationNode" xmi:id="_FIxmMcF1Eei13r_JWjVHCg" type="UseCase_NameLabel_CN"/>
-          <children xmi:type="notation:DecorationNode" xmi:id="_FIxmMsF1Eei13r_JWjVHCg" type="UseCase_FloatingNameLabel_CN">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxmM8F1Eei13r_JWjVHCg" y="15"/>
-          </children>
-          <children xmi:type="notation:BasicCompartment" xmi:id="_FIxmNMF1Eei13r_JWjVHCg" type="UseCase_ExtensionPointCompartment_CN">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_FIxmNcF1Eei13r_JWjVHCg"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_FIxmNsF1Eei13r_JWjVHCg"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIxmN8F1Eei13r_JWjVHCg"/>
-          </children>
-          <element xmi:type="uml:UseCase" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_q0HIwMFbEeiPI_6br6tQPA"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIxmO8F1Eei13r_JWjVHCg" x="14" y="89" width="201"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_FIxmPMF1Eei13r_JWjVHCg" type="UseCase_Shape_CN">
-          <children xmi:type="notation:DecorationNode" xmi:id="_FIxmPcF1Eei13r_JWjVHCg" type="UseCase_NameLabel_CN"/>
-          <children xmi:type="notation:DecorationNode" xmi:id="_FIxmPsF1Eei13r_JWjVHCg" type="UseCase_FloatingNameLabel_CN">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxmP8F1Eei13r_JWjVHCg" y="15"/>
-          </children>
-          <children xmi:type="notation:BasicCompartment" xmi:id="_FIxmQMF1Eei13r_JWjVHCg" type="UseCase_ExtensionPointCompartment_CN">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_FIxmQcF1Eei13r_JWjVHCg"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_FIxmQsF1Eei13r_JWjVHCg"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIxmQ8F1Eei13r_JWjVHCg"/>
-          </children>
-          <element xmi:type="uml:UseCase" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_voonsMFbEeiPI_6br6tQPA"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIxmR8F1Eei13r_JWjVHCg" x="14" y="189" width="221"/>
-        </children>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIxmSMF1Eei13r_JWjVHCg"/>
-      </children>
-      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_FIxmScF1Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Package" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_ba4KYMFaEeiPI_6br6tQPA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIxmTcF1Eei13r_JWjVHCg" x="440" y="43" width="261" height="301"/>
-    </children>
-    <children xmi:type="notation:Shape" xmi:id="_FIxmTsF1Eei13r_JWjVHCg" type="Actor_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxmT8F1Eei13r_JWjVHCg" type="Actor_NameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxmUMF1Eei13r_JWjVHCg" y="15"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxmUcF1Eei13r_JWjVHCg" type="Actor_StereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxmUsF1Eei13r_JWjVHCg" x="20" y="100"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxmU8F1Eei13r_JWjVHCg" type="Actor_QualifiedNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxmVMF1Eei13r_JWjVHCg" x="20" y="80"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxmVcF1Eei13r_JWjVHCg" type="Actor_FloatingNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxmVsF1Eei13r_JWjVHCg" y="15"/>
-      </children>
-      <element xmi:type="uml:Actor" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_hUwu4MFaEeiPI_6br6tQPA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIxmWsF1Eei13r_JWjVHCg" x="40" y="63" width="21" height="61"/>
-    </children>
-    <children xmi:type="notation:Shape" xmi:id="_FIxmW8F1Eei13r_JWjVHCg" type="Package_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxmXMF1Eei13r_JWjVHCg" type="Package_NameLabel"/>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_FIxmXcF1Eei13r_JWjVHCg" type="Package_PackagedElementCompartment">
-        <children xmi:type="notation:Shape" xmi:id="_FIxmXsF1Eei13r_JWjVHCg" type="UseCase_Shape_CN">
-          <children xmi:type="notation:DecorationNode" xmi:id="_FIxmX8F1Eei13r_JWjVHCg" type="UseCase_NameLabel_CN"/>
-          <children xmi:type="notation:DecorationNode" xmi:id="_FIxmYMF1Eei13r_JWjVHCg" type="UseCase_FloatingNameLabel_CN">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxmYcF1Eei13r_JWjVHCg" y="15"/>
-          </children>
-          <children xmi:type="notation:BasicCompartment" xmi:id="_FIxmYsF1Eei13r_JWjVHCg" type="UseCase_ExtensionPointCompartment_CN">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_FIxmY8F1Eei13r_JWjVHCg"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_FIxmZMF1Eei13r_JWjVHCg"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIxmZcF1Eei13r_JWjVHCg"/>
-          </children>
-          <element xmi:type="uml:UseCase" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_IbSMgMFdEeiPI_6br6tQPA"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIxmacF1Eei13r_JWjVHCg" x="14" y="9" width="166"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_FIxmasF1Eei13r_JWjVHCg" type="UseCase_Shape_CN">
-          <children xmi:type="notation:DecorationNode" xmi:id="_FIxma8F1Eei13r_JWjVHCg" type="UseCase_NameLabel_CN"/>
-          <children xmi:type="notation:DecorationNode" xmi:id="_FIxmbMF1Eei13r_JWjVHCg" type="UseCase_FloatingNameLabel_CN">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxmbcF1Eei13r_JWjVHCg" y="15"/>
-          </children>
-          <children xmi:type="notation:BasicCompartment" xmi:id="_FIxmbsF1Eei13r_JWjVHCg" type="UseCase_ExtensionPointCompartment_CN">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_FIxmb8F1Eei13r_JWjVHCg"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_FIxmcMF1Eei13r_JWjVHCg"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIxmccF1Eei13r_JWjVHCg"/>
-          </children>
-          <element xmi:type="uml:UseCase" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_K93eAMFdEeiPI_6br6tQPA"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIxmdcF1Eei13r_JWjVHCg" x="14" y="89" width="160"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_FIxmdsF1Eei13r_JWjVHCg" type="UseCase_Shape_CN">
-          <children xmi:type="notation:DecorationNode" xmi:id="_FIxmd8F1Eei13r_JWjVHCg" type="UseCase_NameLabel_CN"/>
-          <children xmi:type="notation:DecorationNode" xmi:id="_FIxmeMF1Eei13r_JWjVHCg" type="UseCase_FloatingNameLabel_CN">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxmecF1Eei13r_JWjVHCg" y="15"/>
-          </children>
-          <children xmi:type="notation:BasicCompartment" xmi:id="_FIxmesF1Eei13r_JWjVHCg" type="UseCase_ExtensionPointCompartment_CN">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_FIxme8F1Eei13r_JWjVHCg"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_FIxmfMF1Eei13r_JWjVHCg"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIxmfcF1Eei13r_JWjVHCg"/>
-          </children>
-          <element xmi:type="uml:UseCase" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_NUQGkMFdEeiPI_6br6tQPA"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIxmgcF1Eei13r_JWjVHCg" x="14" y="169" width="161"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_FIxmgsF1Eei13r_JWjVHCg" type="UseCase_Shape_CN">
-          <children xmi:type="notation:DecorationNode" xmi:id="_FIxmg8F1Eei13r_JWjVHCg" type="UseCase_NameLabel_CN"/>
-          <children xmi:type="notation:DecorationNode" xmi:id="_FIxmhMF1Eei13r_JWjVHCg" type="UseCase_FloatingNameLabel_CN">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxmhcF1Eei13r_JWjVHCg" y="15"/>
-          </children>
-          <children xmi:type="notation:BasicCompartment" xmi:id="_FIxmhsF1Eei13r_JWjVHCg" type="UseCase_ExtensionPointCompartment_CN">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_FIxmh8F1Eei13r_JWjVHCg"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_FIxmiMF1Eei13r_JWjVHCg"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIxmicF1Eei13r_JWjVHCg"/>
-          </children>
-          <element xmi:type="uml:UseCase" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_-IyS4MFlEei13r_JWjVHCg"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIxmjcF1Eei13r_JWjVHCg" x="14" y="252" width="160"/>
-        </children>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIxmjsF1Eei13r_JWjVHCg"/>
-      </children>
-      <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_FIxmj8F1Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Package" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_QGR0MMFbEeiPI_6br6tQPA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIxmk8F1Eei13r_JWjVHCg" x="760" y="63" width="201" height="361"/>
-    </children>
-    <styles xmi:type="notation:StringValueStyle" xmi:id="_FIxmlMF1Eei13r_JWjVHCg" name="diagram_compatibility_version" stringValue="1.4.0"/>
-    <styles xmi:type="notation:DiagramStyle" xmi:id="_FIxmlcF1Eei13r_JWjVHCg"/>
-    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_FIxmlsF1Eei13r_JWjVHCg" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
-      <owner xmi:type="uml:Model" href="use-case-view.uml#_CgVZkMF0Eei13r_JWjVHCg"/>
-    </styles>
-    <element xmi:type="uml:Model" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_nHO5QMFZEeiPI_6br6tQPA"/>
-    <edges xmi:type="notation:Connector" xmi:id="_FIxml8F1Eei13r_JWjVHCg" type="Usage_Edge" source="_FIxmTsF1Eei13r_JWjVHCg" target="_FIw-9MF1Eei13r_JWjVHCg">
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxmmMF1Eei13r_JWjVHCg" type="Usage_NameLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FIxmmcF1Eei13r_JWjVHCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxmmsF1Eei13r_JWjVHCg" x="-40" y="-14"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxmm8F1Eei13r_JWjVHCg" type="Usage_StereotypeLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FIxmnMF1Eei13r_JWjVHCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxmncF1Eei13r_JWjVHCg" x="1" y="-18"/>
-      </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_FIxmnsF1Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Usage" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_BtkMwMFcEeiPI_6br6tQPA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FIxmn8F1Eei13r_JWjVHCg" points="[81, 140, -643984, -643984]$[220, 90, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FIxmoMF1Eei13r_JWjVHCg" id="(1.0,0.32786885245901637)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FIxmocF1Eei13r_JWjVHCg" id="(0.12422360248447205,0.0)"/>
-    </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_FIxmosF1Eei13r_JWjVHCg" type="Usage_Edge" source="_FIxmTsF1Eei13r_JWjVHCg" target="_FIw-9MF1Eei13r_JWjVHCg">
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxmo8F1Eei13r_JWjVHCg" type="Usage_NameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxmpMF1Eei13r_JWjVHCg" x="-46"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxmpcF1Eei13r_JWjVHCg" type="Usage_StereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxmpsF1Eei13r_JWjVHCg" y="-20"/>
-      </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_FIxmp8F1Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Usage" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_Hp7dgMFcEeiPI_6br6tQPA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FIxmqMF1Eei13r_JWjVHCg" points="[11, -15, 44, 68]$[160, -14, 193, 69]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FIxmqcF1Eei13r_JWjVHCg" id="(1.0,0.6557377049180327)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FIxmqsF1Eei13r_JWjVHCg" id="(0.2484472049689441,0.9166666666666666)"/>
-    </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_FIxmq8F1Eei13r_JWjVHCg" type="Usage_Edge" source="_FIxmTsF1Eei13r_JWjVHCg" target="_FIxmA8F1Eei13r_JWjVHCg">
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxmrMF1Eei13r_JWjVHCg" type="Usage_NameLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FIxmrcF1Eei13r_JWjVHCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxmrsF1Eei13r_JWjVHCg" y="39"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxmr8F1Eei13r_JWjVHCg" type="Usage_StereotypeLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FIxmsMF1Eei13r_JWjVHCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxmscF1Eei13r_JWjVHCg" x="1" y="-18"/>
-      </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_FIxmssF1Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Usage" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_K7fU4MFcEeiPI_6br6tQPA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FIxms8F1Eei13r_JWjVHCg" points="[60, 140, -643984, -643984]$[204, 200, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FIxmtMF1Eei13r_JWjVHCg" id="(1.0,0.9836065573770492)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FIxmtcF1Eei13r_JWjVHCg" id="(0.0,0.7166666666666667)"/>
-    </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_FIxmtsF1Eei13r_JWjVHCg" type="Usage_Edge" source="_FIxmTsF1Eei13r_JWjVHCg" target="_FIxmD8F1Eei13r_JWjVHCg">
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxmt8F1Eei13r_JWjVHCg" type="Usage_NameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxmuMF1Eei13r_JWjVHCg" x="8" y="28"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxmucF1Eei13r_JWjVHCg" type="Usage_StereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxmusF1Eei13r_JWjVHCg" y="-20"/>
-      </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_FIxmu8F1Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Usage" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_MnPFAMFcEeiPI_6br6tQPA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FIxmvMF1Eei13r_JWjVHCg" points="[3, 2, 45, -56]$[140, 133, 182, 75]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FIxmvcF1Eei13r_JWjVHCg" id="(0.9523809523809523,1.0)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FIxmvsF1Eei13r_JWjVHCg" id="(0.025477707006369428,0.6666666666666666)"/>
-    </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_FIxmv8F1Eei13r_JWjVHCg" type="Usage_Edge" source="_FIw-9MF1Eei13r_JWjVHCg" target="_FIxmJMF1Eei13r_JWjVHCg">
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxmwMF1Eei13r_JWjVHCg" type="Usage_NameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxmwcF1Eei13r_JWjVHCg" y="40"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxmwsF1Eei13r_JWjVHCg" type="Usage_StereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxmw8F1Eei13r_JWjVHCg" y="-20"/>
-      </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_FIxmxMF1Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Usage" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_TPWMAMFdEeiPI_6br6tQPA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FIxmxcF1Eei13r_JWjVHCg" points="[360, 114, -643984, -643984]$[460, 110, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FIxmxsF1Eei13r_JWjVHCg" id="(0.9937888198757764,0.5666666666666667)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FIxmx8F1Eei13r_JWjVHCg" id="(0.0,0.5)"/>
-    </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_FIxmyMF1Eei13r_JWjVHCg" type="Usage_Edge" source="_FIxmA8F1Eei13r_JWjVHCg" target="_FIxmMMF1Eei13r_JWjVHCg">
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxmycF1Eei13r_JWjVHCg" type="Usage_NameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxmysF1Eei13r_JWjVHCg" y="40"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxmy8F1Eei13r_JWjVHCg" type="Usage_StereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxmzMF1Eei13r_JWjVHCg" y="-20"/>
-      </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_FIxmzcF1Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Usage" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_YHHMMMFdEeiPI_6br6tQPA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FIxmzsF1Eei13r_JWjVHCg" points="[360, 194, -643984, -643984]$[460, 190, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FIxmz8F1Eei13r_JWjVHCg" id="(0.9937888198757764,0.5666666666666667)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FIxm0MF1Eei13r_JWjVHCg" id="(0.0,0.5)"/>
-    </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_FIxm0cF1Eei13r_JWjVHCg" type="Usage_Edge" source="_FIxmPMF1Eei13r_JWjVHCg" target="_FIxmD8F1Eei13r_JWjVHCg">
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxm0sF1Eei13r_JWjVHCg" type="Usage_NameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxm08F1Eei13r_JWjVHCg" y="40"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxm1MF1Eei13r_JWjVHCg" type="Usage_StereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxm1cF1Eei13r_JWjVHCg" y="-20"/>
-      </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_FIxm1sF1Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Usage" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_cgeZIMFdEeiPI_6br6tQPA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FIxm18F1Eei13r_JWjVHCg" points="[480, 307, -643984, -643984]$[360, 274, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FIxm2MF1Eei13r_JWjVHCg" id="(0.0,0.5)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FIxm2cF1Eei13r_JWjVHCg" id="(0.9936305732484076,0.5666666666666667)"/>
-    </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_FIxm2sF1Eei13r_JWjVHCg" type="Usage_Edge" source="_FIxmJMF1Eei13r_JWjVHCg" target="_FIxmXsF1Eei13r_JWjVHCg">
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxm28F1Eei13r_JWjVHCg" type="Usage_NameLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FIxm3MF1Eei13r_JWjVHCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxm3cF1Eei13r_JWjVHCg" y="39"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxm3sF1Eei13r_JWjVHCg" type="Usage_StereotypeLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FIxm38F1Eei13r_JWjVHCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxm4MF1Eei13r_JWjVHCg" x="1" y="-18"/>
-      </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_FIxm4cF1Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Usage" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_h7XUgMFdEeiPI_6br6tQPA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FIxm4sF1Eei13r_JWjVHCg" points="[600, 110, -643984, -643984]$[780, 130, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FIxm48F1Eei13r_JWjVHCg" id="(1.0,0.5)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FIxm5MF1Eei13r_JWjVHCg" id="(0.0,0.5)"/>
-    </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_FIxm5cF1Eei13r_JWjVHCg" type="Usage_Edge" source="_FIxmMMF1Eei13r_JWjVHCg" target="_FIxmXsF1Eei13r_JWjVHCg">
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxm5sF1Eei13r_JWjVHCg" type="Usage_NameLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FIxm58F1Eei13r_JWjVHCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxm6MF1Eei13r_JWjVHCg" x="-1" y="39"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxm6cF1Eei13r_JWjVHCg" type="Usage_StereotypeLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FIxm6sF1Eei13r_JWjVHCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxm68F1Eei13r_JWjVHCg" x="1" y="-18"/>
-      </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_FIxm7MF1Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Usage" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_i9Bl0MFdEeiPI_6br6tQPA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FIxm7cF1Eei13r_JWjVHCg" points="[660, 185, -643984, -643984]$[800, 149, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FIxm7sF1Eei13r_JWjVHCg" id="(0.9950248756218906,0.4166666666666667)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FIxm78F1Eei13r_JWjVHCg" id="(0.12048192771084337,0.8166666666666667)"/>
-    </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_FIxm8MF1Eei13r_JWjVHCg" type="Usage_Edge" source="_FIxmMMF1Eei13r_JWjVHCg" target="_FIxmasF1Eei13r_JWjVHCg">
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxm8cF1Eei13r_JWjVHCg" type="Usage_NameLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FIxm8sF1Eei13r_JWjVHCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxm88F1Eei13r_JWjVHCg" y="39"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxm9MF1Eei13r_JWjVHCg" type="Usage_StereotypeLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FIxm9cF1Eei13r_JWjVHCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxm9sF1Eei13r_JWjVHCg" x="1" y="-18"/>
-      </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_FIxm98F1Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Usage" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_j7UaEMFdEeiPI_6br6tQPA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FIxm-MF1Eei13r_JWjVHCg" points="[660, 194, -643984, -643984]$[780, 210, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FIxm-cF1Eei13r_JWjVHCg" id="(0.9950248756218906,0.5666666666666667)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FIxm-sF1Eei13r_JWjVHCg" id="(0.0,0.5)"/>
-    </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_FIxm-8F1Eei13r_JWjVHCg" type="Usage_Edge" source="_FIxmXsF1Eei13r_JWjVHCg" target="_FIxmPMF1Eei13r_JWjVHCg">
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxm_MF1Eei13r_JWjVHCg" type="Usage_NameLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FIxm_cF1Eei13r_JWjVHCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxm_sF1Eei13r_JWjVHCg" x="1" y="38"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxm_8F1Eei13r_JWjVHCg" type="Usage_StereotypeLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FIxnAMF1Eei13r_JWjVHCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxnAcF1Eei13r_JWjVHCg" y="-19"/>
-      </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_FIxnAsF1Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Usage" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_pR2Z4MFdEeiPI_6br6tQPA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FIxnA8F1Eei13r_JWjVHCg" points="[820, 155, -643984, -643984]$[680, 294, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FIxnBMF1Eei13r_JWjVHCg" id="(0.24096385542168675,0.9166666666666666)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FIxnBcF1Eei13r_JWjVHCg" id="(0.995475113122172,0.5666666666666667)"/>
-    </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_FIxnBsF1Eei13r_JWjVHCg" type="Usage_Edge" source="_FIxmMMF1Eei13r_JWjVHCg" target="_FIxmdsF1Eei13r_JWjVHCg">
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxnB8F1Eei13r_JWjVHCg" type="Usage_NameLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FIxnCMF1Eei13r_JWjVHCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxnCcF1Eei13r_JWjVHCg" x="1" y="38"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxnCsF1Eei13r_JWjVHCg" type="Usage_StereotypeLabel">
-        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_FIxnC8F1Eei13r_JWjVHCg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxnDMF1Eei13r_JWjVHCg" x="1" y="-18"/>
-      </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_FIxnDcF1Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Usage" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_rFtkMMFdEeiPI_6br6tQPA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FIxnDsF1Eei13r_JWjVHCg" points="[655, 200, -643984, -643984]$[780, 290, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FIxnD8F1Eei13r_JWjVHCg" id="(0.9701492537313433,0.6666666666666666)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FIxnEMF1Eei13r_JWjVHCg" id="(0.0,0.5)"/>
-    </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_FIxnEcF1Eei13r_JWjVHCg" type="Usage_Edge" source="_FIxmJMF1Eei13r_JWjVHCg" target="_FIxmMMF1Eei13r_JWjVHCg">
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxnEsF1Eei13r_JWjVHCg" type="Usage_NameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxnE8F1Eei13r_JWjVHCg" y="40"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxnFMF1Eei13r_JWjVHCg" type="Usage_StereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxnFcF1Eei13r_JWjVHCg" y="-20"/>
-      </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_FIxnFsF1Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Usage" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_dwrOAMFjEei13r_JWjVHCg"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FIxnF8F1Eei13r_JWjVHCg" points="[593, 120, -643984, -643984]$[600, 159, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FIxnGMF1Eei13r_JWjVHCg" id="(0.95,0.7166666666666667)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FIxnGcF1Eei13r_JWjVHCg" id="(0.6965174129353234,0.03333333333333333)"/>
-    </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_FIxnGsF1Eei13r_JWjVHCg" type="Usage_Edge" source="_FIxmdsF1Eei13r_JWjVHCg" target="_FIxmgsF1Eei13r_JWjVHCg">
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxnG8F1Eei13r_JWjVHCg" type="Usage_NameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxnHMF1Eei13r_JWjVHCg" y="40"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_FIxnHcF1Eei13r_JWjVHCg" type="Usage_StereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_FIxnHsF1Eei13r_JWjVHCg" y="-20"/>
-      </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_FIxnH8F1Eei13r_JWjVHCg"/>
-      <element xmi:type="uml:Usage" href="platform:/resource/TP-AA-Papyrus-Passemard_Renard-Calzant/use_case_view.uml#_NdTl0MFmEei13r_JWjVHCg"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FIxnIMF1Eei13r_JWjVHCg" points="[860, 317, -643984, -643984]$[860, 340, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FIxnIcF1Eei13r_JWjVHCg" id="(0.4968944099378882,1.0)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FIxnIsF1Eei13r_JWjVHCg" id="(0.5,0.0)"/>
-    </edges>
+  <notation:Diagram xmi:id="_20LNEMF2EeiPI_6br6tQPA" type="UseCase" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_20LNEcF2EeiPI_6br6tQPA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_20LNEsF2EeiPI_6br6tQPA"/>
+    <element xmi:type="uml:Package" href="use-case-view.uml#_0SPb0MF2EeiPI_6br6tQPA"/>
   </notation:Diagram>
 </xmi:XMI>
