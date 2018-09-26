@@ -4,6 +4,11 @@
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Package" xmi:id="_YjBMcMFaEeiPI_6br6tQPA" name="User_Interface">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_GHZFAMFiEeiPI_6br6tQPA">
+      <body>-Appel ascenseur : L'utilisateur appelle l'ascenseur au moyen de deux boutons situés à chaque étage (sauf aux premier et dernier étage), l'un pour monter et l'autre pour descendre.&#xD;
+-Choix de l'étage : L'utlisateur choisit l'étage auquel il veut se rendre en composant le numéro à l'intérieur de la cabine de l'ascenseur.&#xD;
+-Affichage de l'étage : L'utilisateur peut s'informer de l'état actuel de l'ascenseur en regardant l'étage où il se trouve.</body>
+    </ownedComment>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_oAOhUMFaEeiPI_6br6tQPA" name="Appel ascenseur"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_fUfq0MFbEeiPI_6br6tQPA" name="Choix de l'étage"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_hNQjQMFbEeiPI_6br6tQPA" name="Affichage de l'étage"/>
