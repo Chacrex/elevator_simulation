@@ -3,32 +3,6 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_Cjv58MF0Eei13r_JWjVHCg">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Package" xmi:id="_0SPb0MF2EeiPI_6br6tQPA" name="User_Interface">
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_DzTV8MF3EeiPI_6br6tQPA" name="Appel ascenseur"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_E4aj4MF3EeiPI_6br6tQPA" name="Choix étage"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_GyUEwMF3EeiPI_6br6tQPA" name="Affichage étage"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_64BnkMF3EeiPI_6br6tQPA" client="_DzTV8MF3EeiPI_6br6tQPA" supplier="_NIuNMMF3EeiPI_6br6tQPA"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_DeXyUMF4EeiPI_6br6tQPA" client="_E4aj4MF3EeiPI_6br6tQPA" supplier="_QTrGQMF3EeiPI_6br6tQPA"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_8GCvUMF2EeiPI_6br6tQPA" name="User"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_AGRqkMF3EeiPI_6br6tQPA" name="System_Control">
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_NIuNMMF3EeiPI_6br6tQPA" name="Appel ascenseur"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_QTrGQMF3EeiPI_6br6tQPA" name="Déplacement"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_SHLrQMF3EeiPI_6br6tQPA" name="Mise-à-jour Informations"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_8Fb14MF3EeiPI_6br6tQPA" client="_NIuNMMF3EeiPI_6br6tQPA" supplier="_YDKhgMF3EeiPI_6br6tQPA"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_-BPbQMF3EeiPI_6br6tQPA" client="_QTrGQMF3EeiPI_6br6tQPA" supplier="_coML4MF3EeiPI_6br6tQPA"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="__CL64MF3EeiPI_6br6tQPA" client="_QTrGQMF3EeiPI_6br6tQPA" supplier="_eDEOcMF3EeiPI_6br6tQPA"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_CFpr4MF4EeiPI_6br6tQPA" client="_SHLrQMF3EeiPI_6br6tQPA" supplier="_GyUEwMF3EeiPI_6br6tQPA"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_MdbYAMF4EeiPI_6br6tQPA" client="_NIuNMMF3EeiPI_6br6tQPA" supplier="_QTrGQMF3EeiPI_6br6tQPA"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Package" xmi:id="_CZlJ8MF3EeiPI_6br6tQPA" name="Elevator">
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_YDKhgMF3EeiPI_6br6tQPA" name="Informations position"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_coML4MF3EeiPI_6br6tQPA" name="Marche"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_eDEOcMF3EeiPI_6br6tQPA" name="Arrêt"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_f61oYMF3EeiPI_6br6tQPA" name="Ouverture Porte"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_ASOmcMF4EeiPI_6br6tQPA" client="_YDKhgMF3EeiPI_6br6tQPA" supplier="_SHLrQMF3EeiPI_6br6tQPA"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_Id1V8MF4EeiPI_6br6tQPA" client="_eDEOcMF3EeiPI_6br6tQPA" supplier="_f61oYMF3EeiPI_6br6tQPA"/>
-  </packagedElement>
   <packagedElement xmi:type="uml:Usage" xmi:id="_qwN2gMF3EeiPI_6br6tQPA" name="montée" client="_8GCvUMF2EeiPI_6br6tQPA" supplier="_DzTV8MF3EeiPI_6br6tQPA"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_v5hSoMF3EeiPI_6br6tQPA" name="descente" client="_8GCvUMF2EeiPI_6br6tQPA" supplier="_DzTV8MF3EeiPI_6br6tQPA"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_2oCZEMF3EeiPI_6br6tQPA" client="_8GCvUMF2EeiPI_6br6tQPA" supplier="_E4aj4MF3EeiPI_6br6tQPA"/>
@@ -44,4 +18,32 @@
   <packagedElement xmi:type="uml:Usage" xmi:id="_zbt8IMF5EeiPI_6br6tQPA" client="_cGGWAMF4EeiPI_6br6tQPA" supplier="_7IAH0MF4EeiPI_6br6tQPA"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_0dp6QMF5EeiPI_6br6tQPA" client="_cGGWAMF4EeiPI_6br6tQPA" supplier="_9eooAMF4EeiPI_6br6tQPA"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_1kJBMMF5EeiPI_6br6tQPA" client="_cGGWAMF4EeiPI_6br6tQPA" supplier="_J0ejUMF5EeiPI_6br6tQPA"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_bF7AgMF6EeiPI_6br6tQPA" name="Environnment_Simulation">
+    <packagedElement xmi:type="uml:Actor" xmi:id="_8GCvUMF2EeiPI_6br6tQPA" name="User"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_0SPb0MF2EeiPI_6br6tQPA" name="User_Interface">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_DzTV8MF3EeiPI_6br6tQPA" name="Appel ascenseur"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_E4aj4MF3EeiPI_6br6tQPA" name="Choix étage"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_GyUEwMF3EeiPI_6br6tQPA" name="Affichage étage"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_64BnkMF3EeiPI_6br6tQPA" client="_DzTV8MF3EeiPI_6br6tQPA" supplier="_NIuNMMF3EeiPI_6br6tQPA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_DeXyUMF4EeiPI_6br6tQPA" client="_E4aj4MF3EeiPI_6br6tQPA" supplier="_QTrGQMF3EeiPI_6br6tQPA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_AGRqkMF3EeiPI_6br6tQPA" name="System_Control">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_NIuNMMF3EeiPI_6br6tQPA" name="Appel ascenseur"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_QTrGQMF3EeiPI_6br6tQPA" name="Déplacement"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_SHLrQMF3EeiPI_6br6tQPA" name="Mise-à-jour Informations"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_8Fb14MF3EeiPI_6br6tQPA" client="_NIuNMMF3EeiPI_6br6tQPA" supplier="_YDKhgMF3EeiPI_6br6tQPA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_-BPbQMF3EeiPI_6br6tQPA" client="_QTrGQMF3EeiPI_6br6tQPA" supplier="_coML4MF3EeiPI_6br6tQPA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="__CL64MF3EeiPI_6br6tQPA" client="_QTrGQMF3EeiPI_6br6tQPA" supplier="_eDEOcMF3EeiPI_6br6tQPA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_CFpr4MF4EeiPI_6br6tQPA" client="_SHLrQMF3EeiPI_6br6tQPA" supplier="_GyUEwMF3EeiPI_6br6tQPA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_MdbYAMF4EeiPI_6br6tQPA" client="_NIuNMMF3EeiPI_6br6tQPA" supplier="_QTrGQMF3EeiPI_6br6tQPA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_CZlJ8MF3EeiPI_6br6tQPA" name="Elevator">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_YDKhgMF3EeiPI_6br6tQPA" name="Informations position"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_coML4MF3EeiPI_6br6tQPA" name="Marche"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_eDEOcMF3EeiPI_6br6tQPA" name="Arrêt"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_f61oYMF3EeiPI_6br6tQPA" name="Ouverture Porte"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_ASOmcMF4EeiPI_6br6tQPA" client="_YDKhgMF3EeiPI_6br6tQPA" supplier="_SHLrQMF3EeiPI_6br6tQPA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_Id1V8MF4EeiPI_6br6tQPA" client="_eDEOcMF3EeiPI_6br6tQPA" supplier="_f61oYMF3EeiPI_6br6tQPA"/>
+    </packagedElement>
+  </packagedElement>
 </uml:Model>
