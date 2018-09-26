@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_nHO5QMFZEeiPI_6br6tQPA" name="logical_view">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_nKWesMFZEeiPI_6br6tQPA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_YjBMcMFaEeiPI_6br6tQPA" name="User_Interface">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_oAOhUMFaEeiPI_6br6tQPA" name="Appel ascenseur"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_ba4KYMFaEeiPI_6br6tQPA" name="System_Control"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_hUwu4MFaEeiPI_6br6tQPA" name="User"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_qbqpAMFaEeiPI_6br6tQPA" name="montée" client="_hUwu4MFaEeiPI_6br6tQPA" supplier="_oAOhUMFaEeiPI_6br6tQPA"/>
+</uml:Model>
