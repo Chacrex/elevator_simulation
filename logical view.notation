@@ -3,7 +3,7 @@
   <styles xmi:type="notation:StringValueStyle" xmi:id="_4EPs8b_5Eeirju8vPbeo9Q" name="diagram_compatibility_version" stringValue="1.4.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_4EPs8r_5Eeirju8vPbeo9Q"/>
   <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_4EPs87_5Eeirju8vPbeo9Q" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
-    <owner xmi:type="uml:Model" href="use_case_diagram.uml#_4D35gL_5Eeirju8vPbeo9Q"/>
+    <owner xmi:type="uml:Model" href="logical%20view.uml#_4D35gL_5Eeirju8vPbeo9Q"/>
   </styles>
-  <element xmi:type="uml:Model" href="use_case_diagram.uml#_4D35gL_5Eeirju8vPbeo9Q"/>
+  <element xmi:type="uml:Model" href="logical%20view.uml#_4D35gL_5Eeirju8vPbeo9Q"/>
 </notation:Diagram>
