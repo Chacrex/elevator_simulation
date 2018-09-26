@@ -33,4 +33,15 @@
   <packagedElement xmi:type="uml:Usage" xmi:id="_v5hSoMF3EeiPI_6br6tQPA" name="descente" client="_8GCvUMF2EeiPI_6br6tQPA" supplier="_DzTV8MF3EeiPI_6br6tQPA"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_2oCZEMF3EeiPI_6br6tQPA" client="_8GCvUMF2EeiPI_6br6tQPA" supplier="_E4aj4MF3EeiPI_6br6tQPA"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_4pNmoMF3EeiPI_6br6tQPA" name="regarde" client="_8GCvUMF2EeiPI_6br6tQPA" supplier="_GyUEwMF3EeiPI_6br6tQPA"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_cGGWAMF4EeiPI_6br6tQPA" name="User"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_v5C8EMF4EeiPI_6br6tQPA" name="User_Simulation">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_3mPRQMF4EeiPI_6br6tQPA" name="Démarrer la simulation"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_7IAH0MF4EeiPI_6br6tQPA" name="Arrêter la simulation"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_9eooAMF4EeiPI_6br6tQPA" name="Créer et paramétrer un utilisateur simulé"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_J0ejUMF5EeiPI_6br6tQPA" name="Récupérer les résultats"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_yNenYMF5EeiPI_6br6tQPA" client="_cGGWAMF4EeiPI_6br6tQPA" supplier="_3mPRQMF4EeiPI_6br6tQPA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_zbt8IMF5EeiPI_6br6tQPA" client="_cGGWAMF4EeiPI_6br6tQPA" supplier="_7IAH0MF4EeiPI_6br6tQPA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_0dp6QMF5EeiPI_6br6tQPA" client="_cGGWAMF4EeiPI_6br6tQPA" supplier="_9eooAMF4EeiPI_6br6tQPA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_1kJBMMF5EeiPI_6br6tQPA" client="_cGGWAMF4EeiPI_6br6tQPA" supplier="_J0ejUMF5EeiPI_6br6tQPA"/>
 </uml:Model>
