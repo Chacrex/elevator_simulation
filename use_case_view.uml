@@ -19,6 +19,7 @@
     <packagedElement xmi:type="uml:Usage" xmi:id="_i9Bl0MFdEeiPI_6br6tQPA" client="_q0HIwMFbEeiPI_6br6tQPA" supplier="_IbSMgMFdEeiPI_6br6tQPA"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_j7UaEMFdEeiPI_6br6tQPA" client="_q0HIwMFbEeiPI_6br6tQPA" supplier="_K93eAMFdEeiPI_6br6tQPA"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_rFtkMMFdEeiPI_6br6tQPA" client="_q0HIwMFbEeiPI_6br6tQPA" supplier="_NUQGkMFdEeiPI_6br6tQPA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_dwrOAMFjEei13r_JWjVHCg" client="_lBzL4MFbEeiPI_6br6tQPA" supplier="_q0HIwMFbEeiPI_6br6tQPA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_hUwu4MFaEeiPI_6br6tQPA" name="User"/>
   <packagedElement xmi:type="uml:Package" xmi:id="_QGR0MMFbEeiPI_6br6tQPA" name="Elevator">
@@ -26,12 +27,11 @@
     <packagedElement xmi:type="uml:UseCase" xmi:id="_K93eAMFdEeiPI_6br6tQPA" name="Marche"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_NUQGkMFdEeiPI_6br6tQPA" name="Arrêt niveau"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_pR2Z4MFdEeiPI_6br6tQPA" client="_IbSMgMFdEeiPI_6br6tQPA" supplier="_voonsMFbEeiPI_6br6tQPA"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_-IyS4MFlEei13r_JWjVHCg" name="Ouverture Porte"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_NdTl0MFmEei13r_JWjVHCg" client="_NUQGkMFdEeiPI_6br6tQPA" supplier="_-IyS4MFlEei13r_JWjVHCg"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Usage" xmi:id="_BtkMwMFcEeiPI_6br6tQPA" name="montée" client="_hUwu4MFaEeiPI_6br6tQPA" supplier="_oAOhUMFaEeiPI_6br6tQPA"/>
-  <packagedElement xmi:type="uml:Usage" xmi:id="_Hp7dgMFcEeiPI_6br6tQPA" name="descente" client="_BtkMwMFcEeiPI_6br6tQPA" supplier="_oAOhUMFaEeiPI_6br6tQPA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_BtkMwMFcEeiPI_6br6tQPA" name="montée" client="_nHO5QMFZEeiPI_6br6tQPA" supplier="_oAOhUMFaEeiPI_6br6tQPA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Hp7dgMFcEeiPI_6br6tQPA" name="descente" client="_hUwu4MFaEeiPI_6br6tQPA" supplier="_oAOhUMFaEeiPI_6br6tQPA"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_K7fU4MFcEeiPI_6br6tQPA" client="_hUwu4MFaEeiPI_6br6tQPA" supplier="_fUfq0MFbEeiPI_6br6tQPA"/>
-  <packagedElement xmi:type="uml:Usage" xmi:id="_MnPFAMFcEeiPI_6br6tQPA" name="regarde" client="_K7fU4MFcEeiPI_6br6tQPA" supplier="_hNQjQMFbEeiPI_6br6tQPA"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_e7SEIMFcEeiPI_6br6tQPA" name="Capteurs"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_g-WvIMFcEeiPI_6br6tQPA" name="Moteur"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_iCxZgMFcEeiPI_6br6tQPA" name="Cabine"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_MnPFAMFcEeiPI_6br6tQPA" name="regarde" client="_hUwu4MFaEeiPI_6br6tQPA" supplier="_hNQjQMFbEeiPI_6br6tQPA"/>
 </uml:Model>
