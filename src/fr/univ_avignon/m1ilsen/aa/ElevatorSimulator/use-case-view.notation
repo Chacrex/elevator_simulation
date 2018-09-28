@@ -177,7 +177,7 @@
     <styles xmi:type="notation:StringValueStyle" xmi:id="_zvxn8cF2EeiPI_6br6tQPA" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_zvxn8sF2EeiPI_6br6tQPA"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_zvxn88F2EeiPI_6br6tQPA" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
-      <owner xmi:type="uml:Model" href="use-case-view.uml#_CgVZkMF0Eei13r_JWjVHCg"/>
+      <owner xmi:type="uml:Package" href="use-case-view.uml#_kiU7UMMAEeiowd-VGLbCWQ"/>
     </styles>
     <element xmi:type="uml:Model" href="use-case-view.uml#_CgVZkMF0Eei13r_JWjVHCg"/>
     <edges xmi:type="notation:Connector" xmi:id="_qwPrsMF3EeiPI_6br6tQPA" type="Usage_Edge" source="_8GD9cMF2EeiPI_6br6tQPA" target="_DzXAUMF3EeiPI_6br6tQPA">
@@ -507,7 +507,7 @@
           </children>
           <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_WLypFcF6EeiPI_6br6tQPA" diagramLink="_20LNEMF2EeiPI_6br6tQPA"/>
           <element xmi:type="uml:Package" href="use-case-view.uml#_0SPb0MF2EeiPI_6br6tQPA"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WLypGcF6EeiPI_6br6tQPA" x="134" y="49" width="181" height="281"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WLypGcF6EeiPI_6br6tQPA" x="134" y="49" width="201" height="281"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_WLzQDcF6EeiPI_6br6tQPA" type="Package_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="_WLzQDsF6EeiPI_6br6tQPA" type="Package_NameLabel"/>
@@ -627,7 +627,7 @@
     <styles xmi:type="notation:StringValueStyle" xmi:id="_XcftocF4EeiPI_6br6tQPA" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_XcftosF4EeiPI_6br6tQPA"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_Xcfto8F4EeiPI_6br6tQPA" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
-      <owner xmi:type="uml:Model" href="use-case-view.uml#_CgVZkMF0Eei13r_JWjVHCg"/>
+      <owner xmi:type="uml:Package" href="use-case-view.uml#_v5C8EMF4EeiPI_6br6tQPA"/>
     </styles>
     <element xmi:type="uml:Model" href="use-case-view.uml#_CgVZkMF0Eei13r_JWjVHCg"/>
     <edges xmi:type="notation:Connector" xmi:id="_yNhDoMF5EeiPI_6br6tQPA" type="Usage_Edge" source="_cGG9EMF4EeiPI_6br6tQPA" target="_3mRtgMF4EeiPI_6br6tQPA">
