@@ -4,6 +4,11 @@
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Package" xmi:id="_kiU7UMMAEeiowd-VGLbCWQ" name="fr.univ-avignon.m1ilsen.aa.elevator_simulation">
+    <packagedElement xmi:type="uml:Usage" xmi:id="_qwN2gMF3EeiPI_6br6tQPA" name="monter" client="_8GCvUMF2EeiPI_6br6tQPA" supplier="_DzTV8MF3EeiPI_6br6tQPA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_v5hSoMF3EeiPI_6br6tQPA" name="descendre" client="_8GCvUMF2EeiPI_6br6tQPA" supplier="_DzTV8MF3EeiPI_6br6tQPA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_2oCZEMF3EeiPI_6br6tQPA" client="_8GCvUMF2EeiPI_6br6tQPA" supplier="_E4aj4MF3EeiPI_6br6tQPA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_4pNmoMF3EeiPI_6br6tQPA" name="regarde" client="_8GCvUMF2EeiPI_6br6tQPA" supplier="_GyUEwMF3EeiPI_6br6tQPA"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_cGGWAMF4EeiPI_6br6tQPA" name="User"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_bF7AgMF6EeiPI_6br6tQPA" name="Environnment_Simulation">
       <packagedElement xmi:type="uml:Actor" xmi:id="_8GCvUMF2EeiPI_6br6tQPA" name="Utilisateur"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_0SPb0MF2EeiPI_6br6tQPA" name="Interface_Utilisateur">
@@ -21,6 +26,13 @@ Cet appel va être pris en compte par le système de contrôle.&#xD;
         <packagedElement xmi:type="uml:Usage" xmi:id="_DeXyUMF4EeiPI_6br6tQPA" client="_E4aj4MF3EeiPI_6br6tQPA" supplier="_NIuNMMF3EeiPI_6br6tQPA"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_AGRqkMF3EeiPI_6br6tQPA" name="Système_de_Contrôle">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_XJ3IgMPIEeipW4dAPlJz1w">
+          <body>Récupère les requêtes de l'interface utilisateur afin de transmettre les commandes les plus adaptées à l'ascenseur.&#xD;
+-Saisie Utilisateur : récupération des requêtes de l'utilisateur et demande d'information sur la position actuelle de l'ascenseur&#xD;
+- Optimisation : en  tenant compte de la position actuelle de l'ascenseur, optimise le chemin qu'il doit parcourir pour répondre au besoin des utilisateurs&#xD;
+- Déplacement : commande les déplacements de l'ascenseur&#xD;
+- Mise-à-jour informations : maj de la position de l'ascenseur pour que l'interface utilisateur puisse afficher les informations</body>
+        </ownedComment>
         <packagedElement xmi:type="uml:UseCase" xmi:id="_NIuNMMF3EeiPI_6br6tQPA" name="Saisie Utilisateur"/>
         <packagedElement xmi:type="uml:UseCase" xmi:id="_QTrGQMF3EeiPI_6br6tQPA" name="Déplacement"/>
         <packagedElement xmi:type="uml:UseCase" xmi:id="_SHLrQMF3EeiPI_6br6tQPA" name="Mise-à-jour Informations"/>
@@ -32,6 +44,13 @@ Cet appel va être pris en compte par le système de contrôle.&#xD;
         <packagedElement xmi:type="uml:Usage" xmi:id="_dVAHEMMCEeiowd-VGLbCWQ" name="commande" client="_CkhuMMMCEeiowd-VGLbCWQ" supplier="_QTrGQMF3EeiPI_6br6tQPA"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_CZlJ8MF3EeiPI_6br6tQPA" name="Ascenseur">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_QyN0gMPJEeipW4dAPlJz1w">
+          <body>Système simulant le comportement de l'ascenseur&#xD;
+- Informations position : accède aux différentes caractéristiques de l'ascenseur, à savoir sa position, son sens de déplacement&#xD;
+- Marche : met en marche l'ascenseur en prenant en compte le sens de déplacement&#xD;
+- Arrêt : arrête l'ascenseur à un étage donné&#xD;
+- Ouverture porte : ouvre les portes pour que le ou les utilisateurs puissent descendre de l'ascenseur</body>
+        </ownedComment>
         <packagedElement xmi:type="uml:UseCase" xmi:id="_YDKhgMF3EeiPI_6br6tQPA" name="Informations position"/>
         <packagedElement xmi:type="uml:UseCase" xmi:id="_coML4MF3EeiPI_6br6tQPA" name="Marche"/>
         <packagedElement xmi:type="uml:UseCase" xmi:id="_eDEOcMF3EeiPI_6br6tQPA" name="Arrêt"/>
@@ -42,11 +61,6 @@ Cet appel va être pris en compte par le système de contrôle.&#xD;
         <packagedElement xmi:type="uml:Usage" xmi:id="_uE3rwMMEEeiowd-VGLbCWQ" client="_eDEOcMF3EeiPI_6br6tQPA" supplier="_YDKhgMF3EeiPI_6br6tQPA"/>
       </packagedElement>
     </packagedElement>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_qwN2gMF3EeiPI_6br6tQPA" name="monter" client="_8GCvUMF2EeiPI_6br6tQPA" supplier="_DzTV8MF3EeiPI_6br6tQPA"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_v5hSoMF3EeiPI_6br6tQPA" name="descendre" client="_8GCvUMF2EeiPI_6br6tQPA" supplier="_DzTV8MF3EeiPI_6br6tQPA"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_2oCZEMF3EeiPI_6br6tQPA" client="_8GCvUMF2EeiPI_6br6tQPA" supplier="_E4aj4MF3EeiPI_6br6tQPA"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_4pNmoMF3EeiPI_6br6tQPA" name="regarde" client="_8GCvUMF2EeiPI_6br6tQPA" supplier="_GyUEwMF3EeiPI_6br6tQPA"/>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_cGGWAMF4EeiPI_6br6tQPA" name="User"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_v5C8EMF4EeiPI_6br6tQPA" name="User_Simulation">
       <packagedElement xmi:type="uml:UseCase" xmi:id="_3mPRQMF4EeiPI_6br6tQPA" name="Démarrer la simulation"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_7IAH0MF4EeiPI_6br6tQPA" name="Arrêter la simulation"/>
@@ -56,6 +70,79 @@ Cet appel va être pris en compte par le système de contrôle.&#xD;
       <packagedElement xmi:type="uml:Usage" xmi:id="_zbt8IMF5EeiPI_6br6tQPA" client="_cGGWAMF4EeiPI_6br6tQPA" supplier="_7IAH0MF4EeiPI_6br6tQPA"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_0dp6QMF5EeiPI_6br6tQPA" client="_cGGWAMF4EeiPI_6br6tQPA" supplier="_9eooAMF4EeiPI_6br6tQPA"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_1kJBMMF5EeiPI_6br6tQPA" client="_cGGWAMF4EeiPI_6br6tQPA" supplier="_J0ejUMF5EeiPI_6br6tQPA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_YiwYoMPJEeipW4dAPlJz1w" name="Package_Diagram">
+      <packagedElement xmi:type="uml:Package" xmi:id="_wQ-BwMPGEeipW4dAPlJz1w" name="Système_de_Contrôle">
+        <ownedComment xmi:type="uml:Comment" xmi:id="__4qoAMPJEeipW4dAPlJz1w">
+          <body>Vocation du sous-système : contrôle les actions de l'ascenseur en prenant en compte les requêtes issues de l'interface utilisateur et en optimisant les déplacements de l'ascenseur</body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_0k3DYMPHEeipW4dAPlJz1w" name="informations" client="_wQ-BwMPGEeipW4dAPlJz1w" supplier="_tTkcgMPGEeipW4dAPlJz1w"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_3tAgEMPHEeipW4dAPlJz1w" name="commandes" client="_wQ-BwMPGEeipW4dAPlJz1w" supplier="_yxJfgMPGEeipW4dAPlJz1w"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_a8rA4MPKEeipW4dAPlJz1w" name="Use_case_diagram">
+          <packagedElement xmi:type="uml:Package" xmi:id="_fE4MYMPKEeipW4dAPlJz1w" name="Système_de_contrôle">
+            <packagedElement xmi:type="uml:UseCase" xmi:id="_mkNrwMPKEeipW4dAPlJz1w" name="Saisie Utilisateur"/>
+            <packagedElement xmi:type="uml:UseCase" xmi:id="_oonzgMPKEeipW4dAPlJz1w" name="Optimisation"/>
+            <packagedElement xmi:type="uml:UseCase" xmi:id="_qzDqwMPKEeipW4dAPlJz1w" name="Déplacement"/>
+            <packagedElement xmi:type="uml:UseCase" xmi:id="_teJYAMPKEeipW4dAPlJz1w" name="Mise-à-jour Informations"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_7293sMPKEeipW4dAPlJz1w" name="interroge" client="_mkNrwMPKEeipW4dAPlJz1w" supplier="_jZUdEMPKEeipW4dAPlJz1w"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_G_hggMPLEeipW4dAPlJz1w" name="commande" client="_oonzgMPKEeipW4dAPlJz1w" supplier="_qzDqwMPKEeipW4dAPlJz1w"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_I7mysMPLEeipW4dAPlJz1w" name="commande" client="_qzDqwMPKEeipW4dAPlJz1w" supplier="_jZUdEMPKEeipW4dAPlJz1w"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_LyhVcMPLEeipW4dAPlJz1w" name="informe" client="_teJYAMPKEeipW4dAPlJz1w" supplier="_wQ-BwMPGEeipW4dAPlJz1w"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Actor" xmi:id="_hRBT0MPKEeipW4dAPlJz1w" name="Interface_Utilisateur"/>
+          <packagedElement xmi:type="uml:Actor" xmi:id="_jZUdEMPKEeipW4dAPlJz1w" name="Ascenseur"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_zuIIUMPKEeipW4dAPlJz1w" name="envoie des requêtes" client="_hRBT0MPKEeipW4dAPlJz1w" supplier="_mkNrwMPKEeipW4dAPlJz1w"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="__aeasMPKEeipW4dAPlJz1w" name="informe" client="_jZUdEMPKEeipW4dAPlJz1w" supplier="_oonzgMPKEeipW4dAPlJz1w"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_D9AxwMPLEeipW4dAPlJz1w" name="informe" client="_jZUdEMPKEeipW4dAPlJz1w" supplier="_teJYAMPKEeipW4dAPlJz1w"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_yxJfgMPGEeipW4dAPlJz1w" name="Ascenseur">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_LV45QMPKEeipW4dAPlJz1w">
+          <body>Vocation du sous-système : simule le comportement d'un ascenseur en exécutant diverses actions comme se mettre en marche, s'arrêter. Répond aux commandes du système de contrôle.</body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_6i5vIMPHEeipW4dAPlJz1w" name="informations" client="_yxJfgMPGEeipW4dAPlJz1w" supplier="_wQ-BwMPGEeipW4dAPlJz1w"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_P_UGAMPLEeipW4dAPlJz1w" name="Use_case_diagram">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_vCm-8MPLEeipW4dAPlJz1w">
+            <body>Niveau actuel de l'ascenseur&#xD;
+Sens de déplacement</body>
+          </ownedComment>
+          <packagedElement xmi:type="uml:Package" xmi:id="_Uj4dYMPLEeipW4dAPlJz1w" name="Ascenseur">
+            <packagedElement xmi:type="uml:UseCase" xmi:id="_gS_v4MPLEeipW4dAPlJz1w" name="Informations position"/>
+            <packagedElement xmi:type="uml:UseCase" xmi:id="_irAwIMPLEeipW4dAPlJz1w" name="Marche"/>
+            <packagedElement xmi:type="uml:UseCase" xmi:id="_klv-gMPLEeipW4dAPlJz1w" name="Arrêt"/>
+            <packagedElement xmi:type="uml:UseCase" xmi:id="_mraqgMPLEeipW4dAPlJz1w" name="Ouverture portes"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_tA8CIMPLEeipW4dAPlJz1w" name="informe" client="_gS_v4MPLEeipW4dAPlJz1w" supplier="_WQHVsMPLEeipW4dAPlJz1w"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_CpZ_YMPMEeipW4dAPlJz1w" name="màj" client="_klv-gMPLEeipW4dAPlJz1w" supplier="_gS_v4MPLEeipW4dAPlJz1w"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_GuiowMPMEeipW4dAPlJz1w" client="_klv-gMPLEeipW4dAPlJz1w" supplier="_mraqgMPLEeipW4dAPlJz1w"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Actor" xmi:id="_WQHVsMPLEeipW4dAPlJz1w" name="Système_de_contrôle"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_pYi_IMPLEeipW4dAPlJz1w" name="demande" client="_WQHVsMPLEeipW4dAPlJz1w" supplier="_gS_v4MPLEeipW4dAPlJz1w"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_9XhPAMPLEeipW4dAPlJz1w" name="commande" client="_WQHVsMPLEeipW4dAPlJz1w" supplier="_irAwIMPLEeipW4dAPlJz1w"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="__djHYMPLEeipW4dAPlJz1w" name="commande" client="_WQHVsMPLEeipW4dAPlJz1w" supplier="_klv-gMPLEeipW4dAPlJz1w"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_tTkcgMPGEeipW4dAPlJz1w" name="Interface_Utilisateur">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_zwjmsMPJEeipW4dAPlJz1w">
+          <body>Vocation du sous-système : enregistrer les requêtes de l'utilisateur au moyen de différents dispositifs (boutons &quot;monter&quot;/&quot;descendre&quot;, boutons de niveau) et les transmettre au système de contrôle</body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_xfwToMPHEeipW4dAPlJz1w" name="requêtes" client="_tTkcgMPGEeipW4dAPlJz1w" supplier="_wQ-BwMPGEeipW4dAPlJz1w"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_P5_rsMPMEeipW4dAPlJz1w" name="Use_case_diagram">
+          <packagedElement xmi:type="uml:Package" xmi:id="_U3F30MPMEeipW4dAPlJz1w" name="Interface_Utilisateur">
+            <packagedElement xmi:type="uml:UseCase" xmi:id="_bBx4cMPMEeipW4dAPlJz1w" name="Appel ascenseur"/>
+            <packagedElement xmi:type="uml:UseCase" xmi:id="_ibIEkMPMEeipW4dAPlJz1w" name="Choix étage"/>
+            <packagedElement xmi:type="uml:UseCase" xmi:id="_kXu7MMPMEeipW4dAPlJz1w" name="Affichage étage"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_1KGFIMPMEeipW4dAPlJz1w" name="requêtes" client="_bBx4cMPMEeipW4dAPlJz1w" supplier="_YUoVsMPMEeipW4dAPlJz1w"/>
+            <packagedElement xmi:type="uml:Usage" xmi:id="_4KtWcMPMEeipW4dAPlJz1w" name="requêtes" client="_ibIEkMPMEeipW4dAPlJz1w" supplier="_YUoVsMPMEeipW4dAPlJz1w"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Actor" xmi:id="_WfuCgMPMEeipW4dAPlJz1w" name="Utilisateur"/>
+          <packagedElement xmi:type="uml:Actor" xmi:id="_YUoVsMPMEeipW4dAPlJz1w" name="Système de contrôle"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_omwgYMPMEeipW4dAPlJz1w" name="monter" client="_WfuCgMPMEeipW4dAPlJz1w" supplier="_bBx4cMPMEeipW4dAPlJz1w"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_t28noMPMEeipW4dAPlJz1w" name="descendre" client="_WfuCgMPMEeipW4dAPlJz1w" supplier="_bBx4cMPMEeipW4dAPlJz1w"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_wfFukMPMEeipW4dAPlJz1w" client="_WfuCgMPMEeipW4dAPlJz1w" supplier="_ibIEkMPMEeipW4dAPlJz1w"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_yl1_sMPMEeipW4dAPlJz1w" name="regarde" client="_WfuCgMPMEeipW4dAPlJz1w" supplier="_kXu7MMPMEeipW4dAPlJz1w"/>
+          <packagedElement xmi:type="uml:Usage" xmi:id="_8uJFYMPMEeipW4dAPlJz1w" name="informe" client="_YUoVsMPMEeipW4dAPlJz1w" supplier="_kXu7MMPMEeipW4dAPlJz1w"/>
+        </packagedElement>
+      </packagedElement>
     </packagedElement>
   </packagedElement>
 </uml:Model>
