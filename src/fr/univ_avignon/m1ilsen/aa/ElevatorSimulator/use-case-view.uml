@@ -1,30 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_CgVZkMF0Eei13r_JWjVHCg" name="use-case-view">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_NDEgMMTwEeit94A35ImIww">
+    <body>Comment savoir quand l'utilisateur&#xD;
+dois s'arreter :&#xD;
+-> Car il est arrivé au bon etage ?&#xD;
+-> Quand les portes sont ouvertes ?</body>
+  </ownedComment>
   <packageImport xmi:type="uml:PackageImport" xmi:id="_Cjv58MF0Eei13r_JWjVHCg">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Package" xmi:id="_kiU7UMMAEeiowd-VGLbCWQ" name="fr.univ-avignon.m1ilsen.aa.elevator_simulation">
-    <packagedElement xmi:type="uml:Usage" xmi:id="_qwN2gMF3EeiPI_6br6tQPA" name="monter" client="_8GCvUMF2EeiPI_6br6tQPA" supplier="_DzTV8MF3EeiPI_6br6tQPA"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_v5hSoMF3EeiPI_6br6tQPA" name="descendre" client="_8GCvUMF2EeiPI_6br6tQPA" supplier="_DzTV8MF3EeiPI_6br6tQPA"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_2oCZEMF3EeiPI_6br6tQPA" client="_8GCvUMF2EeiPI_6br6tQPA" supplier="_E4aj4MF3EeiPI_6br6tQPA"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_4pNmoMF3EeiPI_6br6tQPA" name="regarde" client="_8GCvUMF2EeiPI_6br6tQPA" supplier="_GyUEwMF3EeiPI_6br6tQPA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_qwN2gMF3EeiPI_6br6tQPA" name="monter" client="_3mPRQMF4EeiPI_6br6tQPA" supplier="_DzTV8MF3EeiPI_6br6tQPA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_v5hSoMF3EeiPI_6br6tQPA" name="descendre" client="_3mPRQMF4EeiPI_6br6tQPA" supplier="_DzTV8MF3EeiPI_6br6tQPA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_2oCZEMF3EeiPI_6br6tQPA" client="_3mPRQMF4EeiPI_6br6tQPA" supplier="_E4aj4MF3EeiPI_6br6tQPA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_4pNmoMF3EeiPI_6br6tQPA" name="regarde" client="_3mPRQMF4EeiPI_6br6tQPA" supplier="_GyUEwMF3EeiPI_6br6tQPA"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_cGGWAMF4EeiPI_6br6tQPA" name="User"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_bF7AgMF6EeiPI_6br6tQPA" name="Environnment_Simulation">
-      <packagedElement xmi:type="uml:Actor" xmi:id="_8GCvUMF2EeiPI_6br6tQPA" name="Utilisateur"/>
-      <packagedElement xmi:type="uml:Package" xmi:id="_0SPb0MF2EeiPI_6br6tQPA" name="Interface_Utilisateur">
-        <ownedComment xmi:type="uml:Comment" xmi:id="_ulnd0MMDEeiowd-VGLbCWQ">
-          <body>Ensemble des dispositifs avec lequel l'utilisateur peut interagir pour déclencher des actions de l'ascenseur.&#xD;
-- Appel ascenseur : l'utilisateur se situe à un niveau donné et peut appuyer sur le bouton &quot;monter&quot; ou &quot;descendre&quot; (sauf cas exceptionnels des niveaux 0 et n où il n'y a qu'un seul bouton).&#xD;
-Cet appel va être pris en compte par le système de contrôle.&#xD;
-- Choix étage : une fois que l'utilisateur se trouve dans la cabine de l'ascenseur, il sélectionne un niveau valide auquel il veut se rendre. Cet appel va être pris en compte par le système de contrôle.&#xD;
-- Affichage étage : l'utilisateur peut voir le niveau où se trouve actuellement l'ascenseur, cette information est mise-à-jour par le système de contrôle.</body>
-        </ownedComment>
-        <packagedElement xmi:type="uml:UseCase" xmi:id="_DzTV8MF3EeiPI_6br6tQPA" name="Appel ascenseur"/>
-        <packagedElement xmi:type="uml:UseCase" xmi:id="_E4aj4MF3EeiPI_6br6tQPA" name="Choix étage"/>
-        <packagedElement xmi:type="uml:UseCase" xmi:id="_GyUEwMF3EeiPI_6br6tQPA" name="Affichage étage"/>
-        <packagedElement xmi:type="uml:Usage" xmi:id="_64BnkMF3EeiPI_6br6tQPA" client="_DzTV8MF3EeiPI_6br6tQPA" supplier="_NIuNMMF3EeiPI_6br6tQPA"/>
-        <packagedElement xmi:type="uml:Usage" xmi:id="_DeXyUMF4EeiPI_6br6tQPA" client="_E4aj4MF3EeiPI_6br6tQPA" supplier="_NIuNMMF3EeiPI_6br6tQPA"/>
-      </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_AGRqkMF3EeiPI_6br6tQPA" name="Système_de_Contrôle">
         <ownedComment xmi:type="uml:Comment" xmi:id="_XJ3IgMPIEeipW4dAPlJz1w">
           <body>Récupère les requêtes de l'interface utilisateur afin de transmettre les commandes les plus adaptées à l'ascenseur.&#xD;
@@ -66,10 +57,6 @@ Cet appel va être pris en compte par le système de contrôle.&#xD;
       <packagedElement xmi:type="uml:UseCase" xmi:id="_7IAH0MF4EeiPI_6br6tQPA" name="Arrêter la simulation"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_9eooAMF4EeiPI_6br6tQPA" name="Créer et paramétrer un utilisateur simulé"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_J0ejUMF5EeiPI_6br6tQPA" name="Récupérer les résultats"/>
-      <packagedElement xmi:type="uml:Usage" xmi:id="_yNenYMF5EeiPI_6br6tQPA" client="_cGGWAMF4EeiPI_6br6tQPA" supplier="_3mPRQMF4EeiPI_6br6tQPA"/>
-      <packagedElement xmi:type="uml:Usage" xmi:id="_zbt8IMF5EeiPI_6br6tQPA" client="_cGGWAMF4EeiPI_6br6tQPA" supplier="_7IAH0MF4EeiPI_6br6tQPA"/>
-      <packagedElement xmi:type="uml:Usage" xmi:id="_0dp6QMF5EeiPI_6br6tQPA" client="_cGGWAMF4EeiPI_6br6tQPA" supplier="_9eooAMF4EeiPI_6br6tQPA"/>
-      <packagedElement xmi:type="uml:Usage" xmi:id="_1kJBMMF5EeiPI_6br6tQPA" client="_cGGWAMF4EeiPI_6br6tQPA" supplier="_J0ejUMF5EeiPI_6br6tQPA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_YiwYoMPJEeipW4dAPlJz1w" name="Package_Diagram">
       <packagedElement xmi:type="uml:Package" xmi:id="_wQ-BwMPGEeipW4dAPlJz1w" name="Système_de_Contrôle">
@@ -144,5 +131,46 @@ Sens de déplacement</body>
         </packagedElement>
       </packagedElement>
     </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_spFKoMSuEeiTbIn5W1rqqQ" client="_cGGWAMF4EeiPI_6br6tQPA" supplier="_9eooAMF4EeiPI_6br6tQPA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_y0F7YMSuEeiTbIn5W1rqqQ" client="_cGGWAMF4EeiPI_6br6tQPA" supplier="_3mPRQMF4EeiPI_6br6tQPA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_0oDzYMSuEeiTbIn5W1rqqQ" client="_cGGWAMF4EeiPI_6br6tQPA" supplier="_7IAH0MF4EeiPI_6br6tQPA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_2IymUMSuEeiTbIn5W1rqqQ" client="_cGGWAMF4EeiPI_6br6tQPA" supplier="_J0ejUMF5EeiPI_6br6tQPA"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_l2ky4MTsEeit94A35ImIww" name="Gestionnaire de Simulation">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_qE_UEMTsEeit94A35ImIww" name="Crée et paramétré un utilisateur"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_qkJVQMTsEeit94A35ImIww" name="Demarrer Simulation"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_q6yToMTsEeit94A35ImIww" name="Récupéré les résultats"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_EuHHwMTtEeit94A35ImIww" name="Utilisateur simulé">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_NsafgMTtEeit94A35ImIww" name="Initialisation"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_N7UeMMTtEeit94A35ImIww" name="Lancement Utilisateur"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_ORErwMTtEeit94A35ImIww" name="Calcul temps d'attente"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_tibO0MTtEeit94A35ImIww" name="Haut" client="_N7UeMMTtEeit94A35ImIww" supplier="_DzTV8MF3EeiPI_6br6tQPA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_y-2bQMTtEeit94A35ImIww" name="Bas" client="_N7UeMMTtEeit94A35ImIww" supplier="_DzTV8MF3EeiPI_6br6tQPA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_488xYMTtEeit94A35ImIww" client="_N7UeMMTtEeit94A35ImIww" supplier="_E4aj4MF3EeiPI_6br6tQPA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_7P984MTtEeit94A35ImIww" client="_N7UeMMTtEeit94A35ImIww" supplier="_GyUEwMF3EeiPI_6br6tQPA"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_xGzpoMTvEeit94A35ImIww" name="Arret Utilisateur"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_37zykMTvEeit94A35ImIww" client="_xGzpoMTvEeit94A35ImIww" supplier="_GyUEwMF3EeiPI_6br6tQPA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_d0TJEMTtEeit94A35ImIww" client="_qE_UEMTsEeit94A35ImIww" supplier="_NsafgMTtEeit94A35ImIww"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_gZUDgMTtEeit94A35ImIww" client="_qkJVQMTsEeit94A35ImIww" supplier="_N7UeMMTtEeit94A35ImIww"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_hXYOQMTtEeit94A35ImIww" client="_q6yToMTsEeit94A35ImIww" supplier="_ORErwMTtEeit94A35ImIww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_0SPb0MF2EeiPI_6br6tQPA" name="Interface_Utilisateur">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_ulnd0MMDEeiowd-VGLbCWQ">
+      <body>Ensemble des dispositifs avec lequel l'utilisateur peut interagir pour déclencher des actions de l'ascenseur.&#xD;
+- Appel ascenseur : l'utilisateur se situe à un niveau donné et peut appuyer sur le bouton &quot;monter&quot; ou &quot;descendre&quot; (sauf cas exceptionnels des niveaux 0 et n où il n'y a qu'un seul bouton).&#xD;
+Cet appel va être pris en compte par le système de contrôle.&#xD;
+- Choix étage : une fois que l'utilisateur se trouve dans la cabine de l'ascenseur, il sélectionne un niveau valide auquel il veut se rendre. Cet appel va être pris en compte par le système de contrôle.&#xD;
+- Affichage étage : l'utilisateur peut voir le niveau où se trouve actuellement l'ascenseur, cette information est mise-à-jour par le système de contrôle.</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_DzTV8MF3EeiPI_6br6tQPA" name="Appel ascenseur"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_E4aj4MF3EeiPI_6br6tQPA" name="Choix étage"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_GyUEwMF3EeiPI_6br6tQPA" name="Affichage étage"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_64BnkMF3EeiPI_6br6tQPA" client="_DzTV8MF3EeiPI_6br6tQPA" supplier="_NIuNMMF3EeiPI_6br6tQPA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_DeXyUMF4EeiPI_6br6tQPA" client="_E4aj4MF3EeiPI_6br6tQPA" supplier="_NIuNMMF3EeiPI_6br6tQPA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_LM1pQMTuEeit94A35ImIww" name="Utilisateur"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_PaIJEMTuEeit94A35ImIww" client="_LM1pQMTuEeit94A35ImIww" supplier="_qE_UEMTsEeit94A35ImIww"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_QJABQMTuEeit94A35ImIww" client="_LM1pQMTuEeit94A35ImIww" supplier="_qkJVQMTsEeit94A35ImIww"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Q5g4MMTuEeit94A35ImIww" client="_QJABQMTuEeit94A35ImIww" supplier="_q6yToMTsEeit94A35ImIww"/>
 </uml:Model>
