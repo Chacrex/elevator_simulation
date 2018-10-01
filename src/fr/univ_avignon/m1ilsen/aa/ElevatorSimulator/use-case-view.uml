@@ -14,6 +14,25 @@ dois s'arreter :&#xD;
     <packagedElement xmi:type="uml:Usage" xmi:id="_v5hSoMF3EeiPI_6br6tQPA" name="descendre" client="_3mPRQMF4EeiPI_6br6tQPA" supplier="_DzTV8MF3EeiPI_6br6tQPA"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_2oCZEMF3EeiPI_6br6tQPA" client="_3mPRQMF4EeiPI_6br6tQPA" supplier="_E4aj4MF3EeiPI_6br6tQPA"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_4pNmoMF3EeiPI_6br6tQPA" name="regarde" client="_3mPRQMF4EeiPI_6br6tQPA" supplier="_GyUEwMF3EeiPI_6br6tQPA"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_P_UGAMPLEeipW4dAPlJz1w" name="Use_case_diagram">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_vCm-8MPLEeipW4dAPlJz1w">
+        <body>Niveau actuel de l'ascenseur&#xD;
+Sens de déplacement</body>
+      </ownedComment>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Uj4dYMPLEeipW4dAPlJz1w" name="Ascenseur">
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_gS_v4MPLEeipW4dAPlJz1w" name="Informations position"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_irAwIMPLEeipW4dAPlJz1w" name="Marche"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_klv-gMPLEeipW4dAPlJz1w" name="Arrêt"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_mraqgMPLEeipW4dAPlJz1w" name="Ouverture portes"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_tA8CIMPLEeipW4dAPlJz1w" name="informe" client="_gS_v4MPLEeipW4dAPlJz1w" supplier="_WQHVsMPLEeipW4dAPlJz1w"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_CpZ_YMPMEeipW4dAPlJz1w" name="màj" client="_klv-gMPLEeipW4dAPlJz1w" supplier="_gS_v4MPLEeipW4dAPlJz1w"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_GuiowMPMEeipW4dAPlJz1w" client="_klv-gMPLEeipW4dAPlJz1w" supplier="_mraqgMPLEeipW4dAPlJz1w"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_WQHVsMPLEeipW4dAPlJz1w" name="Système_de_contrôle"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_pYi_IMPLEeipW4dAPlJz1w" name="demande" client="_WQHVsMPLEeipW4dAPlJz1w" supplier="_gS_v4MPLEeipW4dAPlJz1w"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_9XhPAMPLEeipW4dAPlJz1w" name="commande" client="_WQHVsMPLEeipW4dAPlJz1w" supplier="_irAwIMPLEeipW4dAPlJz1w"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="__djHYMPLEeipW4dAPlJz1w" name="commande" client="_WQHVsMPLEeipW4dAPlJz1w" supplier="_klv-gMPLEeipW4dAPlJz1w"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:Actor" xmi:id="_cGGWAMF4EeiPI_6br6tQPA" name="User"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_bF7AgMF6EeiPI_6br6tQPA" name="Environnment_Simulation">
       <packagedElement xmi:type="uml:Package" xmi:id="_AGRqkMF3EeiPI_6br6tQPA" name="Système_de_Contrôle">
@@ -88,25 +107,6 @@ dois s'arreter :&#xD;
           <body>Vocation du sous-système : simule le comportement d'un ascenseur en exécutant diverses actions comme se mettre en marche, s'arrêter. Répond aux commandes du système de contrôle.</body>
         </ownedComment>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_6i5vIMPHEeipW4dAPlJz1w" name="informations" client="_yxJfgMPGEeipW4dAPlJz1w" supplier="_wQ-BwMPGEeipW4dAPlJz1w"/>
-        <packagedElement xmi:type="uml:Package" xmi:id="_P_UGAMPLEeipW4dAPlJz1w" name="Use_case_diagram">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_vCm-8MPLEeipW4dAPlJz1w">
-            <body>Niveau actuel de l'ascenseur&#xD;
-Sens de déplacement</body>
-          </ownedComment>
-          <packagedElement xmi:type="uml:Package" xmi:id="_Uj4dYMPLEeipW4dAPlJz1w" name="Ascenseur">
-            <packagedElement xmi:type="uml:UseCase" xmi:id="_gS_v4MPLEeipW4dAPlJz1w" name="Informations position"/>
-            <packagedElement xmi:type="uml:UseCase" xmi:id="_irAwIMPLEeipW4dAPlJz1w" name="Marche"/>
-            <packagedElement xmi:type="uml:UseCase" xmi:id="_klv-gMPLEeipW4dAPlJz1w" name="Arrêt"/>
-            <packagedElement xmi:type="uml:UseCase" xmi:id="_mraqgMPLEeipW4dAPlJz1w" name="Ouverture portes"/>
-            <packagedElement xmi:type="uml:Usage" xmi:id="_tA8CIMPLEeipW4dAPlJz1w" name="informe" client="_gS_v4MPLEeipW4dAPlJz1w" supplier="_WQHVsMPLEeipW4dAPlJz1w"/>
-            <packagedElement xmi:type="uml:Usage" xmi:id="_CpZ_YMPMEeipW4dAPlJz1w" name="màj" client="_klv-gMPLEeipW4dAPlJz1w" supplier="_gS_v4MPLEeipW4dAPlJz1w"/>
-            <packagedElement xmi:type="uml:Usage" xmi:id="_GuiowMPMEeipW4dAPlJz1w" client="_klv-gMPLEeipW4dAPlJz1w" supplier="_mraqgMPLEeipW4dAPlJz1w"/>
-          </packagedElement>
-          <packagedElement xmi:type="uml:Actor" xmi:id="_WQHVsMPLEeipW4dAPlJz1w" name="Système_de_contrôle"/>
-          <packagedElement xmi:type="uml:Usage" xmi:id="_pYi_IMPLEeipW4dAPlJz1w" name="demande" client="_WQHVsMPLEeipW4dAPlJz1w" supplier="_gS_v4MPLEeipW4dAPlJz1w"/>
-          <packagedElement xmi:type="uml:Usage" xmi:id="_9XhPAMPLEeipW4dAPlJz1w" name="commande" client="_WQHVsMPLEeipW4dAPlJz1w" supplier="_irAwIMPLEeipW4dAPlJz1w"/>
-          <packagedElement xmi:type="uml:Usage" xmi:id="__djHYMPLEeipW4dAPlJz1w" name="commande" client="_WQHVsMPLEeipW4dAPlJz1w" supplier="_klv-gMPLEeipW4dAPlJz1w"/>
-        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_tTkcgMPGEeipW4dAPlJz1w" name="Interface_Utilisateur">
         <ownedComment xmi:type="uml:Comment" xmi:id="_zwjmsMPJEeipW4dAPlJz1w">
@@ -173,4 +173,5 @@ Cet appel va être pris en compte par le système de contrôle.&#xD;
   <packagedElement xmi:type="uml:Usage" xmi:id="_PaIJEMTuEeit94A35ImIww" client="_LM1pQMTuEeit94A35ImIww" supplier="_qE_UEMTsEeit94A35ImIww"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_QJABQMTuEeit94A35ImIww" client="_LM1pQMTuEeit94A35ImIww" supplier="_qkJVQMTsEeit94A35ImIww"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_Q5g4MMTuEeit94A35ImIww" client="_QJABQMTuEeit94A35ImIww" supplier="_q6yToMTsEeit94A35ImIww"/>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_qHqIwMVIEei3AYHE-9e46Q" name="Interaction10"/>
 </uml:Model>

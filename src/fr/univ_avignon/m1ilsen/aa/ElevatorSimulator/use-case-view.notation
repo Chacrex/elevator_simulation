@@ -2095,4 +2095,20 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_39DIscTvEeit94A35ImIww" id="(0.04285714285714286,0.7166666666666667)"/>
     </edges>
   </notation:Diagram>
+  <notation:Diagram xmi:id="_qeFrwMVIEei3AYHE-9e46Q" type="PapyrusUMLSequenceDiagram" name="SD_Ascenseur" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_qeFrwcVIEei3AYHE-9e46Q" type="Interaction_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_qeGS0MVIEei3AYHE-9e46Q" type="Interaction_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_qeGS0cVIEei3AYHE-9e46Q" type="Interaction_SubfragmentCompartment">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qeGS0sVIEei3AYHE-9e46Q"/>
+      </children>
+      <element xmi:type="uml:Interaction" href="use-case-view.uml#_qHqIwMVIEei3AYHE-9e46Q"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qeGS08VIEei3AYHE-9e46Q"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_qeGS1MVIEei3AYHE-9e46Q" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_qeGS1cVIEei3AYHE-9e46Q"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_qeGS1sVIEei3AYHE-9e46Q" diagramKindId="org.eclipse.papyrus.uml.diagram.sequence">
+      <owner xmi:type="uml:Model" href="use-case-view.uml#_CgVZkMF0Eei13r_JWjVHCg"/>
+    </styles>
+    <element xmi:type="uml:Interaction" href="use-case-view.uml#_qHqIwMVIEei3AYHE-9e46Q"/>
+  </notation:Diagram>
 </xmi:XMI>
