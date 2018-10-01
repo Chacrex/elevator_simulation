@@ -30,12 +30,6 @@
         <packagedElement xmi:type="uml:Usage" xmi:id="_Ac9V0MVUEeiSxf8PnO4FrQ" client="_QTrGQMF3EeiPI_6br6tQPA" supplier="_UWik9cVTEeiPCswKu6v8ew"/>
       </packagedElement>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_v5C8EMF4EeiPI_6br6tQPA" name="User_Simulation">
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_3mPRQMF4EeiPI_6br6tQPA" name="Démarrer la simulation"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_7IAH0MF4EeiPI_6br6tQPA" name="Arrêter la simulation"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_9eooAMF4EeiPI_6br6tQPA" name="Créer et paramétrer un utilisateur simulé"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_J0ejUMF5EeiPI_6br6tQPA" name="Récupérer les résultats"/>
-    </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_YiwYoMPJEeipW4dAPlJz1w" name="Package_Diagram">
       <packagedElement xmi:type="uml:Package" xmi:id="_wQ-BwMPGEeipW4dAPlJz1w" name="Système_de_Contrôle">
         <ownedComment xmi:type="uml:Comment" xmi:id="__4qoAMPJEeipW4dAPlJz1w">
@@ -205,7 +199,7 @@ Cet appel va être pris en compte par le système de contrôle.&#xD;
       <packagedElement xmi:type="uml:Usage" xmi:id="_UWik98VTEeiPCswKu6v8ew" client="_UWik9MVTEeiPCswKu6v8ew" supplier="_UWik58VTEeiPCswKu6v8ew"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_UWik-MVTEeiPCswKu6v8ew" client="_UWik9cVTEeiPCswKu6v8ew" supplier="_UWik6MVTEeiPCswKu6v8ew"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_UWik-cVTEeiPCswKu6v8ew" client="_UWik88VTEeiPCswKu6v8ew" supplier="_UWik3MVTEeiPCswKu6v8ew"/>
-      <packagedElement xmi:type="uml:Usage" xmi:id="_7j0coMVTEeiSxf8PnO4FrQ" client="_UWik88VTEeiPCswKu6v8ew" supplier="_CkhuMMMCEeiowd-VGLbCWQ"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_7j0coMVTEeiSxf8PnO4FrQ" client="_NIuNMMF3EeiPI_6br6tQPA" supplier="_CkhuMMMCEeiowd-VGLbCWQ"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_FhC6wMVUEeiSxf8PnO4FrQ" client="_UWik9MVTEeiPCswKu6v8ew" supplier="_UWik58VTEeiPCswKu6v8ew"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_PW2iQMVUEeiSxf8PnO4FrQ" client="_UWik9cVTEeiPCswKu6v8ew" supplier="_UWik6MVTEeiPCswKu6v8ew"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_sGeIYMVUEeiSxf8PnO4FrQ" client="_UWik88VTEeiPCswKu6v8ew" supplier="_UWik6sVTEeiPCswKu6v8ew"/>
@@ -214,5 +208,11 @@ Cet appel va être pris en compte par le système de contrôle.&#xD;
     <packagedElement xmi:type="uml:Usage" xmi:id="_UWik-8VTEeiPCswKu6v8ew" name="descendre" client="_UWik18VTEeiPCswKu6v8ew" supplier="_UWik0sVTEeiPCswKu6v8ew"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_UWik_MVTEeiPCswKu6v8ew" client="_UWik18VTEeiPCswKu6v8ew" supplier="_UWik08VTEeiPCswKu6v8ew"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_UWik_cVTEeiPCswKu6v8ew" name="regarde" client="_UWik18VTEeiPCswKu6v8ew" supplier="_UWik1MVTEeiPCswKu6v8ew"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_v5C8EMF4EeiPI_6br6tQPA" name="User_Simulation">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_3mPRQMF4EeiPI_6br6tQPA" name="Démarrer la simulation"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_7IAH0MF4EeiPI_6br6tQPA" name="Arrêter la simulation"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_9eooAMF4EeiPI_6br6tQPA" name="Créer et paramétrer un utilisateur simulé"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_J0ejUMF5EeiPI_6br6tQPA" name="Récupérer les résultats"/>
   </packagedElement>
 </uml:Model>
