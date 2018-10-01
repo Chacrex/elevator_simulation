@@ -27,29 +27,13 @@ dois s'arreter :&#xD;
         <packagedElement xmi:type="uml:UseCase" xmi:id="_NIuNMMF3EeiPI_6br6tQPA" name="Saisie Utilisateur"/>
         <packagedElement xmi:type="uml:UseCase" xmi:id="_QTrGQMF3EeiPI_6br6tQPA" name="Déplacement"/>
         <packagedElement xmi:type="uml:UseCase" xmi:id="_SHLrQMF3EeiPI_6br6tQPA" name="Mise-à-jour Informations"/>
-        <packagedElement xmi:type="uml:Usage" xmi:id="_8Fb14MF3EeiPI_6br6tQPA" client="_NIuNMMF3EeiPI_6br6tQPA" supplier="_YDKhgMF3EeiPI_6br6tQPA"/>
-        <packagedElement xmi:type="uml:Usage" xmi:id="_-BPbQMF3EeiPI_6br6tQPA" name="commande" client="_QTrGQMF3EeiPI_6br6tQPA" supplier="_coML4MF3EeiPI_6br6tQPA"/>
-        <packagedElement xmi:type="uml:Usage" xmi:id="__CL64MF3EeiPI_6br6tQPA" name="commande" client="_QTrGQMF3EeiPI_6br6tQPA" supplier="_eDEOcMF3EeiPI_6br6tQPA"/>
         <packagedElement xmi:type="uml:Usage" xmi:id="_CFpr4MF4EeiPI_6br6tQPA" client="_SHLrQMF3EeiPI_6br6tQPA" supplier="_GyUEwMF3EeiPI_6br6tQPA"/>
         <packagedElement xmi:type="uml:UseCase" xmi:id="_CkhuMMMCEeiowd-VGLbCWQ" name="Optimisation"/>
         <packagedElement xmi:type="uml:Usage" xmi:id="_dVAHEMMCEeiowd-VGLbCWQ" name="commande" client="_CkhuMMMCEeiowd-VGLbCWQ" supplier="_QTrGQMF3EeiPI_6br6tQPA"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_CZlJ8MF3EeiPI_6br6tQPA" name="Ascenseur">
-        <ownedComment xmi:type="uml:Comment" xmi:id="_QyN0gMPJEeipW4dAPlJz1w">
-          <body>Système simulant le comportement de l'ascenseur&#xD;
-- Informations position : accède aux différentes caractéristiques de l'ascenseur, à savoir sa position, son sens de déplacement&#xD;
-- Marche : met en marche l'ascenseur en prenant en compte le sens de déplacement&#xD;
-- Arrêt : arrête l'ascenseur à un étage donné&#xD;
-- Ouverture porte : ouvre les portes pour que le ou les utilisateurs puissent descendre de l'ascenseur</body>
-        </ownedComment>
-        <packagedElement xmi:type="uml:UseCase" xmi:id="_YDKhgMF3EeiPI_6br6tQPA" name="Informations position"/>
-        <packagedElement xmi:type="uml:UseCase" xmi:id="_coML4MF3EeiPI_6br6tQPA" name="Marche"/>
-        <packagedElement xmi:type="uml:UseCase" xmi:id="_eDEOcMF3EeiPI_6br6tQPA" name="Arrêt"/>
-        <packagedElement xmi:type="uml:UseCase" xmi:id="_f61oYMF3EeiPI_6br6tQPA" name="Ouverture Porte"/>
-        <packagedElement xmi:type="uml:Usage" xmi:id="_ASOmcMF4EeiPI_6br6tQPA" client="_YDKhgMF3EeiPI_6br6tQPA" supplier="_SHLrQMF3EeiPI_6br6tQPA"/>
-        <packagedElement xmi:type="uml:Usage" xmi:id="_Id1V8MF4EeiPI_6br6tQPA" client="_eDEOcMF3EeiPI_6br6tQPA" supplier="_f61oYMF3EeiPI_6br6tQPA"/>
-        <packagedElement xmi:type="uml:Usage" xmi:id="_mfQQIMMCEeiowd-VGLbCWQ" name="informe" client="_YDKhgMF3EeiPI_6br6tQPA" supplier="_CkhuMMMCEeiowd-VGLbCWQ"/>
-        <packagedElement xmi:type="uml:Usage" xmi:id="_uE3rwMMEEeiowd-VGLbCWQ" client="_eDEOcMF3EeiPI_6br6tQPA" supplier="_YDKhgMF3EeiPI_6br6tQPA"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_vALV4MVTEeiSxf8PnO4FrQ" client="_SHLrQMF3EeiPI_6br6tQPA" supplier="_UWik88VTEeiPCswKu6v8ew"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_5rb-sMVTEeiSxf8PnO4FrQ" client="_NIuNMMF3EeiPI_6br6tQPA" supplier="_UWik88VTEeiPCswKu6v8ew"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="__ezEcMVTEeiSxf8PnO4FrQ" client="_QTrGQMF3EeiPI_6br6tQPA" supplier="_UWik9MVTEeiPCswKu6v8ew"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_Ac9V0MVUEeiSxf8PnO4FrQ" client="_QTrGQMF3EeiPI_6br6tQPA" supplier="_UWik9cVTEeiPCswKu6v8ew"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_v5C8EMF4EeiPI_6br6tQPA" name="User_Simulation">
@@ -178,8 +162,8 @@ Cet appel va être pris en compte par le système de contrôle.&#xD;
       <packagedElement xmi:type="uml:UseCase" xmi:id="_UWik0sVTEeiPCswKu6v8ew" name="Appel ascenseur"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_UWik08VTEeiPCswKu6v8ew" name="Choix niveau"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_UWik1MVTEeiPCswKu6v8ew" name="Affichage niveau"/>
-      <packagedElement xmi:type="uml:Usage" xmi:id="_UWik1cVTEeiPCswKu6v8ew" name="commande" client="_UWik0sVTEeiPCswKu6v8ew _UWik0sVTEeiPCswKu6v8ew _UWik0sVTEeiPCswKu6v8ew _UWik0sVTEeiPCswKu6v8ew" supplier="_UWik2cVTEeiPCswKu6v8ew _UWik2cVTEeiPCswKu6v8ew _UWik2cVTEeiPCswKu6v8ew _UWik2cVTEeiPCswKu6v8ew"/>
-      <packagedElement xmi:type="uml:Usage" xmi:id="_UWik1sVTEeiPCswKu6v8ew" client="_UWik08VTEeiPCswKu6v8ew _UWik08VTEeiPCswKu6v8ew _UWik08VTEeiPCswKu6v8ew _UWik08VTEeiPCswKu6v8ew" supplier="_UWik2cVTEeiPCswKu6v8ew _UWik2cVTEeiPCswKu6v8ew _UWik2cVTEeiPCswKu6v8ew _UWik2cVTEeiPCswKu6v8ew"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_UWik1cVTEeiPCswKu6v8ew" name="commande" client="_UWik0sVTEeiPCswKu6v8ew" supplier="_UWik2cVTEeiPCswKu6v8ew"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_UWik1sVTEeiPCswKu6v8ew" client="_UWik08VTEeiPCswKu6v8ew" supplier="_UWik2cVTEeiPCswKu6v8ew"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Actor" xmi:id="_UWik18VTEeiPCswKu6v8ew" name="Utilisateur"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_UWik2MVTEeiPCswKu6v8ew" name="Système_de_Contrôle">
@@ -187,27 +171,27 @@ Cet appel va être pris en compte par le système de contrôle.&#xD;
       <packagedElement xmi:type="uml:UseCase" xmi:id="_UWik2sVTEeiPCswKu6v8ew" name="Optimisation"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_UWik28VTEeiPCswKu6v8ew" name="Déplacement"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_UWik3MVTEeiPCswKu6v8ew" name="Mise-à-jour Informations"/>
-      <packagedElement xmi:type="uml:Realization" xmi:id="_UWik3cVTEeiPCswKu6v8ew" client="_UWik2cVTEeiPCswKu6v8ew _UWik2cVTEeiPCswKu6v8ew _UWik2cVTEeiPCswKu6v8ew _UWik2cVTEeiPCswKu6v8ew" supplier="_UWik88VTEeiPCswKu6v8ew _UWik88VTEeiPCswKu6v8ew _UWik88VTEeiPCswKu6v8ew _UWik88VTEeiPCswKu6v8ew"/>
-      <packagedElement xmi:type="uml:Usage" xmi:id="_UWik3sVTEeiPCswKu6v8ew" name="commande" client="_UWik2sVTEeiPCswKu6v8ew _UWik2sVTEeiPCswKu6v8ew _UWik2sVTEeiPCswKu6v8ew _UWik2sVTEeiPCswKu6v8ew" supplier="_UWik28VTEeiPCswKu6v8ew _UWik28VTEeiPCswKu6v8ew _UWik28VTEeiPCswKu6v8ew _UWik28VTEeiPCswKu6v8ew"/>
-      <packagedElement xmi:type="uml:Usage" xmi:id="_UWik38VTEeiPCswKu6v8ew" client="_UWik3MVTEeiPCswKu6v8ew _UWik3MVTEeiPCswKu6v8ew _UWik3MVTEeiPCswKu6v8ew _UWik3MVTEeiPCswKu6v8ew" supplier="_UWik1MVTEeiPCswKu6v8ew _UWik1MVTEeiPCswKu6v8ew _UWik1MVTEeiPCswKu6v8ew _UWik1MVTEeiPCswKu6v8ew"/>
-      <packagedElement xmi:type="uml:Usage" xmi:id="_UWik4MVTEeiPCswKu6v8ew" name="commande" client="_UWik28VTEeiPCswKu6v8ew _UWik28VTEeiPCswKu6v8ew _UWik28VTEeiPCswKu6v8ew _UWik28VTEeiPCswKu6v8ew" supplier="_UWik9MVTEeiPCswKu6v8ew _UWik9MVTEeiPCswKu6v8ew _UWik9MVTEeiPCswKu6v8ew _UWik9MVTEeiPCswKu6v8ew"/>
-      <packagedElement xmi:type="uml:Usage" xmi:id="_UWik4cVTEeiPCswKu6v8ew" name="commande" client="_UWik28VTEeiPCswKu6v8ew _UWik28VTEeiPCswKu6v8ew _UWik28VTEeiPCswKu6v8ew _UWik28VTEeiPCswKu6v8ew" supplier="_UWik9cVTEeiPCswKu6v8ew _UWik9cVTEeiPCswKu6v8ew _UWik9cVTEeiPCswKu6v8ew _UWik9cVTEeiPCswKu6v8ew"/>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_UWik3cVTEeiPCswKu6v8ew" client="_UWik2cVTEeiPCswKu6v8ew" supplier="_UWik88VTEeiPCswKu6v8ew"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_UWik3sVTEeiPCswKu6v8ew" name="commande" client="_UWik2sVTEeiPCswKu6v8ew" supplier="_UWik28VTEeiPCswKu6v8ew"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_UWik38VTEeiPCswKu6v8ew" client="_UWik3MVTEeiPCswKu6v8ew" supplier="_UWik1MVTEeiPCswKu6v8ew"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_UWik4MVTEeiPCswKu6v8ew" name="commande" client="_UWik28VTEeiPCswKu6v8ew" supplier="_UWik9MVTEeiPCswKu6v8ew"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_UWik4cVTEeiPCswKu6v8ew" name="commande" client="_UWik28VTEeiPCswKu6v8ew" supplier="_UWik9cVTEeiPCswKu6v8ew"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_UWik4sVTEeiPCswKu6v8ew" name="Ascenseur">
       <packagedElement xmi:type="uml:Package" xmi:id="_UWik48VTEeiPCswKu6v8ew" name="Capteurs">
         <packagedElement xmi:type="uml:UseCase" xmi:id="_UWik5MVTEeiPCswKu6v8ew" name="Détection"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_UWik5cVTEeiPCswKu6v8ew" name="Cabine">
-        <packagedElement xmi:type="uml:Dependency" xmi:id="_UWik5sVTEeiPCswKu6v8ew" name="dépendance" client="_UWik5cVTEeiPCswKu6v8ew _UWik5cVTEeiPCswKu6v8ew _UWik5cVTEeiPCswKu6v8ew _UWik5cVTEeiPCswKu6v8ew" supplier="_UWik8MVTEeiPCswKu6v8ew _UWik8MVTEeiPCswKu6v8ew _UWik8MVTEeiPCswKu6v8ew _UWik8MVTEeiPCswKu6v8ew"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_UWik5sVTEeiPCswKu6v8ew" name="dépendance" client="_UWik5cVTEeiPCswKu6v8ew" supplier="_UWik8MVTEeiPCswKu6v8ew"/>
         <packagedElement xmi:type="uml:UseCase" xmi:id="_UWik58VTEeiPCswKu6v8ew" name="Mise en mvt"/>
         <packagedElement xmi:type="uml:UseCase" xmi:id="_UWik6MVTEeiPCswKu6v8ew" name="Fin mvt"/>
         <packagedElement xmi:type="uml:UseCase" xmi:id="_UWik6cVTEeiPCswKu6v8ew" name="Ouverture portes"/>
         <packagedElement xmi:type="uml:UseCase" xmi:id="_UWik6sVTEeiPCswKu6v8ew" name="Etat et position"/>
-        <packagedElement xmi:type="uml:Usage" xmi:id="_UWik68VTEeiPCswKu6v8ew" client="_UWik58VTEeiPCswKu6v8ew _UWik58VTEeiPCswKu6v8ew _UWik58VTEeiPCswKu6v8ew _UWik58VTEeiPCswKu6v8ew" supplier="_UWik8cVTEeiPCswKu6v8ew _UWik8cVTEeiPCswKu6v8ew _UWik8cVTEeiPCswKu6v8ew _UWik8cVTEeiPCswKu6v8ew"/>
-        <packagedElement xmi:type="uml:Usage" xmi:id="_UWik7MVTEeiPCswKu6v8ew" client="_UWik6MVTEeiPCswKu6v8ew _UWik6MVTEeiPCswKu6v8ew _UWik6MVTEeiPCswKu6v8ew _UWik6MVTEeiPCswKu6v8ew" supplier="_UWik8sVTEeiPCswKu6v8ew _UWik8sVTEeiPCswKu6v8ew _UWik8sVTEeiPCswKu6v8ew _UWik8sVTEeiPCswKu6v8ew"/>
-        <packagedElement xmi:type="uml:Usage" xmi:id="_UWik7cVTEeiPCswKu6v8ew" client="_UWik6sVTEeiPCswKu6v8ew _UWik6sVTEeiPCswKu6v8ew _UWik6sVTEeiPCswKu6v8ew _UWik6sVTEeiPCswKu6v8ew" supplier="_UWik5MVTEeiPCswKu6v8ew _UWik5MVTEeiPCswKu6v8ew _UWik5MVTEeiPCswKu6v8ew _UWik5MVTEeiPCswKu6v8ew"/>
-        <packagedElement xmi:type="uml:Usage" xmi:id="_UWik7sVTEeiPCswKu6v8ew" client="_UWik6MVTEeiPCswKu6v8ew _UWik6MVTEeiPCswKu6v8ew _UWik6MVTEeiPCswKu6v8ew _UWik6MVTEeiPCswKu6v8ew" supplier="_UWik6sVTEeiPCswKu6v8ew _UWik6sVTEeiPCswKu6v8ew _UWik6sVTEeiPCswKu6v8ew _UWik6sVTEeiPCswKu6v8ew"/>
-        <packagedElement xmi:type="uml:Usage" xmi:id="_UWik78VTEeiPCswKu6v8ew" client="_UWik6MVTEeiPCswKu6v8ew _UWik6MVTEeiPCswKu6v8ew _UWik6MVTEeiPCswKu6v8ew _UWik6MVTEeiPCswKu6v8ew" supplier="_UWik6cVTEeiPCswKu6v8ew _UWik6cVTEeiPCswKu6v8ew _UWik6cVTEeiPCswKu6v8ew _UWik6cVTEeiPCswKu6v8ew"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_UWik68VTEeiPCswKu6v8ew" client="_UWik58VTEeiPCswKu6v8ew" supplier="_UWik8cVTEeiPCswKu6v8ew"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_UWik7MVTEeiPCswKu6v8ew" client="_UWik6MVTEeiPCswKu6v8ew" supplier="_UWik8sVTEeiPCswKu6v8ew"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_UWik7cVTEeiPCswKu6v8ew" client="_UWik6sVTEeiPCswKu6v8ew" supplier="_UWik5MVTEeiPCswKu6v8ew"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_UWik7sVTEeiPCswKu6v8ew" client="_UWik6MVTEeiPCswKu6v8ew" supplier="_UWik6sVTEeiPCswKu6v8ew"/>
+        <packagedElement xmi:type="uml:Usage" xmi:id="_UWik78VTEeiPCswKu6v8ew" client="_UWik6MVTEeiPCswKu6v8ew" supplier="_UWik6cVTEeiPCswKu6v8ew"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_UWik8MVTEeiPCswKu6v8ew" name="Moteur">
         <packagedElement xmi:type="uml:UseCase" xmi:id="_UWik8cVTEeiPCswKu6v8ew" name="Marche"/>
@@ -216,14 +200,18 @@ Cet appel va être pris en compte par le système de contrôle.&#xD;
       <packagedElement xmi:type="uml:UseCase" xmi:id="_UWik88VTEeiPCswKu6v8ew" name="Informations"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_UWik9MVTEeiPCswKu6v8ew" name="Marche"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_UWik9cVTEeiPCswKu6v8ew" name="Arrêt niveau"/>
-      <packagedElement xmi:type="uml:Usage" xmi:id="_UWik9sVTEeiPCswKu6v8ew" client="_UWik88VTEeiPCswKu6v8ew _UWik88VTEeiPCswKu6v8ew _UWik88VTEeiPCswKu6v8ew _UWik88VTEeiPCswKu6v8ew" supplier="_UWik2sVTEeiPCswKu6v8ew _UWik2sVTEeiPCswKu6v8ew _UWik2sVTEeiPCswKu6v8ew _UWik2sVTEeiPCswKu6v8ew"/>
-      <packagedElement xmi:type="uml:Usage" xmi:id="_UWik98VTEeiPCswKu6v8ew" client="_UWik9MVTEeiPCswKu6v8ew _UWik9MVTEeiPCswKu6v8ew _UWik9MVTEeiPCswKu6v8ew _UWik9MVTEeiPCswKu6v8ew" supplier="_UWik58VTEeiPCswKu6v8ew _UWik58VTEeiPCswKu6v8ew _UWik58VTEeiPCswKu6v8ew _UWik58VTEeiPCswKu6v8ew"/>
-      <packagedElement xmi:type="uml:Usage" xmi:id="_UWik-MVTEeiPCswKu6v8ew" client="_UWik9cVTEeiPCswKu6v8ew _UWik9cVTEeiPCswKu6v8ew _UWik9cVTEeiPCswKu6v8ew _UWik9cVTEeiPCswKu6v8ew" supplier="_UWik6MVTEeiPCswKu6v8ew _UWik6MVTEeiPCswKu6v8ew _UWik6MVTEeiPCswKu6v8ew _UWik6MVTEeiPCswKu6v8ew"/>
-      <packagedElement xmi:type="uml:Usage" xmi:id="_UWik-cVTEeiPCswKu6v8ew" client="_UWik88VTEeiPCswKu6v8ew _UWik88VTEeiPCswKu6v8ew _UWik88VTEeiPCswKu6v8ew _UWik88VTEeiPCswKu6v8ew" supplier="_UWik3MVTEeiPCswKu6v8ew _UWik3MVTEeiPCswKu6v8ew _UWik3MVTEeiPCswKu6v8ew _UWik3MVTEeiPCswKu6v8ew"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_UWik9sVTEeiPCswKu6v8ew" client="_UWik88VTEeiPCswKu6v8ew" supplier="_UWik2sVTEeiPCswKu6v8ew"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_UWik98VTEeiPCswKu6v8ew" client="_UWik9MVTEeiPCswKu6v8ew" supplier="_UWik58VTEeiPCswKu6v8ew"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_UWik-MVTEeiPCswKu6v8ew" client="_UWik9cVTEeiPCswKu6v8ew" supplier="_UWik6MVTEeiPCswKu6v8ew"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_UWik-cVTEeiPCswKu6v8ew" client="_UWik88VTEeiPCswKu6v8ew" supplier="_UWik3MVTEeiPCswKu6v8ew"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_7j0coMVTEeiSxf8PnO4FrQ" client="_UWik88VTEeiPCswKu6v8ew" supplier="_CkhuMMMCEeiowd-VGLbCWQ"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_FhC6wMVUEeiSxf8PnO4FrQ" client="_UWik9MVTEeiPCswKu6v8ew" supplier="_UWik58VTEeiPCswKu6v8ew"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_PW2iQMVUEeiSxf8PnO4FrQ" client="_UWik9cVTEeiPCswKu6v8ew" supplier="_UWik6MVTEeiPCswKu6v8ew"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_sGeIYMVUEeiSxf8PnO4FrQ" client="_UWik88VTEeiPCswKu6v8ew" supplier="_UWik6sVTEeiPCswKu6v8ew"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_UWik-sVTEeiPCswKu6v8ew" name="monter" client="_UWik18VTEeiPCswKu6v8ew _UWik18VTEeiPCswKu6v8ew _UWik18VTEeiPCswKu6v8ew _UWik18VTEeiPCswKu6v8ew" supplier="_UWik0sVTEeiPCswKu6v8ew _UWik0sVTEeiPCswKu6v8ew _UWik0sVTEeiPCswKu6v8ew _UWik0sVTEeiPCswKu6v8ew"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_UWik-8VTEeiPCswKu6v8ew" name="descendre" client="_UWik18VTEeiPCswKu6v8ew _UWik18VTEeiPCswKu6v8ew _UWik18VTEeiPCswKu6v8ew _UWik18VTEeiPCswKu6v8ew" supplier="_UWik0sVTEeiPCswKu6v8ew _UWik0sVTEeiPCswKu6v8ew _UWik0sVTEeiPCswKu6v8ew _UWik0sVTEeiPCswKu6v8ew"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_UWik_MVTEeiPCswKu6v8ew" client="_UWik18VTEeiPCswKu6v8ew _UWik18VTEeiPCswKu6v8ew _UWik18VTEeiPCswKu6v8ew _UWik18VTEeiPCswKu6v8ew" supplier="_UWik08VTEeiPCswKu6v8ew _UWik08VTEeiPCswKu6v8ew _UWik08VTEeiPCswKu6v8ew _UWik08VTEeiPCswKu6v8ew"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_UWik_cVTEeiPCswKu6v8ew" name="regarde" client="_UWik18VTEeiPCswKu6v8ew _UWik18VTEeiPCswKu6v8ew _UWik18VTEeiPCswKu6v8ew _UWik18VTEeiPCswKu6v8ew" supplier="_UWik1MVTEeiPCswKu6v8ew _UWik1MVTEeiPCswKu6v8ew _UWik1MVTEeiPCswKu6v8ew _UWik1MVTEeiPCswKu6v8ew"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_UWik-sVTEeiPCswKu6v8ew" name="monter" client="_UWik18VTEeiPCswKu6v8ew" supplier="_UWik0sVTEeiPCswKu6v8ew"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_UWik-8VTEeiPCswKu6v8ew" name="descendre" client="_UWik18VTEeiPCswKu6v8ew" supplier="_UWik0sVTEeiPCswKu6v8ew"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_UWik_MVTEeiPCswKu6v8ew" client="_UWik18VTEeiPCswKu6v8ew" supplier="_UWik08VTEeiPCswKu6v8ew"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_UWik_cVTEeiPCswKu6v8ew" name="regarde" client="_UWik18VTEeiPCswKu6v8ew" supplier="_UWik1MVTEeiPCswKu6v8ew"/>
   </packagedElement>
 </uml:Model>
