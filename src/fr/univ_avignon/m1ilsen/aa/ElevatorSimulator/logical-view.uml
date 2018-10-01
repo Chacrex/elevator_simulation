@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_JY5pAMVHEeiPCswKu6v8ew" name="logical-view">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_JhwqEMVHEeiPCswKu6v8ew">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_qqFKQMVREeiPCswKu6v8ew" name="fr.univ-avignon.m1ilsen.aa.elevator_simulation">
+    <packagedElement xmi:type="uml:Package" xmi:id="_PWrPAMVHEeiPCswKu6v8ew" name="Class_Diagram">
+      <packagedElement xmi:type="uml:Class" xmi:id="_WuYcYMVHEeiPCswKu6v8ew" name="Utilisateur" visibility="public">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ANhMoMVJEeiPCswKu6v8ew" name="NiveauDepart" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_TYa7QMVJEeiPCswKu6v8ew" name="NiveauArrivee">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_sNCEYMVJEeiPCswKu6v8ew" name="TempsDepart"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_h9buwMVHEeiPCswKu6v8ew" name="Utilisateur"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mSm_QMVHEeiPCswKu6v8ew" name="Système de Contrôle"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ofBzgMVHEeiPCswKu6v8ew" name="Ascenseur"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_qE92kMVHEeiPCswKu6v8ew" name="Entrée SdC"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_rZ6QQMVHEeiPCswKu6v8ew" name="Sortie Sdc"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_snh58MVHEeiPCswKu6v8ew" name="Ascenseur"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
