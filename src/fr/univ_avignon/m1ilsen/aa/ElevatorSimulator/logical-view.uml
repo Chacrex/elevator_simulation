@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_JY5pAMVHEeiPCswKu6v8ew" name="logical-view">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_JY5pAMVHEeiPCswKu6v8ew" name="logical-view">
   <packageImport xmi:type="uml:PackageImport" xmi:id="_JhwqEMVHEeiPCswKu6v8ew">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
@@ -19,32 +19,56 @@
           <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_qKDv8MVdEeiPCswKu6v8ew" client="_ksbfEMVcEeiPCswKu6v8ew" supplier="_m2xPsMVcEeiPCswKu6v8ew" contract="_m2xPsMVcEeiPCswKu6v8ew"/>
           <ownedOperation xmi:type="uml:Operation" xmi:id="_3rS70MVnEeiPCswKu6v8ew" name="Monter" concurrency="concurrent"/>
           <ownedOperation xmi:type="uml:Operation" xmi:id="_-iljwMVnEeiPCswKu6v8ew" name="Descendre"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_BAmioMZKEeiwx6mT3y2LyA" name="AffichagePosition"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Interface" xmi:id="_m2xPsMVcEeiPCswKu6v8ew" name="SdC_2_IU"/>
-        <packagedElement xmi:type="uml:Interface" xmi:id="_voegcMVdEeiPCswKu6v8ew" name="IU_2_SdC"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_m2xPsMVcEeiPCswKu6v8ew" name="SdC_2_IU">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_9P7tYMZJEeiwx6mT3y2LyA" name="Monter"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_-zi1MMZJEeiwx6mT3y2LyA" name="Descendre"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_hDlW8MZKEeiwx6mT3y2LyA" name="ChoixNiveau"/>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_gNaykMVbEeiPCswKu6v8ew" name="Système_de_Contrôle">
         <packagedElement xmi:type="uml:Package" xmi:id="_uh_rcMVbEeiPCswKu6v8ew" name="Interface"/>
         <packagedElement xmi:type="uml:Package" xmi:id="_vw-AAMVbEeiPCswKu6v8ew" name="Implémentation"/>
         <packagedElement xmi:type="uml:Package" xmi:id="_x5pjwMVbEeiPCswKu6v8ew" name="Factory"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_DRhjoMVeEeiPCswKu6v8ew" name="Systeme_de_Controle">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Sr4RkMZKEeiwx6mT3y2LyA" name="positionAscenseur" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_8ZkbMMZLEeiwx6mT3y2LyA" name="positionUtilisateur" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+          </ownedAttribute>
           <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_JFMggMVgEeiPCswKu6v8ew" client="_DRhjoMVeEeiPCswKu6v8ew" supplier="_dLbEYMVfEeiPCswKu6v8ew" contract="_dLbEYMVfEeiPCswKu6v8ew"/>
           <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_MpP2EMVgEeiPCswKu6v8ew" client="_DRhjoMVeEeiPCswKu6v8ew" supplier="_ZmWbIMVfEeiPCswKu6v8ew" contract="_ZmWbIMVfEeiPCswKu6v8ew"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Interface" xmi:id="_Gd-RgMVeEeiPCswKu6v8ew" name="SdC_2_IU"/>
-        <packagedElement xmi:type="uml:Interface" xmi:id="_ZmWbIMVfEeiPCswKu6v8ew" name="IU_2_SdC"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_ZmWbIMVfEeiPCswKu6v8ew" name="IU_2_SdC">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_kfSBwMZKEeiwx6mT3y2LyA" name="AffichagePosition">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_pW54AMZKEeiwx6mT3y2LyA" name="niveau">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
         <packagedElement xmi:type="uml:Interface" xmi:id="_dLbEYMVfEeiPCswKu6v8ew" name="Ascenseur_2_SdC"/>
-        <packagedElement xmi:type="uml:Interface" xmi:id="_gyBXoMVfEeiPCswKu6v8ew" name="SdC_2_Ascenseur"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_2E-ikMZJEeiwx6mT3y2LyA" name="SdC_2_Ascenseur">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_2E-ikcZJEeiwx6mT3y2LyA" name="Marche" visibility="public">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_2E-iksZJEeiwx6mT3y2LyA" name="sens" type="_MhxNsMVjEeiPCswKu6v8ew"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_2E-ik8ZJEeiwx6mT3y2LyA" name="Arret_Niveau"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_2E-ilMZJEeiwx6mT3y2LyA" name="get_etat"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_2E-ilcZJEeiwx6mT3y2LyA" name="get_position"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_2E-ilsZJEeiwx6mT3y2LyA" name="get_sens"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_DaxNEMZMEeiwx6mT3y2LyA" name="SdC_2_IU">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_DaxNEcZMEeiwx6mT3y2LyA" name="Monter"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_DaxNEsZMEeiwx6mT3y2LyA" name="Descendre"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_DaxNE8ZMEeiwx6mT3y2LyA" name="ChoixNiveau"/>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_ibyuoMVbEeiPCswKu6v8ew" name="Ascenseur">
         <packagedElement xmi:type="uml:Package" xmi:id="_zaj84MVbEeiPCswKu6v8ew" name="Interface"/>
         <packagedElement xmi:type="uml:Package" xmi:id="_1FjfEMVbEeiPCswKu6v8ew" name="Implémentation"/>
         <packagedElement xmi:type="uml:Package" xmi:id="_2Ro3sMVbEeiPCswKu6v8ew" name="Factory"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_TwUt0MVdEeiPCswKu6v8ew" name="Ascenseur">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_QTirosViEeiPCswKu6v8ew" name="ascenseur_2_sdc" type="_rW9WAMVfEeiPCswKu6v8ew" association="_QTdzIMViEeiPCswKu6v8ew">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QTiro8ViEeiPCswKu6v8ew"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QTirpMViEeiPCswKu6v8ew" value="1"/>
-          </ownedAttribute>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_6YkMoMViEeiPCswKu6v8ew" name="etat" visibility="private" type="_zxqxIMViEeiPCswKu6v8ew"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_Aeg3MMVjEeiPCswKu6v8ew" name="position" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
@@ -55,18 +79,44 @@
             <ownedParameter xmi:type="uml:Parameter" xmi:id="_1npegMVmEeiPCswKu6v8ew" name="sensDeplacement" type="_MhxNsMVjEeiPCswKu6v8ew"/>
           </ownedOperation>
           <ownedOperation xmi:type="uml:Operation" xmi:id="_Nr1QQMVnEeiPCswKu6v8ew" name="Arret_Niveau" concurrency="concurrent"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_sFc-QMVgEeiPCswKu6v8ew" name="Capteurs"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_tM02AMVgEeiPCswKu6v8ew" name="Cabine"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_t_EyUMVgEeiPCswKu6v8ew" name="Moteur"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_sFc-QMVgEeiPCswKu6v8ew" name="Capteurs" visibility="private">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_rNnpYMZHEeiwx6mT3y2LyA" name="etat">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
+            </ownedAttribute>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_tM02AMVgEeiPCswKu6v8ew" name="Cabine" visibility="private">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_Yf2NkMZFEeiwx6mT3y2LyA" name="etat" type="_ODC3gMZFEeiwx6mT3y2LyA"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_6A1bgMZGEeiwx6mT3y2LyA" name="position">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+            </ownedAttribute>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_CkLAcMZFEeiwx6mT3y2LyA" name="mise_en_mvt">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_CkLAccZFEeiwx6mT3y2LyA" name="vitesse_relative">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_E0wjAMZFEeiwx6mT3y2LyA" name="fin_mvt"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_GfkfAMZFEeiwx6mT3y2LyA" name="ouverture"/>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_t_EyUMVgEeiPCswKu6v8ew" name="Moteur" visibility="private">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_qL84YMZEEeiwx6mT3y2LyA" name="vitesse" visibility="protected">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+            </ownedAttribute>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_18r7gMZEEeiwx6mT3y2LyA" name="marche">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_18r7gcZEEeiwx6mT3y2LyA" name="sens" type="_MhxNsMVjEeiPCswKu6v8ew"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_3o8pAMZEEeiwx6mT3y2LyA" name="arret"/>
+          </nestedClassifier>
         </packagedElement>
-        <packagedElement xmi:type="uml:Interface" xmi:id="_hgTr4MVdEeiPCswKu6v8ew" name="SdC_2_Ascenseur"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_hgTr4MVdEeiPCswKu6v8ew" name="SdC_2_Ascenseur">
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_8SL9oMZHEeiwx6mT3y2LyA" name="Marche" visibility="public">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_Bu4P0MZIEeiwx6mT3y2LyA" name="sens" type="_MhxNsMVjEeiPCswKu6v8ew"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_dpdrYMZIEeiwx6mT3y2LyA" name="Arret_Niveau"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_tDjlYMZJEeiwx6mT3y2LyA" name="get_etat"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_ukZGAMZJEeiwx6mT3y2LyA" name="get_position"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_vqM3gMZJEeiwx6mT3y2LyA" name="get_sens"/>
+        </packagedElement>
         <packagedElement xmi:type="uml:Interface" xmi:id="_rW9WAMVfEeiPCswKu6v8ew" name="Ascenseur_2_SdC"/>
-        <packagedElement xmi:type="uml:Association" xmi:id="_QTdzIMViEeiPCswKu6v8ew" memberEnd="_QTirosViEeiPCswKu6v8ew _QTirpcViEeiPCswKu6v8ew">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QTiroMViEeiPCswKu6v8ew" source="org.eclipse.papyrus">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QTirocViEeiPCswKu6v8ew" key="nature" value="UML_Nature"/>
-          </eAnnotations>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_QTirpcViEeiPCswKu6v8ew" name="ascenseur" type="_TwUt0MVdEeiPCswKu6v8ew" association="_QTdzIMViEeiPCswKu6v8ew"/>
-        </packagedElement>
         <packagedElement xmi:type="uml:Enumeration" xmi:id="_zxqxIMViEeiPCswKu6v8ew" name="Etat_ascenseur">
           <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2lQ6IMViEeiPCswKu6v8ew" name="Repos"/>
           <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_3btZ8MViEeiPCswKu6v8ew" name="Deplacement"/>
@@ -75,6 +125,11 @@
         <packagedElement xmi:type="uml:Enumeration" xmi:id="_MhxNsMVjEeiPCswKu6v8ew" name="Sens">
           <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_O1T9oMVjEeiPCswKu6v8ew" name="montée"/>
           <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_PhHTsMVjEeiPCswKu6v8ew" name="descente"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_ODC3gMZFEeiwx6mT3y2LyA" name="Etat_cabine">
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_P7nisMZFEeiwx6mT3y2LyA" name="ouverte"/>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_RAHsoMZFEeiwx6mT3y2LyA" name="fermée"/>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_SSzcgMZFEeiwx6mT3y2LyA" name="en_mouvement"/>
         </packagedElement>
       </packagedElement>
     </packagedElement>

@@ -21,7 +21,6 @@
         <packagedElement xmi:type="uml:UseCase" xmi:id="_NIuNMMF3EeiPI_6br6tQPA" name="Saisie Utilisateur"/>
         <packagedElement xmi:type="uml:UseCase" xmi:id="_QTrGQMF3EeiPI_6br6tQPA" name="Déplacement"/>
         <packagedElement xmi:type="uml:UseCase" xmi:id="_SHLrQMF3EeiPI_6br6tQPA" name="Mise-à-jour Informations"/>
-        <packagedElement xmi:type="uml:Usage" xmi:id="_CFpr4MF4EeiPI_6br6tQPA" client="_SHLrQMF3EeiPI_6br6tQPA" supplier="_GyUEwMF3EeiPI_6br6tQPA"/>
         <packagedElement xmi:type="uml:UseCase" xmi:id="_CkhuMMMCEeiowd-VGLbCWQ" name="Optimisation"/>
         <packagedElement xmi:type="uml:Usage" xmi:id="_dVAHEMMCEeiowd-VGLbCWQ" name="commande" client="_CkhuMMMCEeiowd-VGLbCWQ" supplier="_QTrGQMF3EeiPI_6br6tQPA"/>
         <packagedElement xmi:type="uml:Usage" xmi:id="_vALV4MVTEeiSxf8PnO4FrQ" client="_SHLrQMF3EeiPI_6br6tQPA" supplier="_UWik88VTEeiPCswKu6v8ew"/>
@@ -146,6 +145,7 @@ Cet appel va être pris en compte par le système de contrôle.&#xD;
     <packagedElement xmi:type="uml:Usage" xmi:id="_64BnkMF3EeiPI_6br6tQPA" client="_DzTV8MF3EeiPI_6br6tQPA" supplier="_NIuNMMF3EeiPI_6br6tQPA"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_DeXyUMF4EeiPI_6br6tQPA" client="_E4aj4MF3EeiPI_6br6tQPA" supplier="_NIuNMMF3EeiPI_6br6tQPA"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_suqe4MVWEeiSxf8PnO4FrQ" name="Ouverture porte"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_rvJFQMZLEeiwx6mT3y2LyA" client="_GyUEwMF3EeiPI_6br6tQPA" supplier="_SHLrQMF3EeiPI_6br6tQPA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_LM1pQMTuEeit94A35ImIww" name="Utilisateur"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_PaIJEMTuEeit94A35ImIww" client="_LM1pQMTuEeit94A35ImIww" supplier="_qE_UEMTsEeit94A35ImIww"/>
