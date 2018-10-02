@@ -145,10 +145,11 @@ Cet appel va être pris en compte par le système de contrôle.&#xD;
     <packagedElement xmi:type="uml:Usage" xmi:id="_rvJFQMZLEeiwx6mT3y2LyA" client="_GyUEwMF3EeiPI_6br6tQPA" supplier="_SHLrQMF3EeiPI_6br6tQPA"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_bTKV0MZdEeiUQeSORylwIw" name="IHM Outdoor">
       <packagedElement xmi:type="uml:UseCase" xmi:id="_DzTV8MF3EeiPI_6br6tQPA" name="Appel ascenseur"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_suqe4MVWEeiSxf8PnO4FrQ" name="Etat porte"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_xaqVcMZ-EeiUQeSORylwIw" client="_DzTV8MF3EeiPI_6br6tQPA" supplier="_suqe4MVWEeiSxf8PnO4FrQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_H1iSwMZNEeiUQeSORylwIw" name="IHM Indoor">
       <packagedElement xmi:type="uml:UseCase" xmi:id="_E4aj4MF3EeiPI_6br6tQPA" name="Choix étage"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_suqe4MVWEeiSxf8PnO4FrQ" name="Ouverture porte"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_LM1pQMTuEeit94A35ImIww" name="Utilisateur"/>
