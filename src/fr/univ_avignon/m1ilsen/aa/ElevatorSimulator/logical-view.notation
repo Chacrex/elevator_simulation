@@ -288,7 +288,7 @@
     <styles xmi:type="notation:StringValueStyle" xmi:id="_6osXgcVbEeiPCswKu6v8ew" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_6osXgsVbEeiPCswKu6v8ew"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_6osXg8VbEeiPCswKu6v8ew" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
-      <owner xmi:type="uml:Package" href="logical-view.uml#_Yndt0MVbEeiPCswKu6v8ew"/>
+      <owner xmi:type="uml:Package" href="logical-view.uml#_pRh3YMVbEeiPCswKu6v8ew"/>
     </styles>
     <element xmi:type="uml:Package" href="logical-view.uml#_Yndt0MVbEeiPCswKu6v8ew"/>
     <edges xmi:type="notation:Connector" xmi:id="_qKGzQMVdEeiPCswKu6v8ew" type="InterfaceRealization_Edge" source="_ksctMMVcEeiPCswKu6v8ew" target="_m2x2wMVcEeiPCswKu6v8ew">
@@ -634,7 +634,7 @@
     <styles xmi:type="notation:StringValueStyle" xmi:id="_-XxRUcVbEeiPCswKu6v8ew" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_-XxRUsVbEeiPCswKu6v8ew"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_-XxRU8VbEeiPCswKu6v8ew" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
-      <owner xmi:type="uml:Package" href="logical-view.uml#_gNaykMVbEeiPCswKu6v8ew"/>
+      <owner xmi:type="uml:Package" href="logical-view.uml#_uh_rcMVbEeiPCswKu6v8ew"/>
     </styles>
     <element xmi:type="uml:Package" href="logical-view.uml#_gNaykMVbEeiPCswKu6v8ew"/>
     <edges xmi:type="notation:Connector" xmi:id="_MpTgcMVgEeiPCswKu6v8ew" type="InterfaceRealization_Edge" source="_DRiKsMVeEeiPCswKu6v8ew" target="_ZmYQUMVfEeiPCswKu6v8ew">
@@ -1220,7 +1220,7 @@
     <styles xmi:type="notation:StringValueStyle" xmi:id="__y2vQcVbEeiPCswKu6v8ew" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="__y2vQsVbEeiPCswKu6v8ew"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="__y2vQ8VbEeiPCswKu6v8ew" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
-      <owner xmi:type="uml:Package" href="logical-view.uml#_ibyuoMVbEeiPCswKu6v8ew"/>
+      <owner xmi:type="uml:Package" href="logical-view.uml#_zaj84MVbEeiPCswKu6v8ew"/>
     </styles>
     <element xmi:type="uml:Package" href="logical-view.uml#_ibyuoMVbEeiPCswKu6v8ew"/>
     <edges xmi:type="notation:Connector" xmi:id="_oFJR4MVdEeiPCswKu6v8ew" type="InterfaceRealization_Edge" source="_TwVU4MVdEeiPCswKu6v8ew" target="_hgU6AMVdEeiPCswKu6v8ew">
