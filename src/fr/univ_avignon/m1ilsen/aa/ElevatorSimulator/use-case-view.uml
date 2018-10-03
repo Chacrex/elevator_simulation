@@ -18,15 +18,15 @@
 - Déplacement : commande les déplacements de l'ascenseur&#xD;
 - Mise-à-jour informations : maj de la position de l'ascenseur pour que l'interface utilisateur puisse afficher les informations</body>
         </ownedComment>
-        <packagedElement xmi:type="uml:UseCase" xmi:id="_NIuNMMF3EeiPI_6br6tQPA" name="Saisie Utilisateur"/>
         <packagedElement xmi:type="uml:UseCase" xmi:id="_QTrGQMF3EeiPI_6br6tQPA" name="Déplacement"/>
         <packagedElement xmi:type="uml:UseCase" xmi:id="_SHLrQMF3EeiPI_6br6tQPA" name="Mise-à-jour Informations"/>
         <packagedElement xmi:type="uml:UseCase" xmi:id="_CkhuMMMCEeiowd-VGLbCWQ" name="Optimisation"/>
         <packagedElement xmi:type="uml:Usage" xmi:id="_dVAHEMMCEeiowd-VGLbCWQ" name="commande" client="_CkhuMMMCEeiowd-VGLbCWQ" supplier="_QTrGQMF3EeiPI_6br6tQPA"/>
         <packagedElement xmi:type="uml:Usage" xmi:id="_vALV4MVTEeiSxf8PnO4FrQ" client="_SHLrQMF3EeiPI_6br6tQPA" supplier="_UWik88VTEeiPCswKu6v8ew"/>
-        <packagedElement xmi:type="uml:Usage" xmi:id="_5rb-sMVTEeiSxf8PnO4FrQ" client="_NIuNMMF3EeiPI_6br6tQPA" supplier="_UWik88VTEeiPCswKu6v8ew"/>
         <packagedElement xmi:type="uml:Usage" xmi:id="__ezEcMVTEeiSxf8PnO4FrQ" client="_QTrGQMF3EeiPI_6br6tQPA" supplier="_UWik9MVTEeiPCswKu6v8ew"/>
         <packagedElement xmi:type="uml:Usage" xmi:id="_Ac9V0MVUEeiSxf8PnO4FrQ" client="_QTrGQMF3EeiPI_6br6tQPA" supplier="_UWik9cVTEeiPCswKu6v8ew"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_epnrIMboEeiWoLM4iHyepg" name="Appel Ascenseur"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_h_EkAMboEeiWoLM4iHyepg" name="Choix Etage"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_YiwYoMPJEeipW4dAPlJz1w" name="Package_Diagram">
@@ -140,8 +140,8 @@ Cet appel va être pris en compte par le système de contrôle.&#xD;
 - Affichage étage : l'utilisateur peut voir le niveau où se trouve actuellement l'ascenseur, cette information est mise-à-jour par le système de contrôle.</body>
     </ownedComment>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_GyUEwMF3EeiPI_6br6tQPA" name="Affichage étage"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_64BnkMF3EeiPI_6br6tQPA" client="_DzTV8MF3EeiPI_6br6tQPA" supplier="_NIuNMMF3EeiPI_6br6tQPA"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_DeXyUMF4EeiPI_6br6tQPA" client="_E4aj4MF3EeiPI_6br6tQPA" supplier="_NIuNMMF3EeiPI_6br6tQPA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_64BnkMF3EeiPI_6br6tQPA" client="_DzTV8MF3EeiPI_6br6tQPA" supplier="_epnrIMboEeiWoLM4iHyepg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_DeXyUMF4EeiPI_6br6tQPA" client="_E4aj4MF3EeiPI_6br6tQPA" supplier="_h_EkAMboEeiWoLM4iHyepg"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_rvJFQMZLEeiwx6mT3y2LyA" client="_GyUEwMF3EeiPI_6br6tQPA" supplier="_SHLrQMF3EeiPI_6br6tQPA"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_bTKV0MZdEeiUQeSORylwIw" name="IHM Outdoor">
       <packagedElement xmi:type="uml:UseCase" xmi:id="_DzTV8MF3EeiPI_6br6tQPA" name="Appel ascenseur"/>
@@ -204,7 +204,6 @@ Cet appel va être pris en compte par le système de contrôle.&#xD;
       <packagedElement xmi:type="uml:Usage" xmi:id="_UWik98VTEeiPCswKu6v8ew" client="_UWik9MVTEeiPCswKu6v8ew" supplier="_UWik58VTEeiPCswKu6v8ew"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_UWik-MVTEeiPCswKu6v8ew" client="_UWik9cVTEeiPCswKu6v8ew" supplier="_UWik6MVTEeiPCswKu6v8ew"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_UWik-cVTEeiPCswKu6v8ew" client="_UWik88VTEeiPCswKu6v8ew" supplier="_UWik3MVTEeiPCswKu6v8ew"/>
-      <packagedElement xmi:type="uml:Usage" xmi:id="_7j0coMVTEeiSxf8PnO4FrQ" client="_NIuNMMF3EeiPI_6br6tQPA" supplier="_CkhuMMMCEeiowd-VGLbCWQ"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_FhC6wMVUEeiSxf8PnO4FrQ" client="_UWik9MVTEeiPCswKu6v8ew" supplier="_UWik58VTEeiPCswKu6v8ew"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_PW2iQMVUEeiSxf8PnO4FrQ" client="_UWik9cVTEeiPCswKu6v8ew" supplier="_UWik6MVTEeiPCswKu6v8ew"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_sGeIYMVUEeiSxf8PnO4FrQ" client="_UWik88VTEeiPCswKu6v8ew" supplier="_UWik6sVTEeiPCswKu6v8ew"/>
