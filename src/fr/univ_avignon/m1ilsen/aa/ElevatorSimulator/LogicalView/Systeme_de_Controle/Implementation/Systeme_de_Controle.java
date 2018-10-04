@@ -8,7 +8,7 @@ import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Ascenseur.Interf
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.IHM_Simule.Interface.IOutdoor;
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Systeme_de_Controle.Interface.ISysteme_de_Controle;
 
-public class Systeme_de_controle implements ISysteme_de_Controle {
+public class Systeme_de_Controle implements ISysteme_de_Controle {
 	public class Deplacement 
 	{
 		private int arriver;

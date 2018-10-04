@@ -2,5 +2,5 @@ package fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.IHM_Simule.Inte
 
 public interface IIndoor {
 
-	abstract void ChoixNiveau();
+	abstract void ChoixNiveau(int niveau);
 }

@@ -7,4 +7,6 @@ public interface IOutdoor {
 	abstract void Descendre();
 	
 	abstract void GetEtatPortes();
+	
+	abstract void SetEtatPortes();	
 }
