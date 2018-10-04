@@ -10,9 +10,9 @@ public class Outdoor implements IOutdoor{
 	private ISysteme_de_Controle SdC;
 	private boolean etatPorte;
 	
-	public Outdoor(int niveauOutdoor) {
+	public Outdoor(int niveauOutdoor, ISysteme_de_Controle sdc) {
 		this.niveauOutdoor = niveauOutdoor;
-		this.SdC = Factory_Systeme_de_Controle.CreerSysteme_de_Controle();
+		this.SdC = sdc;
 	}
 	
 	public void Descendre() {

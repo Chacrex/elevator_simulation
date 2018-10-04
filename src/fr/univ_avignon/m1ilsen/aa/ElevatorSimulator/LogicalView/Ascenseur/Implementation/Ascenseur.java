@@ -28,6 +28,7 @@ public class Ascenseur implements IAscenseur {
 			capteurs.add(Factory_Ascenseur.CreerCapteur());
 		}
 		cabine = Factory_Ascenseur.CreeCabine(controlSystem, vitesseMoteur);
+		position = cabine.get_position();
 	}
 	
 	@Override

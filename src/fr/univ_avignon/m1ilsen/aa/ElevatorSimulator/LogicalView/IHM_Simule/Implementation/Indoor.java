@@ -7,6 +7,10 @@ public class Indoor implements IIndoor{
 	
 	private ISysteme_de_Controle SdC;
 	
+	public Indoor(ISysteme_de_Controle sdc) {
+		this.SdC = sdc;
+	}
+	
 	public void ChoixNiveau(int niveau) {
 		SdC.ChoixNiveau(niveau);
 	}

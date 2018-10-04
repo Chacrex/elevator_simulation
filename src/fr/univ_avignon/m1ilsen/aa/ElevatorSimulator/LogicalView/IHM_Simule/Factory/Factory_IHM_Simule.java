@@ -15,12 +15,12 @@ public class Factory_IHM_Simule {
 		return new IHM_Simule(nbNiveau, sdc);
 	}
 	
-	public static IIndoor CreerIndoor() {
-		return new Indoor();
+	public static IIndoor CreerIndoor(ISysteme_de_Controle sdc) {
+		return new Indoor(sdc);
 	}
 	
-	public static IOutdoor CreerOutdoor(int niveauOutdoor) {
-		Outdoor current = new Outdoor(niveauOutdoor);
+	public static IOutdoor CreerOutdoor(int niveauOutdoor, ISysteme_de_Controle sdc) {
+		Outdoor current = new Outdoor(niveauOutdoor, sdc);
 		return current;
 	}
 }

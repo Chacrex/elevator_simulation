@@ -18,13 +18,12 @@ public class IHM_Simule implements IIHM_Simule {
 	private ISysteme_de_Controle SdC;
 	
 	public IHM_Simule(int nbNiveau, ISysteme_de_Controle sdcontrole) {
-		this.ihmIndoor = Factory_IHM_Simule.CreerIndoor();
 		this.SdC = sdcontrole;
+		this.ihmIndoor = Factory_IHM_Simule.CreerIndoor(SdC);
 		this.ihmOutdoor = new Outdoor[nbNiveau];
 		for(int i = 0; i < nbNiveau; i++) {
-			ihmOutdoor[i] = Factory_IHM_Simule.CreerOutdoor(i);
+			ihmOutdoor[i] = Factory_IHM_Simule.CreerOutdoor(i, SdC);
 		}
-		this.SdC = Factory_Systeme_de_Controle.CreerSysteme_de_Controle();
 	}
 	
 	public void GererPortes(int niveau, boolean b) {
@@ -71,13 +70,19 @@ public class IHM_Simule implements IIHM_Simule {
 		
 		
 		ISysteme_de_Controle sdc = Factory_Systeme_de_Controle.CreerSysteme_de_Controle();
-		IIHM_Simule ihm = Factory_IHM_Simule.CreerIhm_Simule(5, sdc);
-		IAscenseur ascenseur = Factory_Ascenseur.CreerAscenseur(4, 10, sdc);
-		System.out.println(ihm.AffichageEtage());
+		IIHM_Simule ihm = new IHM_Simule(5, sdc);
+		IAscenseur ascenseur = Factory_Ascenseur.CreerAscenseur(5, 10, sdc);
 		
-		//.ihmOutdoor[0].Monter();
+		sdc.AssignerAscenseur(ascenseur);
+		sdc.AssignerIHM(ihm);
 		
-		//ihm.ihmIndoor.ChoixNiveau(3);
+		System.out.println("Position de l'ascenseur : " + ihm.AffichageEtage());
+		
+		System.out.println("L'utilisateur appuye sur le bouton pour monter");
+		ihm.Monter(0);
+		
+		System.out.println("L'utilisateur choisit le niveau 3");
+		ihm.ChoixNiveau(3);
 		
 	}
 }

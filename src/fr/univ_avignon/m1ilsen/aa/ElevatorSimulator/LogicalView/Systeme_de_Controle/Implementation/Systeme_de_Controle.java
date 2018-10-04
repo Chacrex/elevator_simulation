@@ -84,7 +84,6 @@ public class Systeme_de_Controle implements ISysteme_de_Controle {
 			listeDeplacements.add(new Deplacement(niveau, Sens.Descente));
 	}
 	
-	// Il faut enlever le bool inutile, et puis merde j'aime pas les boules, j'suis pô pd
 	@Override
 	public void Set_OuverturePorte()
     {
@@ -114,9 +113,9 @@ public class Systeme_de_Controle implements ISysteme_de_Controle {
 	public static void main(String[] args) {
 		/*
 		 * Scénario :
-		 * - L'ascenseur se trouve au niveau 5
+		 * - L'ascenseur se trouve au niveau 0
 		 * - Le SdC reçoit une demande pour monter provenant du niveau 2
-		 * - Le SdC envoie une commande de descente à l'ascenseur
+		 * - Le SdC envoie une commande de monter à l'ascenseur
 		 * - Le SdC reçoit une commande pour aller au niveau 4
 		 * - Le SdC envoie la commande à l'ascenseur pour monter au niveau 4
 		 * - Le SdC commande l'ouverture des portes
@@ -129,13 +128,16 @@ public class Systeme_de_Controle implements ISysteme_de_Controle {
 		Sdc.AssignerIHM(ihm);
 		Sdc.AssignerAscenseur(asc);
 		
-		Sdc.ihm = ihm;
-		Sdc.ascenseur = asc;
-		Sdc.listeDeplacements = new ArrayList<Deplacement>();
+		IOutdoor outdoor = Factory_IHM_Simule.CreerOutdoor(2, Sdc);
 		
-		IOutdoor outdoor = Factory_IHM_Simule.CreerOutdoor(2);
+		System.out.println("Position de l'ascenseur : " + Sdc.ascenseur.get_position());
 		
 		outdoor.Monter();
+		
+		Sdc.AppelAscenseur(2, SensAppel.Haut);
+		Sdc.ascenseur.Marche(Sens.Montee);
+		
+		System.out.println("Position de l'ascenseur : " + Sdc.ascenseur.get_position());
 		
 		
 	}
