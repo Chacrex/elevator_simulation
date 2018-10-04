@@ -1,24 +1,24 @@
 package fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Gestionnaire_de_Simulation.Implementation;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 import java.util.Random;
 
-import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Ascenseur.Implementation.Ascenseur;
-import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.IHM_Simule.Implementation.IHM_Simule;
-import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Systeme_de_Controle.Implementation.Systeme_de_Controle;
+import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Ascenseur.Factory.Factory_Ascenseur;
+import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Ascenseur.Interface.IAscenseur;
+import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.IHM_Simule.Factory.Factory_IHM_Simule;
+import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.IHM_Simule.Interface.IIHM_Simule;
+import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Systeme_de_Controle.Factory.Factory_Systeme_de_Controle;
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Systeme_de_Controle.Interface.ISysteme_de_Controle;
 
 public class Gestionnaire_de_Simulation {
 	
 	int nbUtilisateur;
-	Utilisateur[] tabU;
+	List<Utilisateur> listeUtil;
 	int nbNiveau;
 	long debutSim;
 	Date d;
-	
-	Ascenseur asc;
-	Systeme_de_Controle SdC;
-	IHM_Simule IHM;
 	
 	// Constructeur Gestionnaire_de_Simulation
 	public Gestionnaire_de_Simulation(int nbUtilisateur, int nbNiveau) {
@@ -31,7 +31,7 @@ public class Gestionnaire_de_Simulation {
 			nbNiveau = 2;
 		}
 		
-		tabU = new Utilisateur[nbUtilisateur];
+		listeUtil = new ArrayList<Utilisateur>();
 		for(int i = 0; i < nbUtilisateur; i ++) {
 			// Générer aléatoirement les niveaux départ et arrivée de l'utilisateur
 			int dep = r.nextInt(nbNiveau);
@@ -41,7 +41,7 @@ public class Gestionnaire_de_Simulation {
 				arr = r.nextInt(nbNiveau);
 			} while (arr != dep);
 			
-			tabU[i] = new Utilisateur(i, dep, arr, r.nextInt(1000));
+			listeUtil.add(new Utilisateur(i, dep, arr, r.nextInt(1000)));
 		}
 		this.debutSim = System.currentTimeMillis();
 		this.d = new Date();
@@ -77,32 +77,37 @@ public class Gestionnaire_de_Simulation {
 	 * Faire les tests du DUMMY SYSTEM ici
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
-		Gestionnaire_de_Simulation g = new Gestionnaire_de_Simulation(5, 10);
-		//g.asc = new Ascenseur();
-		//g.IHM = new IHM_Simule();
-		g.SdC = new Systeme_de_Controle();
+		// Paramètres de la simulation
+		final int nbNiv = 5;
+		final int vitMoteur = 10;
+		
+		Gestionnaire_de_Simulation g = new Gestionnaire_de_Simulation(10, nbNiv);
+		
+		ISysteme_de_Controle SdC = Factory_Systeme_de_Controle.CreerSysteme_de_Controle();
+		IAscenseur Asc = Factory_Ascenseur.CreerAscenseur(5, vitMoteur, SdC);
+		IIHM_Simule Ihm = Factory_IHM_Simule.CreerIhm_Simule(nbNiv, SdC);
+		
 		System.out.println("Début de la simulation : " + g.d);
 		
 		// Tant que les requêtes de tous les utilisateurs n'ont pas été traitées
-		while(g.tabU.length > 0) {
-			for(int i = 0; i < g.tabU.length; i++) {
-				if(g.tabU[i].debutAppel < System.currentTimeMillis() && !g.tabU[i].traitementReq) {
-					if(g.tabU[i].Requete() == "Monter") {
-						g.SdC.AppelAscenseur(g.tabU[i].niveauDepart, ISysteme_de_Controle.SensAppel.Haut);
+		while(!g.listeUtil.isEmpty()) {
+			for(int i = 0; i < g.listeUtil.size(); i++) {
+				if(g.listeUtil.get(i).debutAppel < System.currentTimeMillis() && !g.listeUtil.get(i).traitementReq) {
+					if(g.listeUtil.get(i).Requete() == "Monter") {
+						SdC.AppelAscenseur(g.listeUtil.get(i).niveauDepart, ISysteme_de_Controle.SensAppel.Haut);
 					} else {
-						g.SdC.AppelAscenseur(g.tabU[i].niveauDepart, ISysteme_de_Controle.SensAppel.Bas);
+						SdC.AppelAscenseur(g.listeUtil.get(i).niveauDepart, ISysteme_de_Controle.SensAppel.Bas);
 					}
 					
 					
 					
-					System.out.println("L'utilisateur n°"+ i +" a appelé l'ascenseur au niveau " + g.tabU[i].niveauDepart);
+					System.out.println("L'utilisateur n°"+ i +" a appelé l'ascenseur au niveau " + g.listeUtil.get(i).niveauDepart);
 					
 					
 					// On retire l'utilisateur dont la requête a été traité
 					
-					g.tabU[i] = null;
+					g.listeUtil.remove(i);
 				}
 				
 				
