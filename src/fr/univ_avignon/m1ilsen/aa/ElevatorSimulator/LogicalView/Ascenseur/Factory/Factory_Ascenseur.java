@@ -34,4 +34,3 @@ public class Factory_Ascenseur
 }
 
 
-//List<ICapteur> capteurs, ICabine cabine, IMoteur moteur)
