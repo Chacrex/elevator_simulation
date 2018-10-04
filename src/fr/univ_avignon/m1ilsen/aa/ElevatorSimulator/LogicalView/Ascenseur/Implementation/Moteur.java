@@ -4,8 +4,15 @@ import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Ascenseur.Interf
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Ascenseur.Interface.IMoteur;
 
 public class Moteur implements IMoteur {
+	
+	
 
 	private int vitesse;
+	
+	public Moteur(int vitesseMoteur)
+	{
+		vitesse = vitesseMoteur;
+	}
 	
 	@Override
 	public void Marche(Sens sens) {

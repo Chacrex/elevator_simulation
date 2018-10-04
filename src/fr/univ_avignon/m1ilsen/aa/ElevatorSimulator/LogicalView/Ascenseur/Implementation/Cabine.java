@@ -1,5 +1,6 @@
 package fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Ascenseur.Implementation;
 
+import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Ascenseur.Factory.Factory_Ascenseur;
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Ascenseur.Interface.IAscenseur;
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Ascenseur.Interface.ICabine;
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Ascenseur.Interface.IMoteur;
@@ -11,6 +12,14 @@ public class Cabine implements ICabine {
 	private ISysteme_de_Controle SdC;
 	private IMoteur moteur;
 	
+	public Cabine(ISysteme_de_Controle controlSystem, int vitesseMoteur)
+	{
+		etat_cabine = Etat_cabine.ouverte;
+		SdC = controlSystem;
+		position = 0;
+		Factory_Ascenseur.CreeMoteur(vitesseMoteur);
+	}
+	
 	@Override
 	public int get_position() {
 		return position;
@@ -18,7 +27,7 @@ public class Cabine implements ICabine {
 
 	@Override
 	public void ouverture() {
-		SdC.Set_OuverturePorte(true);
+		SdC.Set_OuverturePorte();
 	}
 
 	@Override
