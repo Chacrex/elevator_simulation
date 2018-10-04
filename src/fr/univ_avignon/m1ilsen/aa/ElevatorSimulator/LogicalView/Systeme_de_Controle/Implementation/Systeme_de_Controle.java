@@ -39,7 +39,6 @@ public class Systeme_de_Controle implements ISysteme_de_Controle {
 	private IIHM_Simule ihm;
 
 	public Systeme_de_Controle() {
-		
 		listeDeplacements = new ArrayList<Deplacement>();
 	}
 	
@@ -52,6 +51,11 @@ public class Systeme_de_Controle implements ISysteme_de_Controle {
 	public void AssignerAscenseur(IAscenseur ascenseurassigner)
 	{
 		ascenseur = ascenseurassigner;
+	}
+	
+	public void AssignerIHM(IIHM_Simule ascenseurIHM)
+	{
+		ihm = ascenseurIHM;
 	}
 
 	@Override
@@ -114,6 +118,7 @@ public class Systeme_de_Controle implements ISysteme_de_Controle {
 		
 		IAscenseur asc = Factory_Ascenseur.CreerAscenseur(10, 10, Sdc);
 		IIHM_Simule ihm = Factory_IHM_Simule.CreerIhm_Simule(10, Sdc);
+		Sdc.AssignerIHM(ihm);
 		Sdc.AssignerAscenseur(asc);
 		
 		Sdc.ihm = ihm;

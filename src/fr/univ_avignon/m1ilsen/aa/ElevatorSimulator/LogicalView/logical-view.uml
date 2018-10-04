@@ -50,6 +50,7 @@
             <ownedOperation xmi:type="uml:Operation" xmi:id="_9h-uoMgVEeiCouDke8cfmg" name="Descendre"/>
             <ownedOperation xmi:type="uml:Operation" xmi:id="_9iBK4MgVEeiCouDke8cfmg" name="GetEtatPorte"/>
             <ownedOperation xmi:type="uml:Operation" xmi:id="_9iDAEMgVEeiCouDke8cfmg" name="Monter"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_8pGT8MgXEeiCouDke8cfmg" name="ChoixNiveau"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_tKLnAMbnEei3pLxH25YkCQ" name="Outdoor">
             <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ZB8agMb0Eei3pLxH25YkCQ" client="_tKLnAMbnEei3pLxH25YkCQ" supplier="_OFWKEMb0Eei3pLxH25YkCQ" contract="_OFWKEMb0Eei3pLxH25YkCQ"/>
