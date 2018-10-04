@@ -232,9 +232,17 @@
               <ownedParameter xmi:type="uml:Parameter" xmi:id="_Bu4P0MZIEeiwx6mT3y2LyA" name="sens" type="_MhxNsMVjEeiPCswKu6v8ew"/>
             </ownedOperation>
             <ownedOperation xmi:type="uml:Operation" xmi:id="_dpdrYMZIEeiwx6mT3y2LyA" name="Arret_Niveau"/>
-            <ownedOperation xmi:type="uml:Operation" xmi:id="_tDjlYMZJEeiwx6mT3y2LyA" name="get_etat"/>
-            <ownedOperation xmi:type="uml:Operation" xmi:id="_ukZGAMZJEeiwx6mT3y2LyA" name="get_position"/>
-            <ownedOperation xmi:type="uml:Operation" xmi:id="_vqM3gMZJEeiwx6mT3y2LyA" name="get_sens"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_tDjlYMZJEeiwx6mT3y2LyA" name="get_etat">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_B2rEsMgbEeiCouDke8cfmg" type="_zxqxIMViEeiPCswKu6v8ew" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_ukZGAMZJEeiwx6mT3y2LyA" name="get_position">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_uT96EMgaEeiCouDke8cfmg" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_vqM3gMZJEeiwx6mT3y2LyA" name="get_sens">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_UWvtoMgbEeiCouDke8cfmg" type="_MhxNsMVjEeiPCswKu6v8ew" direction="return"/>
+            </ownedOperation>
           </packagedElement>
           <packagedElement xmi:type="uml:Enumeration" xmi:id="_zxqxIMViEeiPCswKu6v8ew" name="Etat_ascenseur">
             <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2lQ6IMViEeiPCswKu6v8ew" name="Repos"/>
@@ -335,9 +343,15 @@
             <ownedOperation xmi:type="uml:Operation" xmi:id="_i1taoMb0Eei3pLxH25YkCQ" name="get_detection"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Interface" xmi:id="_dZSOMMb0Eei3pLxH25YkCQ" name="ICabine">
-            <ownedOperation xmi:type="uml:Operation" xmi:id="_l1b7IMb0Eei3pLxH25YkCQ" name="get_position"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_l1b7IMb0Eei3pLxH25YkCQ" name="get_position">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_2z43QMgbEeiCouDke8cfmg" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+              </ownedParameter>
+            </ownedOperation>
             <ownedOperation xmi:type="uml:Operation" xmi:id="_l1dJQMb0Eei3pLxH25YkCQ" name="ouverture"/>
-            <ownedOperation xmi:type="uml:Operation" xmi:id="_l1dwUMb0Eei3pLxH25YkCQ" name="get_etat_cabine" visibility="public"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_l1dwUMb0Eei3pLxH25YkCQ" name="get_etat_cabine" visibility="public">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_8vsuYMgbEeiCouDke8cfmg" type="_ODC3gMZFEeiwx6mT3y2LyA" direction="return"/>
+            </ownedOperation>
             <ownedOperation xmi:type="uml:Operation" xmi:id="_l1e-cMb0Eei3pLxH25YkCQ" name="mise_en_mvt">
               <ownedParameter xmi:type="uml:Parameter" xmi:id="_EYoHUMdbEeiek7flskYHIQ" name="sens" type="_MhxNsMVjEeiPCswKu6v8ew"/>
             </ownedOperation>
