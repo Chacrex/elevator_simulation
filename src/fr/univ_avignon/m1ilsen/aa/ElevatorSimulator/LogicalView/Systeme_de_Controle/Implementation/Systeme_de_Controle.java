@@ -6,6 +6,8 @@ import java.util.ArrayList;
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Ascenseur.Factory.Factory_Ascenseur;
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Ascenseur.Interface.IAscenseur;
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Ascenseur.Interface.IAscenseur.Sens;
+import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.IHM_Simule.Factory.Factory_IHM_Simule;
+import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.IHM_Simule.Interface.IIHM_Simule;
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.IHM_Simule.Interface.IOutdoor;
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Systeme_de_Controle.Factory.Factory_Systeme_de_Controle;
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Systeme_de_Controle.Interface.ISysteme_de_Controle;
@@ -34,7 +36,7 @@ public class Systeme_de_Controle implements ISysteme_de_Controle {
 	
 	private ArrayList<Deplacement> listeDeplacements;
 	private IAscenseur ascenseur;
-	
+	private IIHM_Simule ihm;
 
 	public Systeme_de_Controle() {
 		
@@ -44,10 +46,16 @@ public class Systeme_de_Controle implements ISysteme_de_Controle {
 	public int AffichagePosition() {
 		return ascenseur.get_position();
 	}
+	
+	@Override
+	public void AssignerAscenseur(IAscenseur ascenseurassigner)
+	{
+		ascenseur = ascenseurassigner;
+	}
 
 	@Override
 	public void AppelAscenseur(int niveauAppel, ISysteme_de_Controle.SensAppel sens) {
-		/*Optimisation : */
+		/* Optimisation : */
 		if(listeDeplacements.get(listeDeplacements.size()-1).getEtage() > niveauAppel)
 			listeDeplacements.add(new Deplacement(niveauAppel, Sens.Montee));
 		else
@@ -66,9 +74,9 @@ public class Systeme_de_Controle implements ISysteme_de_Controle {
 	@Override
 	public void Set_OuverturePorte()
 	{
-		//outdoor.Set_OuverturePorte(true);
+		ihm.GererPortes(ascenseur.get_position(), true);
 		listeDeplacements.remove(0);
-		//outdoor.Set_OuverturePorte(false);
+		ihm.GererPortes(ascenseur.get_position(), false);
 		while(true)
 		{
 			ascenseur.Marche(listeDeplacements.get(0).getSens());
@@ -92,6 +100,18 @@ public class Systeme_de_Controle implements ISysteme_de_Controle {
 		 */
 		
 		Systeme_de_Controle Sdc = new Systeme_de_Controle();
+		
+		IAscenseur asc = Factory_Ascenseur.CreerAscenseur(10, 10, Sdc);
+		IIHM_Simule ihm = Factory_IHM_Simule.CreerIhm_Simule(10, Sdc);
+		Sdc.AssignerAscenseur(asc);
+		
+		Sdc.ihm = ihm;
+		Sdc.ascenseur = asc;
+		Sdc.listeDeplacements = new ArrayList<Deplacement>();
+		
+		IOutdoor outdoor = Factory_IHM_Simule.CreerOutdoor(2);
+		
+		outdoor.Monter();
 		
 		
 	}

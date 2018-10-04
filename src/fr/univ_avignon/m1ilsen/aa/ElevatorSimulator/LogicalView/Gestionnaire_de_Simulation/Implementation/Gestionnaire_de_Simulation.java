@@ -80,8 +80,8 @@ public class Gestionnaire_de_Simulation {
 		// TODO Auto-generated method stub
 		
 		Gestionnaire_de_Simulation g = new Gestionnaire_de_Simulation(5, 10);
-		g.asc = new Ascenseur();
-		g.IHM = new IHM_Simule();
+		//g.asc = new Ascenseur();
+		//g.IHM = new IHM_Simule();
 		g.SdC = new Systeme_de_Controle();
 		System.out.println("Début de la simulation : " + g.d);
 		

@@ -8,6 +8,7 @@ public class Outdoor implements IOutdoor{
 	
 	private int niveauOutdoor;
 	private ISysteme_de_Controle SdC;
+	private boolean etatPorte;
 	
 	public Outdoor(int niveauOutdoor) {
 		this.niveauOutdoor = niveauOutdoor;
@@ -22,15 +23,17 @@ public class Outdoor implements IOutdoor{
 		SdC.AppelAscenseur(niveauOutdoor, ISysteme_de_Controle.SensAppel.Haut);
 	}
 	
-	public void GetEtatPortes() {
-		
+	public boolean GetEtatPortes() {
+		return etatPorte;
 	}
-	
-	public void SetEtatPortes() {
-		
-	}
+
 	
 	public int GetniveauOutdoor() {
 		return niveauOutdoor;
+	}
+
+	@Override
+	public void SetEtatPortes(boolean b) {
+		etatPorte = b;
 	}
 }

@@ -7,11 +7,12 @@ import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.IHM_Simule.Imple
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.IHM_Simule.Interface.IIHM_Simule;
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.IHM_Simule.Interface.IIndoor;
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.IHM_Simule.Interface.IOutdoor;
+import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Systeme_de_Controle.Interface.ISysteme_de_Controle;
 
 public class Factory_IHM_Simule {
 
-	public static IIHM_Simule CreerIhm_Simule(int nbNiveau, IAscenseur asc) {
-		return new IHM_Simule(nbNiveau, asc);
+	public static IIHM_Simule CreerIhm_Simule(int nbNiveau, ISysteme_de_Controle sdc) {
+		return new IHM_Simule(nbNiveau, sdc);
 	}
 	
 	public static IIndoor CreerIndoor() {
