@@ -5,6 +5,8 @@ import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Ascenseur.Factor
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Ascenseur.Interface.IAscenseur;
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Ascenseur.Interface.ICabine;
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Ascenseur.Interface.ICapteur;
+import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.IHM_Simule.Factory.Factory_IHM_Simule;
+import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.IHM_Simule.Interface.IIHM_Simule;
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Systeme_de_Controle.Factory.Factory_Systeme_de_Controle;
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Systeme_de_Controle.Interface.ISysteme_de_Controle;
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Systeme_de_Controle.Interface.ISysteme_de_Controle.SensAppel;
@@ -74,9 +76,11 @@ public class Ascenseur implements IAscenseur {
 		 */
 		
 		ISysteme_de_Controle SdC = Factory_Systeme_de_Controle.CreerSysteme_de_Controle();
+		IIHM_Simule Ihm = Factory_IHM_Simule.CreerIhm_Simule(5, SdC);
 		Ascenseur Asc = new Ascenseur(5, 1, SdC);
 		
 		SdC.AssignerAscenseur(Asc);
+		SdC.AssignerIHM(Ihm);
 		
 		System.out.println(Asc.get_position());
 		SdC.AppelAscenseur(1, SensAppel.Haut);

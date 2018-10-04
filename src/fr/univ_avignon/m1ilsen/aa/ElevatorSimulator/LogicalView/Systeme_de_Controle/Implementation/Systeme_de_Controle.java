@@ -87,21 +87,29 @@ public class Systeme_de_Controle implements ISysteme_de_Controle {
 	// Il faut enlever le bool inutile, et puis merde j'aime pas les boules, j'suis pô pd
 	@Override
 	public void Set_OuverturePorte()
-	{
-		ihm.GererPortes(ascenseur.get_position(), true);
-		listeDeplacements.remove(0);
-		ihm.GererPortes(ascenseur.get_position(), false);
-		while(true)
-		{
-			ascenseur.Marche(listeDeplacements.get(0).getSens());
-			if(ascenseur.get_position() == listeDeplacements.get(0).getEtage())
-			{
-				ascenseur.Arret_Niveau();
-				break;
-			}
-		}
-		
-	}
+    {
+        ihm.GererPortes(ascenseur.get_position(), true);
+        listeDeplacements.remove(0);
+        ihm.GererPortes(ascenseur.get_position(), false);
+        while(true)
+        {
+            if(listeDeplacements.size() == 0)
+            {
+                break;
+            }
+            else
+            {
+                ascenseur.Marche(listeDeplacements.get(0).getSens());
+                if(ascenseur.get_position() == listeDeplacements.get(0).getEtage())
+                {
+                    ascenseur.Arret_Niveau();
+                    break;
+                }
+            }
+
+        }
+
+    }
 	
 	public static void main(String[] args) {
 		/*

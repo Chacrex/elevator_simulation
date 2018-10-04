@@ -22,7 +22,7 @@ public class IHM_Simule implements IIHM_Simule {
 		this.SdC = sdcontrole;
 		this.ihmOutdoor = new Outdoor[nbNiveau];
 		for(int i = 0; i < nbNiveau; i++) {
-			Factory_IHM_Simule.CreerOutdoor(i);
+			ihmOutdoor[i] = Factory_IHM_Simule.CreerOutdoor(i);
 		}
 		this.SdC = Factory_Systeme_de_Controle.CreerSysteme_de_Controle();
 	}
