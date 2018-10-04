@@ -133,11 +133,7 @@
                 <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
               </ownedParameter>
             </ownedOperation>
-            <ownedOperation xmi:type="uml:Operation" xmi:id="_vwUs8MdiEeiek7flskYHIQ" name="Set_OuverturePorte">
-              <ownedParameter xmi:type="uml:Parameter" xmi:id="_vwUs8cdiEeiek7flskYHIQ" name="ouverturePorte">
-                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
-              </ownedParameter>
-            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_vwUs8MdiEeiek7flskYHIQ" name="Set_OuverturePorte"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Interface" xmi:id="_ZmWbIMVfEeiPCswKu6v8ew" name="ISysteme_de_Controle">
             <ownedOperation xmi:type="uml:Operation" xmi:id="_kfSBwMZKEeiwx6mT3y2LyA" name="AffichagePosition"/>
@@ -152,11 +148,7 @@
                 <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
               </ownedParameter>
             </ownedOperation>
-            <ownedOperation xmi:type="uml:Operation" xmi:id="_vnPpcMdiEeiek7flskYHIQ" name="Set_OuverturePorte">
-              <ownedParameter xmi:type="uml:Parameter" xmi:id="_vnPpccdiEeiek7flskYHIQ" name="ouverturePorte">
-                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
-              </ownedParameter>
-            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_vnPpcMdiEeiek7flskYHIQ" name="Set_OuverturePorte"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Association" xmi:id="_qOtssMbtEei3pLxH25YkCQ" memberEnd="_qOuTwsbtEei3pLxH25YkCQ _qOvh4MbtEei3pLxH25YkCQ">
             <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qOuTwMbtEei3pLxH25YkCQ" source="org.eclipse.papyrus">

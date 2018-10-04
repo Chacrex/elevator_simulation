@@ -8,5 +8,5 @@ public interface ISysteme_de_Controle {
 	int AffichagePosition();
 	void AppelAscenseur(int niveauAppel, SensAppel sens);
 	void ChoixNiveau(int niveau);
-	void Set_OuverturePorte(boolean ouverturePorte);
+	void Set_OuverturePorte();
 }
