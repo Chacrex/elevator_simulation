@@ -8,6 +8,6 @@ public interface ICabine {
 	int get_position();
 	void ouverture();
 	Etat_cabine get_etat_cabine();
-	void mise_en_mvt();
+	void mise_en_mvt(IAscenseur.Sens sens);
 	void fin_mvt();
 }
