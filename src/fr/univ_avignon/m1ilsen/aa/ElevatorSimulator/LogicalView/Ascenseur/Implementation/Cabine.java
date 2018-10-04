@@ -17,7 +17,7 @@ public class Cabine implements ICabine {
 		etat_cabine = Etat_cabine.ouverte;
 		SdC = controlSystem;
 		position = 0;
-		Factory_Ascenseur.CreeMoteur(vitesseMoteur);
+		moteur = Factory_Ascenseur.CreeMoteur(vitesseMoteur);
 	}
 	
 	@Override

@@ -40,6 +40,7 @@ public class Systeme_de_Controle implements ISysteme_de_Controle {
 
 	public Systeme_de_Controle() {
 		
+		listeDeplacements = new ArrayList<Deplacement>();
 	}
 	
 	@Override
@@ -56,10 +57,19 @@ public class Systeme_de_Controle implements ISysteme_de_Controle {
 	@Override
 	public void AppelAscenseur(int niveauAppel, ISysteme_de_Controle.SensAppel sens) {
 		/* Optimisation : */
-		if(listeDeplacements.get(listeDeplacements.size()-1).getEtage() > niveauAppel)
-			listeDeplacements.add(new Deplacement(niveauAppel, Sens.Montee));
-		else
-			listeDeplacements.add(new Deplacement(niveauAppel, Sens.Descente));
+		if(listeDeplacements.isEmpty()) {
+			if(ascenseur.get_position() > niveauAppel) {
+				listeDeplacements.add(new Deplacement(niveauAppel, Sens.Montee));
+			} else {
+				listeDeplacements.add(new Deplacement(niveauAppel, Sens.Descente));
+			}
+		} else {
+			if(listeDeplacements.get(listeDeplacements.size()-1).getEtage() > niveauAppel)
+				listeDeplacements.add(new Deplacement(niveauAppel, Sens.Montee));
+			else
+				listeDeplacements.add(new Deplacement(niveauAppel, Sens.Descente));
+		}
+		
 	}
 
 	@Override
