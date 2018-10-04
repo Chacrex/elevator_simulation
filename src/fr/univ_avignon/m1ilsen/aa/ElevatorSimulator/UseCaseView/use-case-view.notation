@@ -1560,11 +1560,6 @@
       <element xmi:type="uml:Package" href="use-case-view.uml#_UWik4sVTEeiPCswKu6v8ew"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m5rwe8VTEeiSxf8PnO4FrQ" x="1440" width="541" height="581"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_9u7AsMdgEeiek7flskYHIQ" type="Comment_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_9u7nwMdgEeiek7flskYHIQ" type="Comment_BodyLabel"/>
-      <element xmi:type="uml:Comment" href="use-case-view.uml#_9u2vQMdgEeiek7flskYHIQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9u7AscdgEeiek7flskYHIQ" x="1140" y="560" width="221" height="81"/>
-    </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_HNaGocTrEeit94A35ImIww" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_HNaGosTrEeit94A35ImIww"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_HNaGo8TrEeit94A35ImIww" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">

@@ -74,20 +74,11 @@
               </ownedParameter>
               <ownedParameter xmi:type="uml:Parameter" xmi:id="_LTCIkMb2Eei3pLxH25YkCQ" name="IIndoor" type="_WEcuoMb0Eei3pLxH25YkCQ"/>
               <ownedParameter xmi:type="uml:Parameter" xmi:id="_5bCE4Mb4Eei3pLxH25YkCQ" name="IIHM_Simule" type="_m2xPsMVcEeiPCswKu6v8ew" direction="return"/>
-              <ownedParameter xmi:type="uml:Parameter" xmi:id="_ZicQwMb6Eei3pLxH25YkCQ" name="type">
-                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
-              </ownedParameter>
             </ownedOperation>
             <ownedOperation xmi:type="uml:Operation" xmi:id="_bNal0MbvEei3pLxH25YkCQ" name="CreerIHM_Outdoor" isStatic="true">
-              <ownedParameter xmi:type="uml:Parameter" xmi:id="_dlMUgMb6Eei3pLxH25YkCQ" name="type">
-                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
-              </ownedParameter>
               <ownedParameter xmi:type="uml:Parameter" xmi:id="_hF4NAMb6Eei3pLxH25YkCQ" name="IOutdoor" type="_OFWKEMb0Eei3pLxH25YkCQ" direction="return"/>
             </ownedOperation>
             <ownedOperation xmi:type="uml:Operation" xmi:id="_4QE_kMb2Eei3pLxH25YkCQ" name="CreerIHM_Indoor" isStatic="true">
-              <ownedParameter xmi:type="uml:Parameter" xmi:id="_kRqzkMb6Eei3pLxH25YkCQ" name="type">
-                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
-              </ownedParameter>
               <ownedParameter xmi:type="uml:Parameter" xmi:id="_ne2hQMb6Eei3pLxH25YkCQ" name="IIndoor" type="_WEcuoMb0Eei3pLxH25YkCQ" direction="return"/>
             </ownedOperation>
           </packagedElement>
@@ -169,7 +160,7 @@
             </ownedEnd>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_QhptEMb3Eei3pLxH25YkCQ" name="Factory_Systeme_de_Controle">
-            <ownedOperation xmi:type="uml:Operation" xmi:id="_ZRNeMMb3Eei3pLxH25YkCQ" name="CreerSysteme_de_Controle" isStatic="true">
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_ZRNeMMb3Eei3pLxH25YkCQ" name="CreerSysteme_de_Controle" isStatic="true" concurrency="concurrent">
               <ownedParameter xmi:type="uml:Parameter" xmi:id="_AdVqAMb5Eei3pLxH25YkCQ" name="ISysteme_de_Controle" type="_ZmWbIMVfEeiPCswKu6v8ew" direction="return"/>
               <ownedParameter xmi:type="uml:Parameter" xmi:id="_reLdkMb6Eei3pLxH25YkCQ" name="type">
                 <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
@@ -350,27 +341,15 @@
               <ownedParameter xmi:type="uml:Parameter" xmi:id="_6ewoMMb3Eei3pLxH25YkCQ" name="ICabine" type="_dZSOMMb0Eei3pLxH25YkCQ"/>
               <ownedParameter xmi:type="uml:Parameter" xmi:id="_9FBf0Mb3Eei3pLxH25YkCQ" name="IMoteur" type="_guLGYMb0Eei3pLxH25YkCQ"/>
               <ownedParameter xmi:type="uml:Parameter" xmi:id="_G4JxUMb5Eei3pLxH25YkCQ" name="IAscenseur" type="_hgTr4MVdEeiPCswKu6v8ew" direction="return"/>
-              <ownedParameter xmi:type="uml:Parameter" xmi:id="_wAEUYMb6Eei3pLxH25YkCQ" name="type">
-                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
-              </ownedParameter>
             </ownedOperation>
             <ownedOperation xmi:type="uml:Operation" xmi:id="_qZemsMb3Eei3pLxH25YkCQ" name="CreerCapteur" isStatic="true">
               <ownedParameter xmi:type="uml:Parameter" xmi:id="_K8kB8Mb5Eei3pLxH25YkCQ" name="ICapteur" type="_b6GTYMb0Eei3pLxH25YkCQ" direction="return"/>
-              <ownedParameter xmi:type="uml:Parameter" xmi:id="_1K4MYMb6Eei3pLxH25YkCQ" name="type">
-                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
-              </ownedParameter>
             </ownedOperation>
             <ownedOperation xmi:type="uml:Operation" xmi:id="_rdkg8Mb3Eei3pLxH25YkCQ" name="CreerCabine" isStatic="true">
               <ownedParameter xmi:type="uml:Parameter" xmi:id="_OXLHoMb5Eei3pLxH25YkCQ" name="ICabine" type="_dZSOMMb0Eei3pLxH25YkCQ" direction="return"/>
-              <ownedParameter xmi:type="uml:Parameter" xmi:id="_6OPYkMb6Eei3pLxH25YkCQ" name="type">
-                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
-              </ownedParameter>
             </ownedOperation>
             <ownedOperation xmi:type="uml:Operation" xmi:id="_sURfcMb3Eei3pLxH25YkCQ" name="CreerMoteur" isStatic="true">
               <ownedParameter xmi:type="uml:Parameter" xmi:id="_R7sXQMb5Eei3pLxH25YkCQ" name="IMoteur" type="_guLGYMb0Eei3pLxH25YkCQ" direction="return"/>
-              <ownedParameter xmi:type="uml:Parameter" xmi:id="_9dKysMb6Eei3pLxH25YkCQ" name="type">
-                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
-              </ownedParameter>
             </ownedOperation>
           </packagedElement>
         </packagedElement>

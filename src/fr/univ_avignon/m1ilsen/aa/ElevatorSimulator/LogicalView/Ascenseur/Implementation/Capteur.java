@@ -11,7 +11,7 @@ public class Capteur implements ICapteur {
 	
 	@Override
 	public boolean get_detection() {
-		return false;
+		return true;
 	}
 
 }
