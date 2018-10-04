@@ -7,9 +7,10 @@ public interface ISysteme_de_Controle {
 		Haut, Bas
 	}
 	
-	int AffichagePosition();
-	void AppelAscenseur(int niveauAppel, SensAppel sens);
-	void ChoixNiveau(int niveau);
-	void Set_OuverturePorte();
+	public int AffichagePosition();
+	public void AppelAscenseur(int niveauAppel, SensAppel sens);
+	public void ChoixNiveau(int niveau);
+	public void Set_OuverturePorte();
 	public void AssignerAscenseur(IAscenseur ascenseurAssigner);
+
 }

@@ -6,6 +6,10 @@
   <packagedElement xmi:type="uml:Package" xmi:id="_qqFKQMVREeiPCswKu6v8ew" name="fr.univ-avignon.m1ilsen.aa.elevator_simulation">
     <packagedElement xmi:type="uml:Package" xmi:id="_Sz3XgMVbEeiPCswKu6v8ew" name="Elevator_simulation">
       <packagedElement xmi:type="uml:Package" xmi:id="_Yndt0MVbEeiPCswKu6v8ew" name="Interface_Utilisateur">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ZeFfEMgUEeiCouDke8cfmg">
+          <body>Ajouter arguments &#xD;
+(genre setEtatPorte etc...)</body>
+        </ownedComment>
         <packagedElement xmi:type="uml:Package" xmi:id="_pRh3YMVbEeiPCswKu6v8ew" name="Interface">
           <packagedElement xmi:type="uml:Class" xmi:id="_ksbfEMVcEeiPCswKu6v8ew" name="IHM_Simule">
             <ownedAttribute xmi:type="uml:Property" xmi:id="_xUedMsbnEei3pLxH25YkCQ" name="outdoor" type="_OFWKEMb0Eei3pLxH25YkCQ" aggregation="composite" association="_xUd2IMbnEei3pLxH25YkCQ">
@@ -22,8 +26,13 @@
             </ownedAttribute>
             <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_qKDv8MVdEeiPCswKu6v8ew" client="_ksbfEMVcEeiPCswKu6v8ew" supplier="_m2xPsMVcEeiPCswKu6v8ew" contract="_m2xPsMVcEeiPCswKu6v8ew"/>
             <ownedOperation xmi:type="uml:Operation" xmi:id="_BAmioMZKEeiwx6mT3y2LyA" name="AffichagePosition"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_lYyagMfoEeie2NCba393gw" name="SetEtatPorte">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_BWnXUMfpEeie2NCba393gw" name="etatPorte">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
+              </ownedParameter>
+            </ownedOperation>
           </packagedElement>
-          <packagedElement xmi:type="uml:Interface" xmi:id="_m2xPsMVcEeiPCswKu6v8ew" name="ISysteme_de_Controle">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_m2xPsMVcEeiPCswKu6v8ew" name="IIHM_Simule">
             <ownedOperation xmi:type="uml:Operation" xmi:id="_wxC_kMdhEeiek7flskYHIQ" name="Set_OuverturePorte">
               <ownedParameter xmi:type="uml:Parameter" xmi:id="_3w6UsMdhEeiek7flskYHIQ" name="ouverturePorte">
                 <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
@@ -34,6 +43,13 @@
                 <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
               </ownedParameter>
             </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_9h7EQMgVEeiCouDke8cfmg" name="SetEtatPorte"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_9h85cMgVEeiCouDke8cfmg" name="AssignerAscenseur">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_9h9ggMgVEeiCouDke8cfmg" name="ascenseurAssigner" type="_hgTr4MVdEeiPCswKu6v8ew"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_9h-uoMgVEeiCouDke8cfmg" name="Descendre"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_9iBK4MgVEeiCouDke8cfmg" name="GetEtatPorte"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_9iDAEMgVEeiCouDke8cfmg" name="Monter"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_tKLnAMbnEei3pLxH25YkCQ" name="Outdoor">
             <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ZB8agMb0Eei3pLxH25YkCQ" client="_tKLnAMbnEei3pLxH25YkCQ" supplier="_OFWKEMb0Eei3pLxH25YkCQ" contract="_OFWKEMb0Eei3pLxH25YkCQ"/>

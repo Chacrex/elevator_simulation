@@ -35,6 +35,30 @@ public class IHM_Simule implements IIHM_Simule {
 		return SdC.AffichagePosition();
 	}
 	
+
+	@Override		
+	public void Descendre(int etage)
+	{
+		ihmOutdoor[etage].Descendre();
+	}
+	
+	@Override
+	public void Monter(int etage)
+	{
+		ihmOutdoor[etage].Monter();
+	}
+	
+	@Override
+	public boolean GetEtatPorte(int etage)
+	{
+		return ihmOutdoor[etage].GetEtatPortes();
+	}
+	
+	public void ChoixNiveau(int etageVoulu)
+	{
+		ihmIndoor.ChoixNiveau(etageVoulu);
+	}
+	
 	public static void main(String[] args) {
 		/*
 		 * Scénario : 
