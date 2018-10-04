@@ -6,6 +6,7 @@ import java.util.Random;
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Ascenseur.Implementation.Ascenseur;
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.IHM_Simule.Implementation.IHM_Simule;
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Systeme_de_Controle.Implementation.Systeme_de_Controle;
+import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Systeme_de_Controle.Interface.ISysteme_de_Controle;
 
 public class Gestionnaire_de_Simulation {
 	
@@ -46,8 +47,6 @@ public class Gestionnaire_de_Simulation {
 		this.d = new Date();
 	}
 	
-	
-	
 	// Classe interne
 	private class Utilisateur {
 		int id;
@@ -55,6 +54,7 @@ public class Gestionnaire_de_Simulation {
 		int niveauArrivee;
 		// Temps en millisecondes avant la requête de l'utilisateur
 		int debutAppel;
+		boolean traitementReq = false;
 		
 		// Constructeur Utilisateur
 		public Utilisateur(int id, int niveauDepart, int niveauArrivee, int debutAppel) {
@@ -64,11 +64,11 @@ public class Gestionnaire_de_Simulation {
 			this.debutAppel = debutAppel;
 		}
 		
-		private void Requete() {
+		private String Requete() {
 			if(niveauDepart < niveauArrivee) {
-				IHM.getOutdoor().get(niveauDepart).Monter();
+				return "Monter";
 			} else {
-				IHM.getOutdoor().get(niveauDepart).Descendre();
+				return "Descendre";
 			}
 		}
 	}
@@ -88,13 +88,20 @@ public class Gestionnaire_de_Simulation {
 		// Tant que les requêtes de tous les utilisateurs n'ont pas été traitées
 		while(g.tabU.length > 0) {
 			for(int i = 0; i < g.tabU.length; i++) {
-				if(g.tabU[i].debutAppel < System.currentTimeMillis()) {
-					g.tabU[i].Requete();
+				if(g.tabU[i].debutAppel < System.currentTimeMillis() && !g.tabU[i].traitementReq) {
+					if(g.tabU[i].Requete() == "Monter") {
+						g.SdC.AppelAscenseur(g.tabU[i].niveauDepart, ISysteme_de_Controle.SensAppel.Haut);
+					} else {
+						g.SdC.AppelAscenseur(g.tabU[i].niveauDepart, ISysteme_de_Controle.SensAppel.Bas);
+					}
+					
+					
 					
 					System.out.println("L'utilisateur n°"+ i +" a appelé l'ascenseur au niveau " + g.tabU[i].niveauDepart);
 					
 					
 					// On retire l'utilisateur dont la requête a été traité
+					
 					g.tabU[i] = null;
 				}
 				
