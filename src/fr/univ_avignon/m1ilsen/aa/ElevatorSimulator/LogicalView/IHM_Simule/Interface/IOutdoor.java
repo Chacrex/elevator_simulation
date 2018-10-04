@@ -8,5 +8,5 @@ public interface IOutdoor {
 	
 	abstract void GetEtatPortes();
 	
-	abstract void SetEtatPortes();	
+	abstract void SetEtatPortes(boolean b);	
 }

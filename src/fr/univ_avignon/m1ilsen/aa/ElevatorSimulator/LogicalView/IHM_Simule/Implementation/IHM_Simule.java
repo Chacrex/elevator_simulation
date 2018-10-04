@@ -1,5 +1,6 @@
 package fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.IHM_Simule.Implementation;
 
+import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Ascenseur.Factory.Factory_Ascenseur;
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Ascenseur.Interface.IAscenseur;
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.IHM_Simule.Factory.Factory_IHM_Simule;
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.IHM_Simule.Interface.IIHM_Simule;
@@ -28,6 +29,10 @@ public class IHM_Simule implements IIHM_Simule {
 		
 	}
 	
+	private void OuvrirPortes(int niveau) {
+		ihmOutdoor[niveau].SetEtatPortes(true);
+	}
+	
 	public static void main(String[] args) {
 		/*
 		 * Scénario : 
@@ -37,7 +42,8 @@ public class IHM_Simule implements IIHM_Simule {
 		 * - L'utilisateur appuye sur le niveau 3
 		 */
 		
-		//IAscenseur asc1 = Factory_Ascenseur(5, );
+		ISysteme_de_Controle sdc1 = Factory_Systeme_de_Controle.CreerSysteme_de_Controle();
+		IAscenseur asc1 = Factory_Ascenseur.CreerAscenseur(5, 10, sdc1);
 		IHM_Simule ihm = new IHM_Simule(5, asc1);
 		System.out.println(ihm.SdC.AffichagePosition());
 		

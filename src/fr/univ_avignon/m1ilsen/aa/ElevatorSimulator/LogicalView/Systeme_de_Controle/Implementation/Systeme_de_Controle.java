@@ -3,9 +3,11 @@ package fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Systeme_de_Cont
 
 import java.util.ArrayList;
 
+import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Ascenseur.Factory.Factory_Ascenseur;
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Ascenseur.Interface.IAscenseur;
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Ascenseur.Interface.IAscenseur.Sens;
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.IHM_Simule.Interface.IOutdoor;
+import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Systeme_de_Controle.Factory.Factory_Systeme_de_Controle;
 import fr.univ_avignon.m1ilsen.aa.ElevatorSimulator.LogicalView.Systeme_de_Controle.Interface.ISysteme_de_Controle;
 
 public class Systeme_de_Controle implements ISysteme_de_Controle {
@@ -31,8 +33,12 @@ public class Systeme_de_Controle implements ISysteme_de_Controle {
 	}
 	
 	private ArrayList<Deplacement> listeDeplacements;
-	private IOutdoor outdoor;
 	private IAscenseur ascenseur;
+	
+
+	public Systeme_de_Controle() {
+		
+	}
 	
 	@Override
 	public int AffichagePosition() {
@@ -58,7 +64,7 @@ public class Systeme_de_Controle implements ISysteme_de_Controle {
 	
 	// Il faut enlever le bool inutile, et puis merde j'aime pas les boules, j'suis pô pd
 	@Override
-	public void Set_OuverturePorte(boolean ouverturePorte)
+	public void Set_OuverturePorte()
 	{
 		//outdoor.Set_OuverturePorte(true);
 		listeDeplacements.remove(0);
@@ -74,6 +80,20 @@ public class Systeme_de_Controle implements ISysteme_de_Controle {
 		}
 	}
 	
-	
+	public static void main(String[] args) {
+		/*
+		 * Scénario :
+		 * - L'ascenseur se trouve au niveau 5
+		 * - Le SdC reçoit une demande pour monter provenant du niveau 2
+		 * - Le SdC envoie une commande de descente à l'ascenseur
+		 * - Le SdC reçoit une commande pour aller au niveau 4
+		 * - Le SdC envoie la commande à l'ascenseur pour monter au niveau 4
+		 * - Le SdC commande l'ouverture des portes
+		 */
+		
+		Systeme_de_Controle Sdc = new Systeme_de_Controle();
+		
+		
+	}
 	
 }
